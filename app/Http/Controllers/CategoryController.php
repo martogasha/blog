@@ -11,10 +11,10 @@ class CategoryController extends Controller
         return view('category');
     }
     public function index(){
-        $ones = Blog::where('placement','one')->get();
-        $twos = Blog::where('placement','two')->get();
-        $threes = Blog::where('placement','three')->paginate(8);
-        $fours = Blog::where('placement','four')->paginate(8);
+        $ones = Blog::where('placement','one')->latest('id')->get();
+        $twos = Blog::where('placement','two')->latest('id')->get();
+        $threes = Blog::where('placement','three')->latest('id')->paginate(8);
+        $fours = Blog::where('placement','four')->latest('id')->paginate(8);
         return view('welcome',[
             'ones'=>$ones,
             'twos'=>$twos,
