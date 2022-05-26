@@ -43,7 +43,7 @@ class AdminController extends Controller
             $edit->imageOne = $filename;
         }
         if ($request->imageTwo) {
-            $file = $request->file('imageTwo    ');
+            $file = $request->file('imageTwo');
             $extension = $file->getClientOriginalName();
             $filename = time() . '.' . $extension;
             $file->move('uploads/product/', $filename);
