@@ -19,7 +19,7 @@ class CreateBlogsTable extends Migration
             $table->string('category');
             $table->string('title');
             $table->longText('detailOne');
-            $table->longText('quote');
+            $table->longText('quote')->nullable();
             $table->longText('detailTwo');
             $table->mediumText('image');
             $table->mediumText('imageOne')->nullable();
