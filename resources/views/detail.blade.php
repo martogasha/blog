@@ -93,7 +93,9 @@
                     </blockquote>
                     @endif
                     <p>{{$detail->detailTwo}}</p>
+                    @if($detail->imageTwo!=null)
                     <img class="img-fluid" src="{{asset('uploads/product/'.$detail->imageTwo)}}" alt="">
+                    @endif
 
                 </div>
             </div>
