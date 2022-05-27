@@ -26,7 +26,7 @@
     <div class="container box_1170">
         <div class="row align-items-center justify-content-between">
             <div class="col-lg-6 col-md-6 col-sm-6">
-                <a href="index-2.html" class="logo">
+                <a href="{{url('/')}}" class="logo">
                     <img src="{{asset('img/logo.png')}}" alt="">
                 </a>
             </div>
@@ -41,13 +41,13 @@
         <div class="row align-items-center justify-content-center d-flex">
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
-                    <li class="menu-active"><a href="index-2.html">Home</a></li>
-                    <li><a href="category.html">News</a></li>
-                    <li><a href="archive.html">Entertainment</a></li>
-                    <li><a href="archive.html">Sports</a></li>
-                    <li><a href="archive.html">Tech</a></li>
-                    <li><a href="archive.html">Lifestyle</a></li>
-                    <li><a href="contact.html">Politics</a></li>
+                    <li><a href="{{url('/')}}">Home</a></li>
+                    <li><a href="{{url('news')}}">News</a></li>
+                    <li><a href="{{url('entertainment')}}">Entertainment</a></li>
+                    <li><a href="{{url('sports')}}">Sports</a></li>
+                    <li><a href="{{url('tech')}}">Tech</a></li>
+                    <li><a href="{{url('lifestyle')}}">Lifestyle</a></li>
+                    <li><a href="{{url('business')}}">Business</a></li>
                     <li>   <a href="#" class="search">
                             <i class="lnr lnr-magnifier" id="search"></i></a>
                     </li>
