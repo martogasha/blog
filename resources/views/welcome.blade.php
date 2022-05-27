@@ -42,12 +42,13 @@
         <div class="row align-items-center justify-content-center d-flex">
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
-                    <li><a href="category.html">News</a></li>
-                    <li><a href="archive.html">Entertainment</a></li>
-                    <li><a href="archive.html">Sports</a></li>
-                    <li><a href="archive.html">Tech</a></li>
-                    <li><a href="archive.html">Lifestyle</a></li>
-                    <li><a href="contact.html">Business</a></li>
+                    <li><a href="{{url('/')}}">Home</a></li>
+                    <li><a href="{{url('news')}}">News</a></li>
+                    <li><a href="{{url('entertainment')}}">Entertainment</a></li>
+                    <li><a href="{{url('sports')}}">Sports</a></li>
+                    <li><a href="{{url('tech')}}">Tech</a></li>
+                    <li><a href="{{url('lifestyle')}}">Lifestyle</a></li>
+                    <li><a href="{{url('business')}}">Business</a></li>
                     <li>   <a href="#" class="search">
                             <i class="lnr lnr-magnifier" id="search"></i></a>
                         </li>
