@@ -16,7 +16,7 @@
 
     <meta charset="UTF-8">
 
-    <title>Ruft Blog</title>
+    <title>Trending News Updates</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500" rel="stylesheet">
 
     <link rel="stylesheet" href="css/linearicons.css%2bfont-awesome.min.css%2bbootstrap.css%2bmagnific-popup.css%2bnice-select.css%2banimate.min.css%2bowl.carousel.css%2bmain.css.pagespeed.cc.Ynbm4ZBB5d.css" />
