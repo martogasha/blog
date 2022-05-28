@@ -150,6 +150,16 @@
         </div>
     </div>
 </section>
+<script type="text/javascript">
+    atOptions = {
+        'key' : '1b990a484fd194591f5978dab98ca1da',
+        'format' : 'iframe',
+        'height' : 300,
+        'width' : 160,
+        'params' : {}
+    };
+    document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplayformats.com/1b990a484fd194591f5978dab98ca1da/invoke.js"></scr' + 'ipt>');
+</script>
 <div class="main-body section-gap">
     <div class="container box_1170">
         <h3>TRENDING</h3>
