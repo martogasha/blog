@@ -10,6 +10,12 @@ class CategoryController extends Controller
     public function category(){
         return view('category');
     }
+    public function news(){
+        $news = Blog::where('category','news')->latest('id')->get();
+        return view('news',[
+            'news'=>$news
+        ]);
+    }
     public function index(){
         $ones = Blog::where('placement','one')->latest('id')->get();
         $twos = Blog::where('placement','two')->latest('id')->get();

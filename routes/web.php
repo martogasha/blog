@@ -21,6 +21,7 @@ Route::get('hd', function () {
 });
 Route::get('/', [CategoryController::class, 'index']);
 Route::get('category', [CategoryController::class, 'category']);
+Route::get('news', [CategoryController::class, 'news']);
 Route::get('detail/{id}', [DetailController::class, 'detail']);
 //admin
 Route::get('admin', [AdminController::class, 'index']);
