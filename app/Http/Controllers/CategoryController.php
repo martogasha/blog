@@ -11,9 +11,11 @@ class CategoryController extends Controller
         return view('category');
     }
     public function news(){
-        $news = Blog::where('category','news')->latest('id')->get();
+        $news = Blog::where('category','news')->latest('id')->paginate(8);
+        $fours = Blog::where('placement','four')->latest('id')->paginate(8);
         return view('news',[
-            'news'=>$news
+            'news'=>$news,
+            'fours'=>$fours
         ]);
     }
     public function index(){

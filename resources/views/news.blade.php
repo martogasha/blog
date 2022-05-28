@@ -124,113 +124,24 @@
 
             </div>
             <div class="col-lg-4 sidebar">
-                <div class="single-widget protfolio-widget">
-                    <img class="img-fluid" src="img/blog/xuser2.png.pagespeed.ic.xojfQ6M85c.jpg" alt="">
-                    <a href="#">
-                        <h4>Peter Anderson</h4>
-                    </a>
-                    <p class="p-text">
-                        Boot camps have its supporters andit sdetractors. Some people do not understand why you should have to spend
-                        money on boot camp whenyou can get. Boot camps have itssuppor ters andits detractors.
-                    </p>
-                    <ul class="social-links">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                    </ul>
-                    <img src="img/xsign.png.pagespeed.ic.8vImg4XJc1.png" alt="">
-                </div>
                 <div class="single-widget popular-posts-widget">
                     <div class="jq-tab-wrapper" id="horizontalTab">
                         <div class="jq-tab-menu">
-                            <div class="jq-tab-title active" data-tab="1">Popular</div>
-                            <div class="jq-tab-title" data-tab="2">Latest</div>
+                            <div class="jq-tab-title active" data-tab="1">Top Stories</div>
                         </div>
                         <div class="jq-tab-content-wrapper">
                             <div class="jq-tab-content active" data-tab="1">
-                                <div class="single-popular-post d-flex flex-row">
-                                    <div class="popular-thumb">
-                                        <img class="img-fluid" src="img/posts/carousel/xstories1.jpg.pagespeed.ic.jEwiOdd1Hr.jpg" alt="">
+                                @foreach($fours as $four)
+                                    <div class="single-popular-post d-flex flex-row">
+                                        <div class="popular-thumb">
+                                            <a href="{{url('detail',$four->id)}}"><img class="img-fluid" src="{{asset('uploads/product/'.$four->image)}}" alt=""></a>
+                                        </div>
+                                        <div class="popular-details">
+                                            <h6><a href="{{url('detail',$four->id)}}">{{\Illuminate\Support\Str::of($four->title)->words(10)}}</a></h6>
+                                            <p>{{$four->created_at->diffForHumans()}}</p>
+                                        </div>
                                     </div>
-                                    <div class="popular-details">
-                                        <h6><a href="#">2nd Gen Smoke Alarm <br>
-                                                get up from sleep</a></h6>
-                                        <p>September 14, 2018</p>
-                                    </div>
-                                </div>
-                                <div class="single-popular-post d-flex flex-row">
-                                    <div class="popular-thumb">
-                                        <img class="img-fluid" src="img/posts/carousel/xstories2.jpg.pagespeed.ic.jwZD3AR9GV.jpg" alt="">
-                                    </div>
-                                    <div class="popular-details">
-                                        <h6><a href="#">2nd Gen Smoke Alarm <br>
-                                                get up from sleep</a></h6>
-                                        <p>September 14, 2018</p>
-                                    </div>
-                                </div>
-                                <div class="single-popular-post d-flex flex-row">
-                                    <div class="popular-thumb">
-                                        <img class="img-fluid" src="img/posts/carousel/xstories3.jpg.pagespeed.ic.0OpNTb3Yf5.jpg" alt="">
-                                    </div>
-                                    <div class="popular-details">
-                                        <h6><a href="#">2nd Gen Smoke Alarm <br>
-                                                get up from sleep</a></h6>
-                                        <p>September 14, 2018</p>
-                                    </div>
-                                </div>
-                                <div class="single-popular-post d-flex flex-row">
-                                    <div class="popular-thumb">
-                                        <img class="img-fluid" src="img/posts/carousel/xstories4.jpg.pagespeed.ic.NkwVkHhLlh.jpg" alt="">
-                                    </div>
-                                    <div class="popular-details">
-                                        <h6><a href="#">2nd Gen Smoke Alarm <br>
-                                                get up from sleep</a></h6>
-                                        <p>September 14, 2018</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="jq-tab-content active" data-tab="2">
-                                <div class="single-popular-post d-flex flex-row">
-                                    <div class="popular-thumb">
-                                        <img class="img-fluid" src="img/posts/carousel/xstories2.jpg.pagespeed.ic.jwZD3AR9GV.jpg" alt="">
-                                    </div>
-                                    <div class="popular-details">
-                                        <h6><a href="#">2nd Gen Smoke Alarm <br>
-                                                get up from sleep</a></h6>
-                                        <p>September 14, 2018</p>
-                                    </div>
-                                </div>
-                                <div class="single-popular-post d-flex flex-row">
-                                    <div class="popular-thumb">
-                                        <img class="img-fluid" src="img/posts/carousel/xstories3.jpg.pagespeed.ic.0OpNTb3Yf5.jpg" alt="">
-                                    </div>
-                                    <div class="popular-details">
-                                        <h6><a href="#">2nd Gen Smoke Alarm <br>
-                                                get up from sleep</a></h6>
-                                        <p>September 14, 2018</p>
-                                    </div>
-                                </div>
-                                <div class="single-popular-post d-flex flex-row">
-                                    <div class="popular-thumb">
-                                        <img class="img-fluid" src="img/posts/carousel/xstories1.jpg.pagespeed.ic.jEwiOdd1Hr.jpg" alt="">
-                                    </div>
-                                    <div class="popular-details">
-                                        <h6><a href="#">2nd Gen Smoke Alarm <br>
-                                                get up from sleep</a></h6>
-                                        <p>September 14, 2018</p>
-                                    </div>
-                                </div>
-                                <div class="single-popular-post d-flex flex-row">
-                                    <div class="popular-thumb">
-                                        <img class="img-fluid" src="img/posts/carousel/xstories4.jpg.pagespeed.ic.NkwVkHhLlh.jpg" alt="">
-                                    </div>
-                                    <div class="popular-details">
-                                        <h6><a href="#">2nd Gen Smoke Alarm <br>
-                                                get up from sleep</a></h6>
-                                        <p>September 14, 2018</p>
-                                    </div>
-                                </div>
+                                @endforeach
                             </div>
                         </div>
                     </div>
