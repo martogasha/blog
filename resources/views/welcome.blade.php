@@ -40,7 +40,16 @@
                     <img src="img/logo.png" alt="">
                 </a>
             </div>
-
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : '4f1deae664424a3011f564f4049577e8',
+                    'format' : 'iframe',
+                    'height' : 50,
+                    'width' : 320,
+                    'params' : {}
+                };
+                document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplayformats.com/4f1deae664424a3011f564f4049577e8/invoke.js"></scr' + 'ipt>');
+            </script>
         </div>
     </div>
 </section>
