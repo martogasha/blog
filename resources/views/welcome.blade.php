@@ -51,7 +51,7 @@
         <div class="row align-items-center justify-content-center d-flex">
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
-                    <li style="background-color:indianred"><a href="{{url('/')}}">Home</a></li>
+                    <li style="background-color:red"><a href="{{url('/')}}">Home</a></li>
                     <li><a href="{{url('news')}}">News</a></li>
                     <li><a href="{{url('entertainment')}}">Entertainment</a></li>
                     <li><a href="{{url('sports')}}">Sports</a></li>
