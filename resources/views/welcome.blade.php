@@ -140,17 +140,17 @@
         </div>
     </div>
 </section>
-<script type="text/javascript">
-    atOptions = {
-        'key' : '07cf86d259378753dcb99bfdced31d99',
-        'format' : 'iframe',
-        'height' : 90,
-        'width' : 728,
-        'params' : {}
-    };
-    document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplayformats.com/07cf86d259378753dcb99bfdced31d99/invoke.js"></scr' + 'ipt>');
-</script>
 <div class="main-body section-gap">
+    <script type="text/javascript">
+        atOptions = {
+            'key' : '07cf86d259378753dcb99bfdced31d99',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+        document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplayformats.com/07cf86d259378753dcb99bfdced31d99/invoke.js"></scr' + 'ipt>');
+    </script>
     <div class="container box_1170">
         <h3>TRENDING</h3>
 <br>
