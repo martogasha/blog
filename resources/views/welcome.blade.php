@@ -42,23 +42,13 @@
             </div>
             <script type="text/javascript">
                 atOptions = {
-                    'key' : '4f1deae664424a3011f564f4049577e8',
+                    'key' : '2deb4ba6f5cb80c165e59ffdfa02c991',
                     'format' : 'iframe',
-                    'height' : 50,
-                    'width' : 320,
+                    'height' : 60,
+                    'width' : 468,
                     'params' : {}
                 };
-                document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplayformats.com/4f1deae664424a3011f564f4049577e8/invoke.js"></scr' + 'ipt>');
-            </script>
-            <script type="text/javascript">
-                atOptions = {
-                    'key' : '4f1deae664424a3011f564f4049577e8',
-                    'format' : 'iframe',
-                    'height' : 50,
-                    'width' : 320,
-                    'params' : {}
-                };
-                document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplayformats.com/4f1deae664424a3011f564f4049577e8/invoke.js"></scr' + 'ipt>');
+                document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplayformats.com/2deb4ba6f5cb80c165e59ffdfa02c991/invoke.js"></scr' + 'ipt>');
             </script>
         </div>
     </div>
@@ -152,16 +142,6 @@
 </section>
 
 <div class="main-body section-gap">
-    <script type="text/javascript">
-        atOptions = {
-            'key' : '1b990a484fd194591f5978dab98ca1da',
-            'format' : 'iframe',
-            'height' : 300,
-            'width' : 160,
-            'params' : {}
-        };
-        document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplayformats.com/1b990a484fd194591f5978dab98ca1da/invoke.js"></scr' + 'ipt>');
-    </script>
     <div class="container box_1170">
         <h3>TRENDING</h3>
 <br>
