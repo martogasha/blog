@@ -150,23 +150,23 @@
         </div>
     </div>
 </section>
-<script type="text/javascript">
-    atOptions = {
-        'key' : '1b990a484fd194591f5978dab98ca1da',
-        'format' : 'iframe',
-        'height' : 300,
-        'width' : 160,
-        'params' : {}
-    };
-    document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplayformats.com/1b990a484fd194591f5978dab98ca1da/invoke.js"></scr' + 'ipt>');
-</script>
+
 <div class="main-body section-gap">
+    <script type="text/javascript">
+        atOptions = {
+            'key' : '1b990a484fd194591f5978dab98ca1da',
+            'format' : 'iframe',
+            'height' : 300,
+            'width' : 160,
+            'params' : {}
+        };
+        document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplayformats.com/1b990a484fd194591f5978dab98ca1da/invoke.js"></scr' + 'ipt>');
+    </script>
     <div class="container box_1170">
         <h3>TRENDING</h3>
 <br>
         <div class="row">
             <div class="col-lg-8 post-list">
-
                 <section class="post-area">
                     <div class="row">
                         @foreach($threes as $three)
