@@ -81,18 +81,16 @@
                         <div class="col-lg-6 col-md-6">
                             <div class="single-post-item">
                                 <div class="post-thumb">
-                                    <img class="img-fluid" src="{{asset('uploads/product/'.$new->image)}}" alt="">
+                                    <img class="img-fluid" src="{{asset('uploads/product/'.$new->image)}}" alt="" style="height: 300px;width: 300px">
                                 </div>
                                 <div class="post-details">
-                                    <h4><a href="#">An Stormy Evening</a></h4>
-                                    <p>There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s
-                                        exciting to think about setting up your own viewing station.</p>
+                                    <h4><a href="#">{{\Illuminate\Support\Str::of($new->title)->words(7)}}</a></h4>
                                     <div class="blog-meta">
-                                        <a href="#" class="m-gap"><span class="lnr lnr-calendar-full"></span>March 14, 2018</a>
-                                        <a href="#" class="m-gap"><span class="lnr lnr-bubble"></span>05</span></a>
+                                        <a href="#" class="m-gap"><span class="lnr lnr-calendar-full"></span>{{$new->created_at->diffForHumans()}}</a>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                         @endforeach
 
