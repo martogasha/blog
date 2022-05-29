@@ -288,7 +288,7 @@
                             <h5>$21,561.01</h5>
                         </div>
                         <span id="my-balance" class="sparkline">4,3,6,3,8,6,4,3,3,4</span> </div>
-                    <div class="quick-btn-title"> <a href="#" title=""><i class="fa fa-plus"></i> New Blog</a> <a href="#" title=""><i class="fa fa-cloud-upload"></i> Upload Files</a> </div>
+                    <div class="quick-btn-title"> <a href="{{url('addBlog')}}" title=""><i class="fa fa-plus"></i> New Blog</a> <a href="#" title=""><i class="fa fa-cloud-upload"></i> Upload Files</a> </div>
                 </div>
             </div>
         </div>

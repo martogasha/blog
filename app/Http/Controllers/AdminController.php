@@ -11,7 +11,7 @@ class AdminController extends Controller
         return view('admin.index');
     }
     public function blog(){
-        $blogs = Blog::all();
+        $blogs = Blog::where('id','>',0)->latest('id')->get();
         return view('admin.blog',[
             'blogs'=>$blogs
         ]);
