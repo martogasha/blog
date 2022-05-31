@@ -4,11 +4,6 @@
 <!-- Mirrored from preview.colorlib.com/theme/bounty/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 May 2022 08:32:58 GMT -->
 <head>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-PM8TXDL');</script>
     <!-- End Google Tag Manager -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -165,8 +160,6 @@
                         </div>
                     </div>
                 </section>
-                <script async="async" data-cfasync="false" src="//pl17320031.safestgatetocontent.com/a9aa628d19c975a9753a1a21b7f99e27/invoke.js"></script>
-                <div id="container-a9aa628d19c975a9753a1a21b7f99e27"></div>
             </div>
             <div class="col-lg-4 sidebar">
                 <div class="single-widget popular-posts-widget">
