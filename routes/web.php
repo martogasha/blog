@@ -22,6 +22,11 @@ Route::get('hd', function () {
 Route::get('/', [CategoryController::class, 'index']);
 Route::get('category', [CategoryController::class, 'category']);
 Route::get('news', [CategoryController::class, 'news']);
+Route::get('entertainment', [CategoryController::class, 'entertainment']);
+Route::get('sports', [CategoryController::class, 'sports']);
+Route::get('tech', [CategoryController::class, 'tech']);
+Route::get('lifestyle', [CategoryController::class, 'lifestyle']);
+Route::get('business', [CategoryController::class, 'business']);
 Route::get('detail/{id}', [DetailController::class, 'detail']);
 //admin
 Route::get('admin', [AdminController::class, 'index']);
