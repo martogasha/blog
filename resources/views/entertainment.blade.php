@@ -46,8 +46,8 @@
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
                     <li><a href="{{url('/')}}">Home</a></li>
-                    <li style="background-color:red"><a href="{{url('news')}}">News</a></li>
-                    <li><a href="{{url('entertainment')}}">Entertainment</a></li>
+                    <li><a href="{{url('news')}}">News</a></li>
+                    <li style="background-color:red"><a href="{{url('entertainment')}}">Entertainment</a></li>
                     <li><a href="{{url('sports')}}">Sports</a></li>
                     <li><a href="{{url('tech')}}">Tech</a></li>
                     <li><a href="{{url('lifestyle')}}">Lifestyle</a></li>
@@ -138,7 +138,7 @@
                                 @foreach($fours as $four)
                                     <div class="single-popular-post d-flex flex-row">
                                         <div class="popular-thumb">
-                                            <a href="{{url('detail',$four->id)}}"><img class="img-fluid" src="{{asset('uploads/product/'.$four->image)}}" alt=""></a>
+                                            <a href="{{url('detail',$four->id)}}"><img class="img-fluid" src="{{asset('uploads/product/'.$four->imageOne)}}" alt=""></a>
                                         </div>
                                         <div class="popular-details">
                                             <h6><a href="{{url('detail',$four->id)}}">{{\Illuminate\Support\Str::of($four->title)->words(10)}}</a></h6>

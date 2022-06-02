@@ -46,12 +46,12 @@
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
                     <li><a href="{{url('/')}}">Home</a></li>
-                    <li style="background-color:red"><a href="{{url('news')}}">News</a></li>
+                    <li><a href="{{url('news')}}">News</a></li>
                     <li><a href="{{url('entertainment')}}">Entertainment</a></li>
                     <li><a href="{{url('sports')}}">Sports</a></li>
                     <li><a href="{{url('tech')}}">Tech</a></li>
                     <li><a href="{{url('lifestyle')}}">Lifestyle</a></li>
-                    <li><a href="{{url('business')}}">Business</a></li>
+                    <li style="background-color:red"><a href="{{url('business')}}">Business</a></li>
                     <li>   <a href="#" class="search">
                             <i class="lnr lnr-magnifier" id="search"></i></a>
                     </li>
@@ -85,7 +85,7 @@
                         <div class="col-lg-6 col-md-6">
                             <div class="single-post-item">
                                 <div class="post-thumb">
-                                    <img class="img-fluid" src="{{asset('uploads/product/'.$new->image)}}" alt="" style="height: 300px;width: 300px">
+                                    <img class="img-fluid" src="{{asset('uploads/product/'.$new->imageOne)}}" alt="" style="height: 300px;width: 300px">
                                 </div>
                                 <div class="post-details">
                                     <h4><a href="#">{{\Illuminate\Support\Str::of($new->title)->words(7)}}</a></h4>
