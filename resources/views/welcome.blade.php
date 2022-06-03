@@ -134,7 +134,7 @@
                         </a>
                     </div>
                 </div>
-                <h4 class="p-title mt-30"><b>CRYPTO MINING NEWS</b></h4>
+                <h4 class="p-title mt-30"><b>RECOMMENDED FOR YOU</b></h4>
                 <div class="row">
                     <div class="col-sm-6">
                         <img src="images/crypto-news-6-600x450.jpg" alt="">
@@ -202,16 +202,8 @@
             <div class="d-none d-md-block d-lg-none col-md-3"></div>
             <div class="col-md-6 col-lg-4">
                 <div class="pl-20 pl-md-0">
-                    <ul class="list-block list-li-ptb-15 list-btm-border-white bg-primary text-center">
-                        <li><b>1 BTC = $13,2323</b></li>
-                        <li><b>1 BCH = $13,2323</b></li>
-                        <li><b>1 ETH = $13,2323</b></li>
-                        <li><b>1 LTC = $13,2323</b></li>
-                        <li><b>1 DAS = $13,2323</b></li>
-                        <li><b>1 BCC = $13,2323</b></li>
-                    </ul>
                     <div class="mtb-50">
-                        <h4 class="p-title"><b>POPULAR POSTS</b></h4>
+                        <h4 class="p-title"><b>TRENDING</b></h4>
                         <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
                             <div class="wh-100x abs-tlr"><img src="images/xpolular-1-100x100.jpg.pagespeed.ic.lNjsAQQi0O.jpg" alt=""></div>
                             <div class="ml-120 min-h-100x">
@@ -240,17 +232,50 @@
                                 <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
                             </div>
                         </a>
+                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
+                            <div class="wh-100x abs-tlr"><img src="images/xpolular-4-100x100.jpg.pagespeed.ic.Wineaa5dTG.jpg" alt=""></div>
+                            <div class="ml-120 min-h-100x">
+                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
+                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
+                            </div>
+                        </a>
+                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
+                            <div class="wh-100x abs-tlr"><img src="images/xpolular-4-100x100.jpg.pagespeed.ic.Wineaa5dTG.jpg" alt=""></div>
+                            <div class="ml-120 min-h-100x">
+                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
+                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
+                            </div>
+                        </a>
+                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
+                            <div class="wh-100x abs-tlr"><img src="images/xpolular-4-100x100.jpg.pagespeed.ic.Wineaa5dTG.jpg" alt=""></div>
+                            <div class="ml-120 min-h-100x">
+                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
+                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
+                            </div>
+                        </a>
+                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
+                            <div class="wh-100x abs-tlr"><img src="images/xpolular-4-100x100.jpg.pagespeed.ic.Wineaa5dTG.jpg" alt=""></div>
+                            <div class="ml-120 min-h-100x">
+                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
+                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
+                            </div>
+                        </a>
+                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
+                            <div class="wh-100x abs-tlr"><img src="images/xpolular-4-100x100.jpg.pagespeed.ic.Wineaa5dTG.jpg" alt=""></div>
+                            <div class="ml-120 min-h-100x">
+                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
+                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
+                            </div>
+                        </a>
+                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
+                            <div class="wh-100x abs-tlr"><img src="images/xpolular-4-100x100.jpg.pagespeed.ic.Wineaa5dTG.jpg" alt=""></div>
+                            <div class="ml-120 min-h-100x">
+                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
+                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
+                            </div>
+                        </a>
                     </div>
                     <div class="mtb-50 pos-relative">
-                        <img src="images/banner-1-600x450.jpg" alt="">
-                        <div class="abs-tblr bg-layer-7 text-center color-white">
-                            <div class="dplay-tbl">
-                                <div class="dplay-tbl-cell">
-                                    <h4><b>Available for mobile & desktop</b></h4>
-                                    <a class="mt-15 color-primary link-brdr-btm-primary" href="#"><b>Download for free</b></a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                     <div class="mtb-50 mb-md-0">
                         <h4 class="p-title"><b>NEWSLETTER</b></h4>
