@@ -59,12 +59,12 @@ class CategoryController extends Controller
         ]);
     }
     public function index(){
-        $ones = Blog::where('placement','one')->latest('id')->get();
+        $one = Blog::where('placement','one')->latest('id')->first();
         $twos = Blog::where('placement','two')->latest('id')->get();
         $threes = Blog::where('placement','three')->latest('id')->paginate(6);
         $fours = Blog::where('placement','four')->latest('id')->paginate(8);
         return view('welcome',[
-            'ones'=>$ones,
+            'one'=>$one,
             'twos'=>$twos,
             'threes'=>$threes,
             'fours'=>$fours
