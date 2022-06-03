@@ -47,16 +47,12 @@
         </div>
         <a class="menu-nav-icon" data-menu="#main-menu" href="#"><i class="ion-navicon"></i></a>
         <ul class="main-menu" id="main-menu">
-            <li><a href="02_archive-page.html">NEWS</a></li>
-            <li class="drop-down"><a href="03_single-post.html">GUIDES & ANALYTICS<i class="ion-arrow-down-b"></i></a>
-                <ul class="drop-down-menu drop-down-inner">
-                    <li><a href="#">PAGE 1</a></li>
-                    <li><a href="#">PAGE 2</a></li>
-                </ul>
-            </li>
-            <li><a href="04_FAQS.html">EVENTS</a></li>
-            <li><a href="05_FAQS-single.html">EXPLAINED</a></li>
-            <li><a href="06_contact-us.html">ICON CLAENDER</a></li>
+            <li><a href="{{url('news')}}">NEWS</a></li>
+            <li><a href="{{url('entertainment')}}">ENTERTAINMENT</a></li>
+            <li><a href="{{url('sports')}}">SPORTS</a></li>
+            <li><a href="{{url('tech')}}">TECH</a></li>
+            <li><a href="{{url('lifestyle')}}">LIFESTYLE</a></li>
+            <li><a href="{{url('business')}}">BUSINESS</a></li>
         </ul>
         <div class="clearfix"></div>
     </div>
@@ -65,7 +61,7 @@
     <div class="h-600x h-sm-auto">
         <div class="h-2-3 h-sm-auto oflow-hidden">
             <div class="pb-5 pr-5 pr-sm-0 float-left float-sm-none w-2-3 w-sm-100 h-100 h-sm-300x">
-                <a class="pos-relative h-100 dplay-block" href="#">
+                <a class="pos-relative h-100 dplay-block" href="{{url('detail',$one->id)}}">
                     <div class="img-bg bg-1 bg-grad-layer-6" style="background:url({{asset('uploads/product/'.$one->imageOne)}}) no-repeat center;background-size:cover"></div>
                     <div class="abs-blr color-white p-20 bg-sm-color-7">
                         <h3 class="mb-15 mb-sm-5 font-sm-13"><b>{{\Illuminate\Support\Str::of($one->title)->words(7)}}</b></h3>
@@ -79,7 +75,7 @@
             <div class="float-left float-sm-none w-1-3 w-sm-100 h-100 h-sm-600x">
                 @foreach($twos as $two)
                 <div class="pl-5 pb-5 pl-sm-0 ptb-sm-5 pos-relative h-50">
-                    <a class="pos-relative h-100 dplay-block" href="#">
+                    <a class="pos-relative h-100 dplay-block" href="{{url('detail',$two->id)}}">
                         <div class="img-bg bg-2 bg-grad-layer-6" style="background:url({{asset('uploads/product/'.$two->imageOne)}}) no-repeat center;background-size:cover"></div>
                         <div class="abs-blr color-white p-20 bg-sm-color-7">
                             <h4 class="mb-10 mb-sm-5"><b>{{\Illuminate\Support\Str::of($two->title)->words(7)}}</b></h4>
@@ -96,7 +92,7 @@
         <div class="h-1-3 oflow-hidden">
             @foreach($threes as $three)
             <div class="pr-5 pr-sm-0 pt-5 float-left float-sm-none pos-relative w-1-3 w-sm-100 h-100 h-sm-300x">
-                <a class="pos-relative h-100 dplay-block" href="#">
+                <a class="pos-relative h-100 dplay-block" href="{{url('detail',$three->id)}}">
                     <div class="img-bg bg-4 bg-grad-layer-6" style="background:url({{asset('uploads/product/'.$three->imageOne)}}) no-repeat center;background-size:cover"></div>
                     <div class="abs-blr color-white p-20 bg-sm-color-7">
                         <h4 class="mb-10 mb-sm-5"><b>{{\Illuminate\Support\Str::of($three->title)->words(7)}}</b></h4>
