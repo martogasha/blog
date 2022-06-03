@@ -1,260 +1,406 @@
-<!DOCTYPE html>
-<html lang="zxx" class="no-js">
+<!DOCTYPE HTML>
+<html lang="en">
 
-<!-- Mirrored from preview.colorlib.com/theme/bounty/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 May 2022 08:32:58 GMT -->
+<!-- Mirrored from preview.colorlib.com/theme/newsbit/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jun 2022 05:57:12 GMT -->
 <head>
-    <!-- Google Tag Manager -->
-    <!-- End Google Tag Manager -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="shortcut icon" href="img/fav.png">
-
-    <meta name="author" content="codepixer">
-
-    <meta name="description" content="">
-
-    <meta name="keywords" content="">
-
+    <title>Newsbit</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
 
-    <title>Trending News Updates</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:400,600,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/linearicons.css%2bfont-awesome.min.css%2bbootstrap.css%2bmagnific-popup.css%2bnice-select.css%2banimate.min.css%2bowl.carousel.css%2bmain.css.pagespeed.cc.Ynbm4ZBB5d.css" />
-    <script nonce="14fd3143-e755-4894-aafd-60e3819e467c">(function(w,d){!function(a,e,t,r){a.zarazData=a.zarazData||{},a.zarazData.executed=[],a.zaraz={deferred:[]},a.zaraz.q=[],a.zaraz._f=function(e){return function(){var t=Array.prototype.slice.call(arguments);a.zaraz.q.push({m:e,a:t})}};for(const e of["track","set","ecommerce","debug"])a.zaraz[e]=a.zaraz._f(e);a.addEventListener("DOMContentLoaded",(()=>{var t=e.getElementsByTagName(r)[0],z=e.createElement(r),n=e.getElementsByTagName("title")[0];for(n&&(a.zarazData.t=e.getElementsByTagName("title")[0].text),a.zarazData.w=a.screen.width,a.zarazData.h=a.screen.height,a.zarazData.j=a.innerHeight,a.zarazData.e=a.innerWidth,a.zarazData.l=a.location.href,a.zarazData.r=e.referrer,a.zarazData.k=a.screen.colorDepth,a.zarazData.n=e.characterSet,a.zarazData.o=(new Date).getTimezoneOffset(),a.zarazData.q=[];a.zaraz.q.length;){const e=a.zaraz.q.shift();a.zarazData.q.push(e)}z.defer=!0,z.referrerPolicy="origin",z.src="https://preview.colorlib.com/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(a.zarazData))),t.parentNode.insertBefore(z,t)}))}(w,d,0,"script");})(window,document);</script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4317286144362168"
-            crossorigin="anonymous"></script>
-</head>
+    <link href="A.plugin-frameworks%2c%2c_bootstrap.css%2bfonts%2c%2c_ionicons.css%2bcommon%2c%2c_styles.css%2cMcc.2MZeWeb18u.css.pagespeed.cf.TWQ6SgV67V.css" rel="stylesheet" />
+    <script nonce="034e3b8f-1b4b-47f6-a1d6-d6ce2596d4f0">(function(w,d){!function(a,e,t,r){a.zarazData=a.zarazData||{},a.zarazData.executed=[],a.zaraz={deferred:[]},a.zaraz.q=[],a.zaraz._f=function(e){return function(){var t=Array.prototype.slice.call(arguments);a.zaraz.q.push({m:e,a:t})}};for(const e of["track","set","ecommerce","debug"])a.zaraz[e]=a.zaraz._f(e);a.addEventListener("DOMContentLoaded",(()=>{var t=e.getElementsByTagName(r)[0],z=e.createElement(r),n=e.getElementsByTagName("title")[0];for(n&&(a.zarazData.t=e.getElementsByTagName("title")[0].text),a.zarazData.x=Math.random(),a.zarazData.w=a.screen.width,a.zarazData.h=a.screen.height,a.zarazData.j=a.innerHeight,a.zarazData.e=a.innerWidth,a.zarazData.l=a.location.href,a.zarazData.r=e.referrer,a.zarazData.k=a.screen.colorDepth,a.zarazData.n=e.characterSet,a.zarazData.o=(new Date).getTimezoneOffset(),a.zarazData.q=[];a.zaraz.q.length;){const e=a.zaraz.q.shift();a.zarazData.q.push(e)}z.defer=!0;for(const e of[localStorage,sessionStorage])Object.keys(e).filter((a=>a.startsWith("_zaraz_"))).forEach((t=>{try{a.zarazData["z_"+t.slice(7)]=JSON.parse(e.getItem(t))}catch{a.zarazData["z_"+t.slice(7)]=e.getItem(t)}}));z.referrerPolicy="origin",z.src="https://preview.colorlib.com/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(a.zarazData))),t.parentNode.insertBefore(z,t)}))}(w,d,0,"script");})(window,document);</script></head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PM8TXDL"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<section class="header-top">
-    <div class="container box_1170">
-        <div class="row align-items-center justify-content-between">
-            <div class="col-lg-6 col-md-6 col-sm-6">
-                <a href="{{url('/')}}" class="logo">
-                    <img src="img/logo.png" alt="">
+<header>
+    <div class="bg-191">
+        <div class="container">
+            <div class="oflow-hidden color-ash font-9 text-sm-center ptb-sm-5">
+                <ul class="float-left float-sm-none list-a-plr-10 list-a-plr-sm-5 list-a-ptb-15 list-a-ptb-sm-10">
+                    <li><a class="pl-0 pl-sm-10" href="#">About</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Submit Press Release</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="float-right float-sm-none list-a-plr-10 list-a-plr-sm-5 list-a-ptb-15 list-a-ptb-sm-5">
+                    <li><a class="pl-0 pl-sm-10" href="#"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="ion-social-google"></i></a></li>
+                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    <li><a href="#"><i class="ion-social-bitcoin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <a class="logo" href="index-2.html"><img src="images/logo-black.png" alt="Logo"></a>
+        <a class="right-area src-btn" href="#">
+            <i class="active src-icn ion-search"></i>
+            <i class="close-icn ion-close"></i>
+        </a>
+        <div class="src-form">
+            <form>
+                <input type="text" placeholder="Search here">
+                <button type="submit"><i class="ion-search"></i></a></button>
+            </form>
+        </div>
+        <a class="menu-nav-icon" data-menu="#main-menu" href="#"><i class="ion-navicon"></i></a>
+        <ul class="main-menu" id="main-menu">
+            <li><a href="02_archive-page.html">NEWS</a></li>
+            <li class="drop-down"><a href="03_single-post.html">GUIDES & ANALYTICS<i class="ion-arrow-down-b"></i></a>
+                <ul class="drop-down-menu drop-down-inner">
+                    <li><a href="#">PAGE 1</a></li>
+                    <li><a href="#">PAGE 2</a></li>
+                </ul>
+            </li>
+            <li><a href="04_FAQS.html">EVENTS</a></li>
+            <li><a href="05_FAQS-single.html">EXPLAINED</a></li>
+            <li><a href="06_contact-us.html">ICON CLAENDER</a></li>
+        </ul>
+        <div class="clearfix"></div>
+    </div>
+</header>
+<div class="container">
+    <div class="h-600x h-sm-auto">
+        <div class="h-2-3 h-sm-auto oflow-hidden">
+            <div class="pb-5 pr-5 pr-sm-0 float-left float-sm-none w-2-3 w-sm-100 h-100 h-sm-300x">
+                <a class="pos-relative h-100 dplay-block" href="#">
+                    <div class="img-bg bg-1 bg-grad-layer-6" style=""></div>
+                    <div class="abs-blr color-white p-20 bg-sm-color-7">
+                        <h3 class="mb-15 mb-sm-5 font-sm-13"><b>Peter Thiels VC Found Invests Million into Bitcoin, Market Reacts</b></h3>
+                        <ul class="list-li-mr-20">
+                            <li>by <span class="color-primary"><b>Olivia Capzallo</b></span> Jan 25, 2018</li>
+                            <li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i>30,190</li>
+                            <li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i>30</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+            <div class="float-left float-sm-none w-1-3 w-sm-100 h-100 h-sm-600x">
+                <div class="pl-5 pb-5 pl-sm-0 ptb-sm-5 pos-relative h-50">
+                    <a class="pos-relative h-100 dplay-block" href="#">
+                        <div class="img-bg bg-2 bg-grad-layer-6"></div>
+                        <div class="abs-blr color-white p-20 bg-sm-color-7">
+                            <h4 class="mb-10 mb-sm-5"><b>Russians Bisiops Condems Cryptocurrecy</b></h4>
+                            <ul class="list-li-mr-20">
+                                <li>Jan 25, 2018</li>
+                                <li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i>30,190</li>
+                                <li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i>30</li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+                <div class="pl-5 ptb-5 pl-sm-0 pos-relative h-50">
+                    <a class="pos-relative h-100 dplay-block" href="#">
+                        <div class="img-bg bg-3 bg-grad-layer-6"></div>
+                        <div class="abs-blr color-white p-20 bg-sm-color-7">
+                            <h4 class="mb-10 mb-sm-5"><b>Bitcoin Adoption by Business in 2017</b></h4>
+                            <ul class="list-li-mr-20">
+                                <li>Jan 25, 2018</li>
+                                <li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i>30,190</li>
+                                <li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i>30</li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="h-1-3 oflow-hidden">
+            <div class="pr-5 pr-sm-0 pt-5 float-left float-sm-none pos-relative w-1-3 w-sm-100 h-100 h-sm-300x">
+                <a class="pos-relative h-100 dplay-block" href="#">
+                    <div class="img-bg bg-4 bg-grad-layer-6"></div>
+                    <div class="abs-blr color-white p-20 bg-sm-color-7">
+                        <h4 class="mb-10 mb-sm-5"><b>2017 Market Performance: Crypto vs.Stock</b></h4>
+                        <ul class="list-li-mr-20">
+                            <li>Jan 25, 2018</li>
+                            <li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i>30,190</li>
+                            <li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i>30</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+            <div class="plr-5 plr-sm-0 pt-5 pt-sm-10 float-left float-sm-none pos-relative w-1-3 w-sm-100 h-100 h-sm-300x">
+                <a class="pos-relative h-100 dplay-block" href="#">
+                    <div class="img-bg bg-5 bg-grad-layer-6"></div>
+                    <div class="abs-blr color-white p-20 bg-sm-color-7">
+                        <h4 class="mb-10 mb-sm-5"><b>Culture Stock: Bitcoin a Part of all Walks of life in 2017</b></h4>
+                        <ul class="list-li-mr-20">
+                            <li>Jan 25, 2018</li>
+                            <li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i>30,190</li>
+                            <li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i>30</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+            <div class="pl-5 pl-sm-0 pt-5 pt-sm-10 float-left float-sm-none pos-relative w-1-3 w-sm-100 h-100 h-sm-300x">
+                <a class="pos-relative h-100 dplay-block" href="#">
+                    <div class="img-bg bg-6 bg-grad-layer-6"></div>
+                    <div class="abs-blr color-white p-20 bg-sm-color-7">
+                        <h4 class="mb-10 mb-sm-5"><b>Bitcoin Billionares Hidding in Plain Sight</b></h4>
+                        <ul class="list-li-mr-20">
+                            <li>Jan 25, 2018</li>
+                            <li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i>30,190</li>
+                            <li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i>30</li>
+                        </ul>
+                    </div>
                 </a>
             </div>
         </div>
     </div>
-</section>
-
-
-<header id="header">
-    <div class="container box_1170 main-menu">
-        <div class="row align-items-center justify-content-center d-flex">
-            <nav id="nav-menu-container">
-                <ul class="nav-menu">
-                    <li style="background-color:red"><a href="{{url('/')}}">Home</a></li>
-                    <li><a href="{{url('news')}}">News</a></li>
-                    <li><a href="{{url('entertainment')}}">Entertainment</a></li>
-                    <li><a href="{{url('sports')}}">Sports</a></li>
-                    <li><a href="{{url('tech')}}">Tech</a></li>
-                    <li><a href="{{url('lifestyle')}}">Lifestyle</a></li>
-                    <li><a href="{{url('business')}}">Business</a></li>
-                    <li>   <a href="#" class="search">
-                            <i class="lnr lnr-magnifier" id="search"></i></a>
-                        </li>
-                </ul>
-            </nav>
-
-        </div>
-    </div>
-    <div class="search_input" id="search_input_box">
-        <div class="container box_1170">
-            <form class="d-flex justify-content-between">
-                <input type="text" class="form-control" id="search_input" placeholder="Search Here">
-                <button type="submit" class="btn"></button>
-                <span class="lnr lnr-cross" id="close_search" title="Close Search"></span>
-            </form>
-        </div>
-    </div>
-</header>
-
-
-<section class="top-stories-area">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="owl-carousel active-stories-carousel">
-                    @foreach($ones as $one)
-                    <div class="single-stories-carousel d-flex align-items-center">
-                        <div class="stories-thumb">
-                            <a href="{{url('detail',$one->id)}}"><img class="img-fluid" src="{{asset('uploads/product/'.$one->image)}}" alt=""></a>
-                        </div>
-                        <div class="stories-details">
-                            <h6><a href="{{url('detail',$one->id)}}">{{\Illuminate\Support\Str::of($one->title)->words(7)}}</a></h6>
-                            <p>{{$one->created_at->diffForHumans()}}</p>
-                        </div>
-                    </div>
-                    @endforeach
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="post-slider-area">
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-lg-12">
-                <div class="owl-carousel active-post-carusel">
-                    @foreach($twos as $two)
-
-                    <div class="single-post-carousel">
-                        <div class="post-thumb">
-                            <img class="img-fluid" src="{{asset('uploads/product/'.$two->image)}}" alt="">
-                        </div>
-                        <div class="post-details">
-                            <h2><a href="{{url('detail',$two->id)}}">{{\Illuminate\Support\Str::of($two->title)->words(10)}}</a></h2>
-                            <div class="post-content d-flex justify-content-between">
-                                <div class="post-meta">
-                                    <div class="c-desc">
-                                        <p><span class="lnr lnr-calendar-full"></span>{{$two->created_at->diffForHumans()}}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    @endforeach
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<div class="main-body section-gap">
-    <div class="container box_1170">
-        <h3>TRENDING</h3>
-<br>
-        <div class="row">
-            <div class="col-lg-8 post-list">
-                <section class="post-area">
-                    <div class="row">
-                        @foreach($threes as $three)
-
-                        <div class="col-lg-6 col-md-6">
-                            <div class="single-post-item">
-                                <div class="post-thumb">
-                                    <a href="{{url('detail',$three->id)}}"><img class="img-fluid" src="{{asset('uploads/product/'.$three->image)}}" alt=""></a>
-                                </div>
-                                <div class="post-details">
-                                    <h4><a href="{{url('detail',$three->id)}}">{{\Illuminate\Support\Str::of($three->title)->words(10)}}</a></h4>
-                                    <div class="blog-meta">
-                                        <a href="#" class="m-gap"><span class="lnr lnr-calendar-full"></span>{{$three->created_at->diffForHumans()}}</a>
-                                        <a href="#" class="m-gap"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        @endforeach
-                        <div class="col-lg-12">
-                            <nav class="blog-pagination justify-content-center d-flex">
-                                <button class="btn btn-info">Load More</button>
-                            </nav>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <div class="col-lg-4 sidebar">
-                <div class="single-widget popular-posts-widget">
-                    <div class="jq-tab-wrapper" id="horizontalTab">
-                        <div class="jq-tab-menu">
-                            <div class="jq-tab-title active" data-tab="1">Top Stories</div>
-                        </div>
-                        <div class="jq-tab-content-wrapper">
-                            <div class="jq-tab-content active" data-tab="1">
-                                @foreach($fours as $four)
-                                <div class="single-popular-post d-flex flex-row">
-                                    <div class="popular-thumb">
-                                        <a href="{{url('detail',$four->id)}}"><img class="img-fluid" src="{{asset('uploads/product/'.$four->image)}}" alt=""></a>
-                                    </div>
-                                    <div class="popular-details">
-                                        <h6><a href="{{url('detail',$four->id)}}">{{\Illuminate\Support\Str::of($four->title)->words(10)}}</a></h6>
-                                        <p>{{$four->created_at->diffForHumans()}}</p>
-                                    </div>
-                                </div>
-                                @endforeach
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-widget category-widget">
-                    <h4 class="title">Post Categories</h4>
-                    <ul>
-                        <li>
-                            <a href="#" class="justify-content-between align-items-center d-flex">
-                                <p><img src="img/bullet.png" alt="">International (56)</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="justify-content-between align-items-center d-flex">
-                                <p><img src="img/bullet.png" alt="">Tours and Travels (45)</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="justify-content-between align-items-center d-flex">
-                                <p><img src="img/bullet.png" alt="">Cooking Tips (23)</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="justify-content-between align-items-center d-flex">
-                                <p><img src="img/bullet.png" alt="">Life Style and Fashion (72)</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="justify-content-between align-items-center d-flex">
-                                <p><img src="img/bullet.png" alt="">Organic News (37)</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="justify-content-between align-items-center d-flex">
-                                <p><img src="img/bullet.png" alt="">Games and Sports (19)</p>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="single-widget tags-widget">
-                    <h4 class="title">Post Tags</h4>
-                    <ul>
-                        <li><a href="#">Lifestyle</a></li>
-                        <li><a href="#">Art</a></li>
-                        <li><a href="#">Adventure</a></li>
-                        <li><a href="#">Food</a></li>
-                        <li><a href="#">Techlology</a></li>
-                        <li><a href="#">Fashion</a></li>
-                        <li><a href="#">Architecture</a></li>
-                        <li><a href="#">Food</a></li>
-                        <li><a href="#">Technology</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-8">
+                <h4 class="p-title"><b>RECENT NEWS</b></h4>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="images/xrecent-news-1-600x450.jpg.pagespeed.ic.7oqDtC0c1G.jpg" alt="">
+                        <h4 class="pt-20"><a href="#"><b>2017 Market Performance: <br />Crypto vs.Stock</b></a></h4>
+                        <ul class="list-li-mr-20 pt-10 pb-20">
+                            <li class="color-lite-black">by <a href="#" class="color-black"><b>Olivia Capzallo,</b></a>
+                                Jan 25, 2018</li>
+                            <li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i><b>30,190</b></li>
+                            <li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i><b>47</b></li>
+                        </ul>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
+                            <div class="wh-100x abs-tlr"><img src="images/xpolular-1-100x100.jpg.pagespeed.ic.lNjsAQQi0O.jpg" alt=""></div>
+                            <div class="ml-120 min-h-100x">
+                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
+                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
+                            </div>
+                        </a>
+                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
+                            <div class="wh-100x abs-tlr"><img src="images/xpolular-2-100x100.jpg.pagespeed.ic.-ZckvMQR3r.jpg" alt=""></div>
+                            <div class="ml-120 min-h-100x">
+                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
+                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
+                            </div>
+                        </a>
+                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
+                            <div class="wh-100x abs-tlr"><img src="images/xpolular-3-100x100.jpg.pagespeed.ic.xNsfWebQd-.jpg" alt=""></div>
+                            <div class="ml-120 min-h-100x">
+                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
+                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
+                            </div>
+                        </a>
+                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
+                            <div class="wh-100x abs-tlr"><img src="images/xpolular-4-100x100.jpg.pagespeed.ic.Wineaa5dTG.jpg" alt=""></div>
+                            <div class="ml-120 min-h-100x">
+                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
+                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <h4 class="p-title mt-30"><b>CRYPTO MINING NEWS</b></h4>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="images/crypto-news-6-600x450.jpg" alt="">
+                        <h4 class="pt-20"><a href="#"><b>2017 Market Performance: <br />Crypto vs.Stock</b></a></h4>
+                        <ul class="list-li-mr-20 pt-10 mb-30">
+                            <li class="color-lite-black">by <a href="#" class="color-black"><b>Olivia Capzallo,</b></a>
+                                Jan 25, 2018</li>
+                            <li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i>30,190</li>
+                            <li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i>47</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="images/crypto-news-5-600x450.jpg" alt="">
+                        <h4 class="pt-20"><a href="#"><b>2017 Market Performance: <br />Crypto vs.Stock</b></a></h4>
+                        <ul class="list-li-mr-20 pt-10 mb-30">
+                            <li class="color-lite-black">by <a href="#" class="color-black"><b>Olivia Capzallo,</b></a>
+                                Jan 25, 2018</li>
+                            <li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i>30,190</li>
+                            <li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i>47</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="images/crypto-news-4-600x450.jpg" alt="">
+                        <h4 class="pt-20"><a href="#"><b>2017 Market Performance: <br />Crypto vs.Stock</b></a></h4>
+                        <ul class="list-li-mr-20 pt-10 mb-30">
+                            <li class="color-lite-black">by <a href="#" class="color-black"><b>Olivia Capzallo,</b></a>
+                                Jan 25, 2018</li>
+                            <li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i>30,190</li>
+                            <li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i>47</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="images/crypto-news-3-600x450.jpg" alt="">
+                        <h4 class="pt-20"><a href="#"><b>2017 Market Performance: <br />Crypto vs.Stock</b></a></h4>
+                        <ul class="list-li-mr-20 pt-10 mb-30">
+                            <li class="color-lite-black">by <a href="#" class="color-black"><b>Olivia Capzallo,</b></a>
+                                Jan 25, 2018</li>
+                            <li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i>30,190</li>
+                            <li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i>47</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="images/crypto-news-2-600x450.jpg" alt="">
+                        <h4 class="pt-20"><a href="#"><b>2017 Market Performance: <br />Crypto vs.Stock</b></a></h4>
+                        <ul class="list-li-mr-20 pt-10 mb-30">
+                            <li class="color-lite-black">by <a href="#" class="color-black"><b>Olivia Capzallo,</b></a>
+                                Jan 25, 2018</li>
+                            <li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i>30,190</li>
+                            <li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i>47</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="images/crypto-news-1-600x450.jpg" alt="">
+                        <h4 class="pt-20"><a href="#"><b>2017 Market Performance: Crypto vs.Stock</b></a></h4>
+                        <ul class="list-li-mr-20 pt-10 mb-30">
+                            <li class="color-lite-black">by <a href="#" class="color-black"><b>Olivia Capzallo,</b></a>
+                                Jan 25, 2018</li>
+                            <li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i>30,190</li>
+                            <li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i>47</li>
+                        </ul>
+                    </div>
+                </div>
+                <a class="dplay-block btn-brdr-primary mt-20 mb-md-50" href="#"><b>VIEW MORE CRYPTO MINING EVENTS</b></a>
+            </div>
+            <div class="d-none d-md-block d-lg-none col-md-3"></div>
+            <div class="col-md-6 col-lg-4">
+                <div class="pl-20 pl-md-0">
+                    <ul class="list-block list-li-ptb-15 list-btm-border-white bg-primary text-center">
+                        <li><b>1 BTC = $13,2323</b></li>
+                        <li><b>1 BCH = $13,2323</b></li>
+                        <li><b>1 ETH = $13,2323</b></li>
+                        <li><b>1 LTC = $13,2323</b></li>
+                        <li><b>1 DAS = $13,2323</b></li>
+                        <li><b>1 BCC = $13,2323</b></li>
+                    </ul>
+                    <div class="mtb-50">
+                        <h4 class="p-title"><b>POPULAR POSTS</b></h4>
+                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
+                            <div class="wh-100x abs-tlr"><img src="images/xpolular-1-100x100.jpg.pagespeed.ic.lNjsAQQi0O.jpg" alt=""></div>
+                            <div class="ml-120 min-h-100x">
+                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
+                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
+                            </div>
+                        </a>
+                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
+                            <div class="wh-100x abs-tlr"><img src="images/xpolular-2-100x100.jpg.pagespeed.ic.-ZckvMQR3r.jpg" alt=""></div>
+                            <div class="ml-120 min-h-100x">
+                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
+                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
+                            </div>
+                        </a>
+                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
+                            <div class="wh-100x abs-tlr"><img src="images/xpolular-3-100x100.jpg.pagespeed.ic.xNsfWebQd-.jpg" alt=""></div>
+                            <div class="ml-120 min-h-100x">
+                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
+                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
+                            </div>
+                        </a>
+                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
+                            <div class="wh-100x abs-tlr"><img src="images/xpolular-4-100x100.jpg.pagespeed.ic.Wineaa5dTG.jpg" alt=""></div>
+                            <div class="ml-120 min-h-100x">
+                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
+                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="mtb-50 pos-relative">
+                        <img src="images/banner-1-600x450.jpg" alt="">
+                        <div class="abs-tblr bg-layer-7 text-center color-white">
+                            <div class="dplay-tbl">
+                                <div class="dplay-tbl-cell">
+                                    <h4><b>Available for mobile & desktop</b></h4>
+                                    <a class="mt-15 color-primary link-brdr-btm-primary" href="#"><b>Download for free</b></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mtb-50 mb-md-0">
+                        <h4 class="p-title"><b>NEWSLETTER</b></h4>
+                        <p class="mb-20">Subscribe to our newsletter to get notification about new updates,
+                            information, discount, etc..</p>
+                        <form class="nwsltr-primary-1">
+                            <input type="text" placeholder="Your email" />
+                            <button type="submit"><i class="ion-ios-paperplane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="bg-191 color-ccc">
+    <div class="container">
+        <div class="pt-50 pb-20 pos-relative">
+            <div class="abs-tblr pt-50 z--1 text-center">
+                <div class="h-80 pos-relative"><img class="opacty-1 h-100 w-auto" src="images/xmap.png.pagespeed.ic.8AQTgoDPa3.png" alt=""></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="mb-30">
+                        <a href="#"><img src="images/logo-white.png"></a>
+                        <p class="mtb-20 color-ccc">Bit coin is an open-source, peer-to-peer, digital decentralized cryptocurrency.
+                            Powered by blockchain technology, its defining characteristic is</p>
+                        <p class="color-ash">
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ion-heart" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="mb-30">
+                        <h5 class="color-primary mb-20"><b>MOST POPULAR</b></h5>
+                        <div class="mb-20">
+                            <a class="color-white" href="#"><b>Its Make or Break Time for Bitcoin</b></a>
+                            <h6 class="mt-10">Jan 25, 2018</h6>
+                        </div>
+                        <div class="brdr-ash-1 opacty-2 mr-30"></div>
+                        <div class="mt-20">
+                            <a class="color-white" href="#"><b>Bitcoin's roller coster ride is not over</b></a>
+                            <h6 class="mt-10">Jan 25, 2018</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="mb-30">
+                        <h5 class="color-primary mb-20"><b>MOST POPULAR</b></h5>
+                        <div class="mb-20">
+                            <a class="color-white" href="#"><b>Its Make or Break Time for Bitcoin</b></a>
+                            <h6 class="mt-10">Jan 25, 2018</h6>
+                        </div>
+                        <div class="brdr-ash-1 opacty-2 mr-30"></div>
+                        <div class="mt-20">
+                            <a class="color-white" href="#"><b>Bitcoin's roller coster ride is not over</b></a>
+                            <h6 class="mt-10">Jan 25, 2018</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="brdr-ash-1 opacty-2"></div>
+        <div class="oflow-hidden color-ash font-9 text-sm-center ptb-sm-5">
+            <ul class="float-left float-sm-none list-a-plr-10 list-a-plr-sm-5 list-a-ptb-15 list-a-ptb-sm-10">
+                <li><a class="pl-0 pl-sm-10" href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Jobs advertising</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <ul class="float-right float-sm-none list-a-plr-10 list-a-plr-sm-5 list-a-ptb-15 list-a-ptb-sm-5">
+                <li><a class="pl-0 pl-sm-10" href="#"><i class="ion-social-facebook"></i></a></li>
+                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                <li><a href="#"><i class="ion-social-google"></i></a></li>
+                <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                <li><a href="#"><i class="ion-social-bitcoin"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
 
-@include('footer')
-<script src="js/vendor/jquery-2.2.4.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="js/vendor%2c_bootstrap.min.js%2beasing.min.js%2bhoverIntent.js%2bsuperfish.min.js%2bjquery.ajaxchimp.min.js%2bjquery.magnific-popup.min.js.pagespeed.jc.Yfv98U6Axs.js"></script><script>eval(mod_pagespeed_WM6zbjjowO);</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-<script>eval(mod_pagespeed_ZSMIky3ssu);</script>
-<script>eval(mod_pagespeed_6h4lkACYMS);</script>
-<script>eval(mod_pagespeed_e0jqbpTeaE);</script>
-<script>eval(mod_pagespeed_tMCFAwwIcJ);</script>
-<script>eval(mod_pagespeed_n2OGoUaN_k);</script>
-<script src="js/owl.carousel.min.js%2bjquery.tabs.min.js%2bjquery.nice-select.min.js%2bwaypoints.min.js%2bmail-script.js%2bmain.js.pagespeed.jc.6_KGHDxtOy.js"></script><script>eval(mod_pagespeed_OjVYEhRE1w);</script>
-<script>eval(mod_pagespeed_J2i7QIsZbQ);</script>
-<script>eval(mod_pagespeed_DMnjQBhggl);</script>
-<script>eval(mod_pagespeed_MjBkX20jQa);</script>
-<script>eval(mod_pagespeed_Kn5L14EbMv);</script>
-<script>eval(mod_pagespeed_0s$voUK9ok);</script>
+<script src="plugin-frameworks/jquery-3.2.1.min.js"></script>
+<script src="plugin-frameworks/tether.min.js"></script>
+<script src="plugin-frameworks/bootstrap.js"></script>
+<script src="common/scripts.js"></script>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
 <script>
@@ -264,8 +410,8 @@
 
     gtag('config', 'UA-23581568-13');
 </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"7057a62b4fc9cb7f","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"7156309bea7dacb9","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
 </body>
 
-<!-- Mirrored from preview.colorlib.com/theme/bounty/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 May 2022 08:33:42 GMT -->
+<!-- Mirrored from preview.colorlib.com/theme/newsbit/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jun 2022 05:57:42 GMT -->
 </html>

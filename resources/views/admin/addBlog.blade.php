@@ -343,11 +343,11 @@
                             <input type="file" class="form-control-file" name="image" id="exampleFormControlFile1" required>
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlFile1">Upload Image 2</label>
+                            <label for="exampleFormControlFile1">Detail Photo (1200*900)</label>
                             <input type="file" class="form-control-file" name="imageOne" id="exampleFormControlFile1">
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlFile1">Upload Image 3</label>
+                            <label for="exampleFormControlFile1">Category Photo(600*450)</label>
                             <input type="file" class="form-control-file" name="imageTwo" id="exampleFormControlFile1">
                         </div>
                         <button type="submit" class="btn btn-success">Submit</button>
