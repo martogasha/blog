@@ -14,25 +14,6 @@
     <script nonce="034e3b8f-1b4b-47f6-a1d6-d6ce2596d4f0">(function(w,d){!function(a,e,t,r){a.zarazData=a.zarazData||{},a.zarazData.executed=[],a.zaraz={deferred:[]},a.zaraz.q=[],a.zaraz._f=function(e){return function(){var t=Array.prototype.slice.call(arguments);a.zaraz.q.push({m:e,a:t})}};for(const e of["track","set","ecommerce","debug"])a.zaraz[e]=a.zaraz._f(e);a.addEventListener("DOMContentLoaded",(()=>{var t=e.getElementsByTagName(r)[0],z=e.createElement(r),n=e.getElementsByTagName("title")[0];for(n&&(a.zarazData.t=e.getElementsByTagName("title")[0].text),a.zarazData.x=Math.random(),a.zarazData.w=a.screen.width,a.zarazData.h=a.screen.height,a.zarazData.j=a.innerHeight,a.zarazData.e=a.innerWidth,a.zarazData.l=a.location.href,a.zarazData.r=e.referrer,a.zarazData.k=a.screen.colorDepth,a.zarazData.n=e.characterSet,a.zarazData.o=(new Date).getTimezoneOffset(),a.zarazData.q=[];a.zaraz.q.length;){const e=a.zaraz.q.shift();a.zarazData.q.push(e)}z.defer=!0;for(const e of[localStorage,sessionStorage])Object.keys(e).filter((a=>a.startsWith("_zaraz_"))).forEach((t=>{try{a.zarazData["z_"+t.slice(7)]=JSON.parse(e.getItem(t))}catch{a.zarazData["z_"+t.slice(7)]=e.getItem(t)}}));z.referrerPolicy="origin",z.src="https://preview.colorlib.com/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(a.zarazData))),t.parentNode.insertBefore(z,t)}))}(w,d,0,"script");})(window,document);</script></head>
 <body>
 <header>
-    <div class="bg-191">
-        <div class="container">
-            <div class="oflow-hidden color-ash font-9 text-sm-center ptb-sm-5">
-                <ul class="float-left float-sm-none list-a-plr-10 list-a-plr-sm-5 list-a-ptb-15 list-a-ptb-sm-10">
-                    <li><a class="pl-0 pl-sm-10" href="#">About</a></li>
-                    <li><a href="#">Advertise</a></li>
-                    <li><a href="#">Submit Press Release</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <ul class="float-right float-sm-none list-a-plr-10 list-a-plr-sm-5 list-a-ptb-15 list-a-ptb-sm-5">
-                    <li><a class="pl-0 pl-sm-10" href="#"><i class="ion-social-facebook"></i></a></li>
-                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                    <li><a href="#"><i class="ion-social-google"></i></a></li>
-                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-                    <li><a href="#"><i class="ion-social-bitcoin"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
     <div class="container">
         <a class="logo" href="index-2.html"><img src="images/logo-black.png" alt="Logo"></a>
         <a class="right-area src-btn" href="#">
@@ -114,16 +95,13 @@
                 <h4 class="p-title"><b>RECENT NEWS</b></h4>
                 <div class="row">
                     <div class="col-sm-6">
-                        <img src="images/xrecent-news-1-600x450.jpg.pagespeed.ic.7oqDtC0c1G.jpg" alt="">
-                        <h4 class="pt-20"><a href="#"><b>2017 Market Performance: <br />Crypto vs.Stock</b></a></h4>
+                        <img src="{{asset('uploads/product/'.$four->imageOne)}}" alt="">
+                        <h4 class="pt-20"><a href="{{url('detail',$three->id)}}"><b>{{\Illuminate\Support\Str::of($four->title)->words(7)}}</b></a></h4>
                         <ul class="list-li-mr-20 pt-10 pb-20">
-                            <li class="color-lite-black">by <a href="#" class="color-black"><b>Olivia Capzallo,</b></a>
-                                Jan 25, 2018</li>
-                            <li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i><b>30,190</b></li>
-                            <li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i><b>47</b></li>
+                            <li class="color-lite-black"><a href="{{url('detail',$four->id)}}" class="color-black"><b>{{$four->category}}</b></a></li>
+                            <li><i class="color-primary mr-5 font-12 ion-ios-time"></i><b>{{$four->created_at->diffForHumans()}}</b></li>
                         </ul>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                        <p>{{\Illuminate\Support\Str::of($four->detailOne)->words(20)}}</p>
                     </div>
                     <div class="col-sm-6">
                         <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">

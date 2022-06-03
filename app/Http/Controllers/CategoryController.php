@@ -62,12 +62,12 @@ class CategoryController extends Controller
         $one = Blog::where('placement','one')->latest('id')->first();
         $twos = Blog::where('placement','two')->latest('id')->get();
         $threes = Blog::where('placement','three')->latest('id')->paginate(6);
-        $fours = Blog::where('placement','four')->latest('id')->paginate(8);
+        $four = Blog::where('placement','four')->latest('id')->first();
         return view('welcome',[
             'one'=>$one,
             'twos'=>$twos,
             'threes'=>$threes,
-            'fours'=>$fours
+            'four'=>$four
         ]);
     }
 }
