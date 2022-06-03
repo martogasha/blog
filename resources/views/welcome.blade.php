@@ -66,7 +66,7 @@
         <div class="h-2-3 h-sm-auto oflow-hidden">
             <div class="pb-5 pr-5 pr-sm-0 float-left float-sm-none w-2-3 w-sm-100 h-100 h-sm-300x">
                 <a class="pos-relative h-100 dplay-block" href="#">
-                    <div class="img-bg bg-1 bg-grad-layer-6" style=""></div>
+                    <div class="img-bg bg-1 bg-grad-layer-6" style="background:url(images/xslider-1-1200x900.jpg.pagespeed.ic.55TFMKPbK9.jpg) no-repeat center;background-size:cover"></div>
                     <div class="abs-blr color-white p-20 bg-sm-color-7">
                         <h3 class="mb-15 mb-sm-5 font-sm-13"><b>Peter Thiels VC Found Invests Million into Bitcoin, Market Reacts</b></h3>
                         <ul class="list-li-mr-20">
