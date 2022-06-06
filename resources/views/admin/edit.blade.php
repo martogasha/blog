@@ -1,380 +1,499 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-
-<!-- Mirrored from wpkixx.com/html/Admo/admo/blog2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 25 May 2022 06:18:04 GMT -->
+<html lang="en">
+<!-- Mirrored from mironmahmud.com/ghurnek/assets/ltr/blog-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Jun 2022 08:28:18 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/><!-- /Added by HTTrack -->
 <head>
-
-    <!-- Meta-Information -->
-    <title>Admo - Responsive Admin Dashboard Template</title>
-    <meta charset="utf-8">
-    <meta name="description" content="Admo is a clean and powerful ready to use responsive AngularJs Admin Template based on Latest Bootstrap version and powered by jQuery, Admo comes with 3 amazing Dashboard layouts. Admo is completely flexible and user friendly admin template as it supports all the browsers and looks awesome on any device.">
-    <meta name="keywords" content="admin, admin dashboard, angular admin, bootstrap admin, dashboard, modern admin, responsive admin, web admin, web app, Admo">
-    <meta name="author" content="Admo">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Vendor: Bootstrap Stylesheets http://getbootstrap.com -->
-    <link rel="stylesheet" href="{{url('asset/css/bootstrap.min.css')}}">
-
-    <!-- Our Website CSS Styles -->
-    <link rel="stylesheet" href="{{url('asset/css/icons.css')}}">
-    <link rel="stylesheet" href="{{asset('asset/css/main.css')}}">
-    <link rel="stylesheet" href="{{asset('asset/css/responsive.css')}}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="template" content="Ghurnek">
+    <meta name="title" content="Ghurnek - Automotive Car Dealer HTML Template">
+    <meta name="keywords"
+          content="automotive, car, dealer, dealership, car dealership, html, template, auto, directory, inventory, listing, vehicle, inventory managment, bootstrap, classified ads">
+    <title>Blog List | Ghurnek</title>
+    <link rel="icon" href="https://mironmahmud.com/ghurnek/assets/images/favicon.png">
+    <link rel="stylesheet" href="https://mironmahmud.com/ghurnek/assets/fonts/typography/jost.css">
+    <link rel="stylesheet" href="https://mironmahmud.com/ghurnek/assets/fonts/icofont/icofont.css">
+    <link rel="stylesheet" href="https://mironmahmud.com/ghurnek/assets/fonts/material/icon.css">
+    <link rel="stylesheet" href="https://mironmahmud.com/ghurnek/assets/vendor/venobox/venobox.min.css">
+    <link rel="stylesheet" href="https://mironmahmud.com/ghurnek/assets/vendor/slickslider/slick.min.css">
+    <link rel="stylesheet" href="https://mironmahmud.com/ghurnek/assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://mironmahmud.com/ghurnek/assets/css/ltr.min.css">
 </head>
 <body>
-<div class="se-pre-con"></div>
-<!-- Our Website Content Goes Here -->
-<header class="simple-normal">
-    <div class="top-bar">
-        <div class="logo"> <a href="index-2.html" title=""><img src="asset/images/main-logo.png" alt=""> Admo</a> </div>
-        <div class="menu-options"><span class="menu-action"><i></i></span></div>
-        <div class="search-dashboard">
-            <div class="responsive-search"> <i class="fa fa-search"></i> </div>
-            <form>
-                <input type="text" placeholder="Search here" />
-                <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
+<div class="backdrop"></div>
+<header class="header-part"><a href="index.html" class="header-logo"><img
+            src="https://mironmahmud.com/ghurnek/assets/images/logo.png" alt="logo"></a>
+    <div class="header-content">
+        <div class="header-responsive">
+            <button type="button" class="header-widget sidebar-open"><i
+                    class="material-icons">notes</i><span>menu</span></button>
+            <a href="index.html" class="responsive-logo"><img
+                    src="https://mironmahmud.com/ghurnek/assets/images/logo.png" alt="logo"></a>
+            <button type="button" class="header-widget responsive-srch"><i
+                    class="material-icons">search</i><span>search</span></button>
         </div>
-        <!-- Search Dashboard -->
-        <div class="top-bar-quick-sec">
-            <ul class="quick-notify-section custom-dropdowns">
-                <li class="language dropdown"> <span><i class="fa fa-globe"></i><strong>EN</strong></span>
-                    <div class="languages drop-list">
-                        <ul>
-                            <li> <a href="#" title="">ENG</a> </li>
-                            <li> <a href="#" title="">USSR</a> </li>
-                            <li> <a href="#" title="">ARB</a> </li>
-                        </ul>
-                    </div>
-                    <!-- Message Drop List -->
-                </li>
-                <li class="message-list dropdown"> <span><i class="fa fa-bell-o"></i><strong class="skyblue-bg">7</strong></span>
-                    <div class="message drop-list"> <span>You have 4 New Messages</span>
-                        <ul>
-                            <li> <a href="#" title=""><span><img src="asset/images/resource/user1.jpg" alt="" /></span><i>Frank J</i>Hi! are you there?...
-                                    <h6>1 min ago..</h6>
-                                    <p class="status blue-bg">New</p>
-                                </a> </li>
-                            <li> <a href="#" title=""><span><img src="asset/images/resource/user2.jpg" alt="" /></span><i>Sara Hony</i>Hello friend, where are you
-                                    <h6>2 min ago..</h6>
-                                    <p class="status red-bg">Unsent</p>
-                                </a> </li>
-                            <li> <a href="#" title=""><span><img src="asset/images/resource/user3.jpg" alt="" /></span><i>Emma Watson</i>Hi! How are you?...
-                                    <h6>5 min ago..</h6>
-                                    <p class="status green-bg">Reply</p>
-                                </a> </li>
-                        </ul>
-                        <a href="inbox.html" title="">See All Messages</a> </div>
-                    <!-- Message Drop List -->
-                </li>
-                <li class="notification-list dropdown"> <span><i class="fa fa-envelope-o"></i><strong class="red-bg">12</strong></span>
-                    <div class="notification drop-list"> <span>You have 3 New Notifications</span>
-                        <ul>
-                            <li> <a href="#" title=""><span><i class="ti-pulse red-bg"></i></span>Server 3 is Over Loader Please Check...
-                                    <h6>2 min ago..</h6>
-                                </a> </li>
-                            <li> <a href="#" title=""><span><img src="asset/images/resource/user4.jpg" alt="" /></span><i>MD Daisal</i>New User Registered
-                                    <h6>5 min ago..</h6>
-                                    <p class="status red-bg">Urgent</p>
-                                </a> </li>
-                            <li> <a href="#" title=""><span><i class="ti-crown green-bg"></i></span>Envato Has change the policies
-                                    <h6>7 min ago..</h6>
-                                </a> </li>
-                        </ul>
-                        <a href="#" title="">See All Notifications</a> </div>
-                    <!-- Notification Drop list -->
-                </li>
-                <li class="activity-list dropdown"> <span><i class="fa fa-history"></i><strong class="blue-bg">12</strong></span>
-                    <div class="activity drop-list"> <span>Recent Activity</span>
-                        <ul>
-                            <li> <a href="#" title=""><span><img src="asset/images/resource/user5.jpg" alt="" /></span><i>Emily</i>Uploading new files
-                                    <h6>2 min ago..</h6>
-                                    <p class="status green-bg">Online</p>
-                                </a>
-                                <div class="progress">
-                                    <div style="width: 60%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" role="progressbar" class="progress-bar blue-bg"> 60% </div>
-                                </div>
-                            </li>
-                            <li> <a href="#" title=""><span><img src="asset/images/resource/chat2.jpg" alt="" /></span><i>Bela Nisaa</i>Downloading new Documents
-                                    <h6>2 min ago..</h6>
-                                </a>
-                                <div class="progress">
-                                    <div style="width: 34%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="34" role="progressbar" class="progress-bar red-bg"> 34% </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <a href="#" title="">See All Activity</a> </div>
-                    <!-- Activity Drop list -->
-                </li>
-            </ul>
-            <span id="toolFullScreen" class="full-screen-btn"><i class="fa fa-arrows-alt"></i></span> <span class="open-panel"><i class="fa fa-cog fa-spin"></i></span>
-            <div class="name-area"> <a href="#" title=""><strong>Thompson</strong> <img src="asset/images/resource/admin.jpg" alt="" /></a>
-                <ul>
-                    <li class="profile-status"><span>Profile Completion 70%</span></li>
-                    <li><a href="#" title=""><i class="fa fa-dollar"></i> My Balance</a></li>
-                    <li><a href="#" title=""><i class="fa fa-inbox"></i> Inbox</a></li>
-                    <li><a href="#" title=""><i class="fa fa-gear"></i> Setting</a></li>
-                    <li><a href="#" title=""><i class="ti-check"></i> Available</a>
-                        <ul>
-                            <li><a href="#" title="">Available</a></li>
-                            <li><a href="#" title="">Invisible</a></li>
-                            <li><a href="#" title="">Away</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#" title=""><i class="ti-power-off"></i> logout</a></li>
-                </ul>
+        <form class="header-form">
+            <div class="header-search">
+                <button type="submit" title="Search Submit" class="material-icons">search</button>
+                <input type="text" placeholder="Search, your Dreaming Car"><select class="form-select">
+                    <option value="all" selected>all type</option>
+                    <option value="new">new type</option>
+                    <option value="used">used type</option>
+                </select>
+                <button type="button" title="Search Option" class="advance-search material-icons">tune</button>
             </div>
-        </div>
+            <div class="header-option"><input type="text" placeholder="Max Price"><input type="text"
+                                                                                         placeholder="Min Price"><select
+                    class="form-select">
+                    <option selected>makes</option>
+                    <option value="1">all makes</option>
+                    <option value="2">chevrolet</option>
+                    <option value="3">bentley</option>
+                    <option value="4">nissan</option>
+                    <option value="5">honda</option>
+                </select><select class="form-select">
+                    <option selected>models</option>
+                    <option value="1">all models</option>
+                    <option value="2">2 series</option>
+                    <option value="3">4 runner</option>
+                    <option value="4">camero</option>
+                    <option value="5">elantra</option>
+                </select>
+                <button type="submit">search</button>
+            </div>
+        </form>
     </div>
-    <!-- Top Bar -->
-    <div class="side-menu-sec" id="header-scroll">
-        <div class="side-menus">
-            <nav>
-                <ul class="parent-menu">
-                    <li class="menu-item-has-children active"> <a title=""><i class="ti-desktop"></i><span>Dashboard <i class="badge red-bg">HOT</i></span></a>
-                        <ul class="" style="display:block">
-                            <li><a href="{{url('admin')}}" title="">Home</a></li>
-                            <li><a href="{{url('blog')}}" title="">Blog</a></li>
-                            <li><a href="{{url('users')}}">Users</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-            <span class="footer-line">2020 &copy; Admo All Rights Reseved</span>
-        </div>
+    <a href="register.html" class="header-user"><img src="https://mironmahmud.com/ghurnek/assets/images/user.png"
+                                                     alt="user"><span>join</span></a><a href="create-ads.html"
+                                                                                        class="btn header-btn"><i
+            class="material-icons">storefront</i><span>sell vehicles</span></a></header>
+<aside class="sidebar-part">
+    <div class="sidebar-header"><a href="#"><img src="https://mironmahmud.com/ghurnek/assets/images/logo.png"
+                                                 alt="logo"></a>
+        <button class="sidebar-close material-icons">close</button>
     </div>
-</header>
-<div class="slide-panel" id="panel-scroll">
-    <ul role="tablist" class="nav nav-tabs panel-tab-btn">
-        <li class="nav-item"> <a class="active" data-toggle="tab" role="tab" data-target="#panel-tab1"> <i class="ti-email"></i> <span>Your Emails</span> </a> </li>
-        <li class="nav-item"> <a data-toggle="tab" role="tab" data-target="#panel-tab2"> <i class="ti-settings"></i> <span>Your Setting</span> </a> </li>
-    </ul>
-    <div class="tab-content panel-tab">
-        <div id="panel-tab1" class="tab-pane active fade show">
-            <div class="recent-mails-widget">
-                <form>
-                    <div id="searchMail"></div>
-                </form>
-                <h3>Recent Emails</h3>
-                <ul id="mail-list" class="mail-list">
-                    <li>
-                        <div class="title"> <span><img src="asset/images/resource/email1.jpg" alt="" /><i class="online"></i></span>
-                            <h3><a href="#" title="">Jhon Andrew</a><span>3 min ago</span></h3>
-                            <a href="#"  data-toggle="tooltip" data-placement="left" title="Attachment"><i class="ti-clip"></i></a> </div>
-                        <h4>Themeforest Admin Template</h4>
-                        <p>This product is so good that i manage to buy.</p>
-                    </li>
-                    <li>
-                        <div class="title"> <span><img src="asset/images/resource/email2.jpg" alt="" /><i class="online"></i></span>
-                            <h3><a href="#" title="">Thompson</a><span>2 hours ago</span></h3>
-                            <a href="#"  data-toggle="tooltip" data-placement="left" title="Attachment"><i class="ti-clip"></i></a> </div>
-                        <h4>Themeforest Admin Template</h4>
-                        <p>This product is so good that i manage to buy.</p>
-                    </li>
-                    <li>
-                        <div class="title"> <span><img src="asset/images/resource/email3.jpg" alt="" /><i class="offline"></i></span>
-                            <h3><a href="#" title="">Jonathan Doe</a><span>8 min ago</span></h3>
-                            <a href="#"  data-toggle="tooltip" data-placement="left" title="Attachment"><i class="ti-clip"></i></a> </div>
-                        <h4>Themeforest Admin Template</h4>
-                        <p>This product is so good that i manage to buy.</p>
-                    </li>
-                </ul>
-                <a href="#/pages/inbox" title="" class="red-bg">View All Messages</a> </div>
-            <!-- Recent Email Widget -->
-
-            <div class="file-transfer-widget">
-                <h3>FILE TRANSFER</h3>
-                <div class="toggle">
-                    <ul>
-                        <li> <i class="ti-file"></i>
-                            <h4>my-excel.xls<i>20 min ago</i></h4>
-                            <div class="progress">
-                                <div style="width: 90%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="90" role="progressbar" class="progress-bar red-bg"> 90% </div>
-                            </div>
-                            <div class="file-action-btn"> <a href="#" title="Approve" class="green-bg" data-toggle="tooltip" data-placement="bottom"><i class="ti-check"></i></a> <a href="#" title="Cancel" class="red-bg" data-toggle="tooltip" data-placement="bottom"><i class="ti-close"></i></a> </div>
-                        </li>
-                        <li> <i class="ti-zip"></i>
-                            <h4>my-cv.pdf<i>8 min ago</i></h4>
-                            <div class="progress">
-                                <div style="width: 40%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="40" role="progressbar" class="progress-bar blue-bg"> 40% </div>
-                            </div>
-                            <div class="file-action-btn"> <a href="#" title="Approve" class="green-bg" data-toggle="tooltip" data-placement="bottom"><i class="ti-check"></i></a> <a href="#" title="Cancel" class="red-bg" data-toggle="tooltip" data-placement="bottom"><i class="ti-close"></i></a> </div>
-                        </li>
-                        <li> <i class="ti-files"></i>
-                            <h4>portfolio-shoot.mp4<i>12 min ago</i></h4>
-                            <div class="progress">
-                                <div style="width: 70%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" role="progressbar" class="progress-bar green-bg"> 70% </div>
-                            </div>
-                            <div class="file-action-btn"> <a href="#" title="Approve" class="green-bg" data-toggle="tooltip" data-placement="bottom"><i class="ti-check"></i></a> <a href="#" title="Cancel" class="red-bg" data-toggle="tooltip" data-placement="bottom"><i class="ti-close"></i></a> </div>
+    <div class="sidebar-content">
+        <div class="sidebar-btn"><a href="create-ads.html" class="btn btn-inline"><i
+                    class="material-icons">storefront</i><span>sell vehicles</span></a></div>
+        <nav class="sidebar-nav">
+            <div class="sidebar-group"><h5 class="sidebar-title">languages</h5>
+                <div class="select-option">
+                    <div class="select-data"><img class="select-image"
+                                                  src="https://mironmahmud.com/ghurnek/assets/images/flag/us.png"
+                                                  alt="flag"><span class="select-text">english - LTR</span><span
+                            class="select-arrow"></span></div>
+                    <ul class="option-list">
+                        <li class="option-item"><a href="#" class="option-link"><img class="option-image"
+                                                                                     src="https://mironmahmud.com/ghurnek/assets/images/flag/us.png"
+                                                                                     alt="flag"><span
+                                    class="option-text">english - LTR</span></a></li>
+                        <li class="option-item"><a href="https://mironmahmud.com/ghurnek/assets/rtl/index.html"
+                                                   class="option-link"><img class="option-image"
+                                                                            src="https://mironmahmud.com/ghurnek/assets/images/flag/sa.png"
+                                                                            alt="flag"><span class="option-text">arabic - RTL</span></a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <!-- File Transfer -->
-        </div>
-        <div id="panel-tab2" class="tab-pane fade">
-            <div class="setting-widget">
-                <form>
-                    <h3>Accounts</h3>
-                    <div class="toggle-setting"> <span>Office Account</span>
-                        <label class="toggle-switch">
-                            <input type="checkbox">
-                            <span data-unchecked="Off" data-checked="On"></span> </label>
-                    </div>
-                    <div class="toggle-setting"> <span>Personal Account</span>
-                        <label class="toggle-switch">
-                            <input type="checkbox" checked>
-                            <span data-unchecked="Off" data-checked="On"></span> </label>
-                    </div>
-                    <div class="toggle-setting"> <span>Business Account</span>
-                        <label class="toggle-switch">
-                            <input type="checkbox">
-                            <span data-unchecked="Off" data-checked="On"></span> </label>
-                    </div>
-                </form>
-                <form>
-                    <h3>General Setting</h3>
-                    <div class="toggle-setting"> <span>Notifications</span>
-                        <label class="toggle-switch">
-                            <input type="checkbox" checked>
-                            <span data-unchecked="Off" data-checked="On"></span> </label>
-                    </div>
-                    <div class="toggle-setting"> <span>Notification Sound</span>
-                        <label class="toggle-switch">
-                            <input type="checkbox" checked>
-                            <span data-unchecked="Off" data-checked="On"></span> </label>
-                    </div>
-                    <div class="toggle-setting"> <span>My Profile</span>
-                        <label class="toggle-switch">
-                            <input type="checkbox">
-                            <span data-unchecked="Off" data-checked="On"></span> </label>
-                    </div>
-                    <div class="toggle-setting"> <span>Show Online</span>
-                        <label class="toggle-switch">
-                            <input type="checkbox">
-                            <span data-unchecked="Off" data-checked="On"></span> </label>
-                    </div>
-                    <div class="toggle-setting"> <span>Public Profile</span>
-                        <label class="toggle-switch">
-                            <input type="checkbox" checked>
-                            <span data-unchecked="Off" data-checked="On"></span> </label>
-                    </div>
-                </form>
+            <div class="sidebar-group"><h5 class="sidebar-title">user action</h5>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="favorite.html" class="nav-link"><i class="material-icons">favorite</i><span
+                                class="nav-text">favorite</span><span class="nav-count">0</span></a></li>
+                    <li class="nav-item"><a href="compare.html" class="nav-link"><i
+                                class="material-icons">compare</i><span class="nav-text">compare</span><span
+                                class="nav-count">0</span></a></li>
+                    <li class="nav-item"><a href="notify.html" class="nav-link"><i
+                                class="material-icons">notifications</i><span class="nav-text">notification</span><span
+                                class="nav-count">9+</span></a></li>
+                </ul>
             </div>
-            <!-- Setting Widget -->
+            <div class="sidebar-group"><h5 class="sidebar-title">main menu</h5>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link"><i class="material-icons">home</i><span
+                                class="nav-text">home</span></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="material-icons">inventory</i><span
+                                class="nav-text">inventory</span><span class="nav-arrow"></span></a>
+                        <ul class="drop-list">
+                            <li class="drop-item"><a href="inventory-grid.html" class="drop-link"><i
+                                        class="material-icons">remove</i><span>inventory grid</span></a></li>
+                            <li class="drop-item"><a href="inventory-list.html" class="drop-link"><i
+                                        class="material-icons">remove</i><span>inventory list</span></a></li>
+                            <li class="drop-item"><a href="inventory-single.html" class="drop-link"><i
+                                        class="material-icons">remove</i><span>inventory single</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="material-icons">store</i><span
+                                class="nav-text">vendor</span><span class="nav-arrow"></span></a>
+                        <ul class="drop-list">
+                            <li class="drop-item"><a href="vendor-grid.html" class="drop-link"><i
+                                        class="material-icons">remove</i><span>vendor grid</span></a></li>
+                            <li class="drop-item"><a href="vendor-list.html" class="drop-link"><i
+                                        class="material-icons">remove</i><span>vendor list</span></a></li>
+                            <li class="drop-item"><a href="posted-ads.html" class="drop-link"><i class="material-icons">remove</i><span>vendor single</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="material-icons">menu_book</i><span
+                                class="nav-text">pages</span><span class="nav-arrow"></span></a>
+                        <ul class="drop-list">
+                            <li class="drop-item"><a href="about-us.html" class="drop-link"><i class="material-icons">remove</i><span>about us</span></a>
+                            </li>
+                            <li class="drop-item"><a href="pricing-plan.html" class="drop-link"><i
+                                        class="material-icons">remove</i><span>pricing plan</span></a></li>
+                            <li class="drop-item"><a href="coming-soon.html" class="drop-link"><i
+                                        class="material-icons">remove</i><span>coming soon</span></a></li>
+                            <li class="drop-item"><a href="404.html" class="drop-link"><i
+                                        class="material-icons">remove</i><span>404 error</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="material-icons">feed</i><span
+                                class="nav-text">blogs</span><span class="nav-arrow"></span></a>
+                        <ul class="drop-list">
+                            <li class="drop-item"><a href="blog-grid.html" class="drop-link"><i class="material-icons">remove</i><span>blog grid</span></a>
+                            </li>
+                            <li class="drop-item"><a href="blog-list.html" class="drop-link"><i class="material-icons">remove</i><span>blog list</span></a>
+                            </li>
+                            <li class="drop-item"><a href="blog-author.html" class="drop-link"><i
+                                        class="material-icons">remove</i><span>blog author</span></a></li>
+                            <li class="drop-item"><a href="blog-single.html" class="drop-link"><i
+                                        class="material-icons">remove</i><span>blog single</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="material-icons">contact_support</i><span
+                                class="nav-text">support</span><span class="nav-arrow"></span></a>
+                        <ul class="drop-list">
+                            <li class="drop-item"><a href="faq.html" class="drop-link"><i
+                                        class="material-icons">remove</i><span>faqs</span></a></li>
+                            <li class="drop-item"><a href="contact.html" class="drop-link"><i class="material-icons">remove</i><span>contact us</span></a>
+                            </li>
+                            <li class="drop-item"><a href="privacy.html" class="drop-link"><i class="material-icons">remove</i><span>privacy policy</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="material-icons">security</i><span
+                                class="nav-text">security</span><span class="nav-arrow"></span></a>
+                        <ul class="drop-list">
+                            <li class="drop-item"><a href="login.html" class="drop-link"><i class="material-icons">remove</i><span>login</span></a>
+                            </li>
+                            <li class="drop-item"><a href="register.html" class="drop-link"><i class="material-icons">remove</i><span>register</span></a>
+                            </li>
+                            <li class="drop-item"><a href="forgot-password.html" class="drop-link"><i
+                                        class="material-icons">remove</i><span>forgot password</span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar-group"><h5 class="sidebar-title">user menu</h5>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="dashboard.html" class="nav-link"><i
+                                class="material-icons">dashboard</i><span class="nav-text">dashboard</span></a></li>
+                    <li class="nav-item"><a href="profile.html" class="nav-link"><i class="material-icons">account_circle</i><span
+                                class="nav-text">profile</span></a></li>
+                    <li class="nav-item"><a href="create-ads.html" class="nav-link"><i
+                                class="material-icons">note_add</i><span class="nav-text">create ads</span></a></li>
+                    <li class="nav-item"><a href="posted-ads.html" class="nav-link"><i
+                                class="material-icons">apps</i><span class="nav-text">posted ads</span></a></li>
+                    <li class="nav-item"><a href="favorite.html" class="nav-link"><i class="material-icons">favorite</i><span
+                                class="nav-text">favorites</span></a></li>
+                    <li class="nav-item"><a href="compare.html" class="nav-link"><i
+                                class="material-icons">compare</i><span class="nav-text">compares</span></a></li>
+                    <li class="nav-item"><a href="review.html" class="nav-link"><i class="material-icons">star</i><span
+                                class="nav-text">reviews</span></a></li>
+                    <li class="nav-item"><a href="notify.html" class="nav-link"><i
+                                class="material-icons">notifications</i><span class="nav-text">notifications</span></a>
+                    </li>
+                    <li class="nav-item"><a href="setting.html" class="nav-link"><i
+                                class="material-icons">settings</i><span class="nav-text">settings</span></a></li>
+                    <li class="nav-item"><a href="login.html" class="nav-link"><i class="material-icons">lock</i><span
+                                class="nav-text">logout</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</aside>
+<div class="float-menu">
+    <button type="button" class="float-widget badge-hover"><i class="material-icons">widgets</i><span
+            class="badge arrow-right">widgets</span><sup>9</sup></button>
+    <ul class="float-list">
+        <li class="float-item"><a href="compare.html" class="badge-hover"><i
+                    class="purple material-icons">compare</i><span class="badge arrow-right">compare</span><sup>2</sup></a>
+        </li>
+        <li class="float-item"><a href="favorite.html" class="badge-hover"><i
+                    class="red material-icons">favorite</i><span
+                    class="badge arrow-right">favorite</span><sup>4</sup></a></li>
+        <li class="float-item"><a href="notify.html" class="badge-hover"><i
+                    class="orange material-icons">notifications</i><span
+                    class="badge arrow-right">notify</span><sup>3</sup></a></li>
+    </ul>
+</div>
+<div class="mobile-menu"><a href="register.html"><i class="material-icons">person</i><span>account</span></a><a
+        href="notify.html"><i class="material-icons">notifications</i><span>notify</span><sup>9</sup></a><a
+        href="create-ads.html" title="sell vehicless"><i class="material-icons">storefront</i></a><a
+        href="compare.html"><i class="material-icons">compare</i><span>compare</span><sup>3+</sup></a><a
+        href="favorite.html"><i class="material-icons">favorite</i><span>favorite</span><sup>8</sup></a></div>
+<section class="section-gap-100">
+    <div
+        style="background: url(https://mironmahmud.com/ghurnek/assets/images/banner/single/01.jpg) no-repeat center / cover;">
+        <div class="single-banner">
+            <div class="container"><h2>blog list page</h2>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">blog-list</li>
+                </ol>
+            </div>
         </div>
     </div>
-</div>
-<!-- Slide Panel -->
-<div class="main-content">
-    <div class="panel-content">
-        <div class="main-title-sec">
-            <div class="row">
-                <div class="col-md-3 column">
-                    <div class="heading-profile">
-                        <span>Welcome back, Thompson</span> </div>
-                </div>
-                <div class="col-md-9 column">
-                    <div class="top-bar-chart">
-                        <div class="bar-chart-details">
-                            <p>New User</p>
-                            <h5>17,561</h5>
-                        </div>
-                        <span id="new-orders" class="sparkline">4,5,6,7,6,5,4,3,3,4</span> </div>
-                    <div class="top-bar-chart">
-                        <div class="bar-chart-details">
-                            <p>My Balance</p>
-                            <h5>$21,561.01</h5>
-                        </div>
-                        <span id="my-balance" class="sparkline">4,3,6,3,8,6,4,3,3,4</span> </div>
-                    <div class="quick-btn-title"><a href="#" title=""><i class="fa fa-cloud-upload"></i> Upload Files</a> </div>
-                </div>
-            </div>
-        </div>
-        <!-- Heading Sec -->
-        <ul class="breadcrumbs">
-            <li><a href="{{url('admin')}}" title="">Home</a></li>
-            <li>Blogs</li>
-        </ul>
-        <div class="main-content-area">
-            @include('flash-message')
-            <div class="row">
-                <div class="col-md-12">
-                    <form action="{{url('editB')}}" method="post" enctype="multipart/form-data">
-                        @csrf
-                        <input type="hidden" value="{{$edit->id}}" name="id">
-                        <div class="form-group">
-                            <label for="exampleFormControlSelect1">Placement</label>
-                            <select class="form-control" name="placement" id="exampleFormControlSelect1">
-                                <option value="{{$edit->placement}}">{{$edit->placement}}</option>
-                                <option value="one">One</option>
-                                <option value="two">Two</option>
-                                <option value="three">Three</option>
-                                <option value="four">Four</option>
-                                <option value="five">Five</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlSelect1">Category</label>
-                            <select class="form-control" name="category" id="exampleFormControlSelect1">
-                                <option value="{{$edit->category}}">{{$edit->category}}</option>
-                                <option value="news">News</option>
-                                <option value="entertainment">Entertainment</option>
-                                <option value="sports">Sports</option>
-                                <option value="tech">Tech</option>
-                                <option value="lifestyle">Lifestyle</option>
-                                <option value="business">Business</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Title</label>
-                            <input type="text" class="form-control" value="{{$edit->title}}" name="title" id="exampleFormControlInput1">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Detail 1</label>
-                            <input class="form-control" value="{{$edit->detailOne}}" name="detailOne" id="exampleFormControlTextarea1"></input>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Quote</label>
-                            <input type="text" class="form-control" value="{{$edit->quote}}" name="quote" id="exampleFormControlInput1">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Detail 2</label>
-                            <input class="form-control" name="detailTwo" value="{{$edit->detailTwo}}" id="exampleFormControlTextarea1"></input>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlFile1">Upload Image 1</label>
-                            <input type="file" class="form-control-file" name="image"  id="exampleFormControlFile1">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlFile1">Upload Image 2</label>
-                            <input type="file" class="form-control-file" name="imageOne" id="exampleFormControlFile1">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlFile1">Upload Image 3</label>
-                            <input type="file" class="form-control-file" name="imageTwo" id="exampleFormControlFile1">
-                        </div>
-                        <button type="submit" class="btn btn-success">Submit</button>
+</section>
+<section class="section-gap-100">
+    <div class="container">
+        <div class="row content-reverse">
+            <div class="col-lg-4 col-xl-4">
+                <div class="blog-widget"><h5 class="blog-widget-title">Find blogs</h5>
+                    <form class="blog-widget-form"><input type="text" placeholder="Search blogs">
+                        <button type="submit" class="material-icons">search</button>
                     </form>
                 </div>
+                <div class="blog-widget"><h5 class="blog-widget-title">popular feeds</h5>
+                    <ul class="blog-widget-feed">
+                        <li><a class="blog-widget-media" href="blog-single.html"><img
+                                    src="https://mironmahmud.com/ghurnek/assets/images/blog/01.jpg" alt="blog"></a><h5
+                                class="blog-widget-text"><a href="blog-single.html">Lorem ipsum dolor sit amet
+                                    consectetur</a><span>february 02, 2021</span></h5></li>
+                        <li><a class="blog-widget-media" href="blog-single.html"><img
+                                    src="https://mironmahmud.com/ghurnek/assets/images/blog/02.jpg" alt="blog"></a><h5
+                                class="blog-widget-text"><a href="blog-single.html">Lorem ipsum dolor sit amet
+                                    consectetur</a><span>february 02, 2021</span></h5></li>
+                        <li><a class="blog-widget-media" href="blog-single.html"><img
+                                    src="https://mironmahmud.com/ghurnek/assets/images/blog/03.jpg" alt="blog"></a><h5
+                                class="blog-widget-text"><a href="blog-single.html">Lorem ipsum dolor sit amet
+                                    consectetur</a><span>february 02, 2021</span></h5></li>
+                        <li><a class="blog-widget-media" href="blog-single.html"><img
+                                    src="https://mironmahmud.com/ghurnek/assets/images/blog/04.jpg" alt="blog"></a><h5
+                                class="blog-widget-text"><a href="blog-single.html">Lorem ipsum dolor sit amet
+                                    consectetur</a><span>february 02, 2021</span></h5></li>
+                        <li><a class="blog-widget-media" href="blog-single.html"><img
+                                    src="https://mironmahmud.com/ghurnek/assets/images/blog/05.jpg" alt="blog"></a><h5
+                                class="blog-widget-text"><a href="blog-single.html">Lorem ipsum dolor sit amet
+                                    consectetur</a><span>february 02, 2021</span></h5></li>
+                    </ul>
+                </div>
+                <div class="blog-widget"><h5 class="blog-widget-title">top categories</h5>
+                    <ul class="blog-widget-category">
+                        <li><a href="#">car parking <span>22</span></a></li>
+                        <li><a href="#">lamborgini <span>14</span></a></li>
+                        <li><a href="#">repaire car <span>35</span></a></li>
+                        <li><a href="#">car dealership <span>67</span></a></li>
+                        <li><a href="#">mercedez benz <span>89</span></a></li>
+                    </ul>
+                </div>
+                <div class="blog-widget"><h5 class="blog-widget-title">popular tags</h5>
+                    <ul class="blog-widget-tag">
+                        <li><a href="#">parking</a></li>
+                        <li><a href="#">dealership</a></li>
+                        <li><a href="#">car racing</a></li>
+                        <li><a href="#">automotive</a></li>
+                        <li><a href="#">petrol</a></li>
+                        <li><a href="#">electric car</a></li>
+                        <li><a href="#">transport</a></li>
+                        <li><a href="#">lamborgini</a></li>
+                        <li><a href="#">audi</a></li>
+                    </ul>
+                </div>
+                <div class="blog-widget"><h5 class="blog-widget-title">follow us</h5>
+                    <ul class="blog-widget-social">
+                        <li><a href="#" class="facebook icofont-facebook"></a></li>
+                        <li><a href="#" class="twitter icofont-twitter"></a></li>
+                        <li><a href="#" class="linkedin icofont-linkedin"></a></li>
+                        <li><a href="#" class="pinterest icofont-pinterest"></a></li>
+                        <li><a href="#" class="instagram icofont-instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-8 col-xl-8">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="top-filter">
+                            <div class="filter-show"><label class="filter-label">Show :</label><select
+                                    class="form-select filter-select">
+                                    <option value="1">12</option>
+                                    <option value="2">24</option>
+                                    <option value="3">36</option>
+                                </select></div>
+                            <div class="filter-short"><label class="filter-label">Short by :</label><select
+                                    class="form-select filter-select">
+                                    <option selected>default</option>
+                                    <option value="3">trending</option>
+                                    <option value="1">featured</option>
+                                    <option value="2">recommend</option>
+                                </select></div>
+                            <div class="filter-action"><a href="blog-grid.html" title="Grid View"
+                                                          class="material-icons">grid_view</a><a href="blog-list.html"
+                                                                                                 title="List View"
+                                                                                                 class="material-icons active">list_alt</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1">
+                    <div class="col">
+                        <div class="blog-list-card">
+                            <div class="blog-list-media"><img
+                                    src="https://mironmahmud.com/ghurnek/assets/images/blog/01.jpg" alt="blog"></div>
+                            <div class="blog-list-content">
+                                <ul class="blog-list-meta">
+                                    <li><i class="material-icons">account_circle</i><span>post by <a
+                                                href="blog-single.html">admin</a></span></li>
+                                    <li><i class="material-icons">event_note</i><span>februray 02, 2021</span></li>
+                                    <li><i class="material-icons">forum</i><span>05 comments</span></li>
+                                    <li><i class="material-icons">public</i><span>03 share</span></li>
+                                </ul>
+                                <h3 class="blog-list-title"><a href="blog-single.html">Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit expedita quam distinctio aliquid quaerat.</a></h3>
+                                <p class="blog-list-descrip">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Eius placeat aperiam similique quisquam Distinctio voluptas rerum culpa deleniti
+                                    voluptatum adipisci quod libero itaque mollitia doloribus ipsa in nihil ipsam, sequi
+                                    eos eaque! Dolorem repellendus facere aut aliquam provident in! Sit voluptatum
+                                    fugiat assumenda in fuga ratione optio, beatae blanditiis officiis...<a
+                                        href="blog-single.html">read more</a></p></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="blog-list-card">
+                            <div class="blog-list-media"><img
+                                    src="https://mironmahmud.com/ghurnek/assets/images/blog/02.jpg" alt="blog"></div>
+                            <div class="blog-list-content">
+                                <ul class="blog-list-meta">
+                                    <li><i class="material-icons">account_circle</i><span>post by <a
+                                                href="blog-single.html">admin</a></span></li>
+                                    <li><i class="material-icons">event_note</i><span>februray 02, 2021</span></li>
+                                    <li><i class="material-icons">forum</i><span>05 comments</span></li>
+                                    <li><i class="material-icons">public</i><span>03 share</span></li>
+                                </ul>
+                                <h3 class="blog-list-title"><a href="blog-single.html">Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit expedita quam distinctio aliquid quaerat.</a></h3>
+                                <p class="blog-list-descrip">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Eius placeat aperiam similique quisquam Distinctio voluptas rerum culpa deleniti
+                                    voluptatum adipisci quod libero itaque mollitia doloribus ipsa in nihil ipsam, sequi
+                                    eos eaque! Dolorem repellendus facere aut aliquam provident in! Sit voluptatum
+                                    fugiat assumenda in fuga ratione optio, beatae blanditiis officiis...<a
+                                        href="blog-single.html">read more</a></p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="bottom-paginate mb-50"><p class="page-info">Showing 12 of 60 Results</p>
+                            <ul class="pagination">
+                                <li class="page-item"><a href="#" class="page-link material-icons">chevron_left</a></li>
+                                <li class="page-item"><a href="#" class="page-link active">01</a></li>
+                                <li class="page-item"><a href="#" class="page-link">02</a></li>
+                                <li class="page-item"><a href="#" class="page-link">03</a></li>
+                                <li class="page-item">...</li>
+                                <li class="page-item"><a href="#" class="page-link">45</a></li>
+                                <li class="page-item"><a href="#" class="page-link material-icons">chevron_right</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
     </div>
-    <form action="{{url('dBlog',$edit->id)}}" method="post">
-        @csrf
-        <button class="btn btn-danger">Delete</button>
-    </form>
-    <!-- Panel Content -->
+</section>
+<footer class="footer-part">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="footer-top"><a href="#"><img src="https://mironmahmud.com/ghurnek/assets/images/logo.png"
+                                                         alt="logo"></a>
+                    <ul>
+                        <li><i class="material-icons">description</i><span>info@example.com<br>carrer@example.com</span>
+                        </li>
+                        <li>
+                            <i class="material-icons">perm_phone_msg</i><span>+91 987-654-3210<br>+91 987-654-5466</span>
+                        </li>
+                        <li>
+                            <i class="material-icons">map</i><span>1Hd- 50, 010 Avenue, <br>NY 90001 United States</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 col-xl-4">
+                <div class="footer-widget"><h3>about company</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ullam repellat sit. Ipsa saepe
+                        maiores placeat eligendi totam quisquam necessitatibus dignissimos</p>
+                    <div class="footer-badge"><img src="https://mironmahmud.com/ghurnek/assets/images/badge/01.png"
+                                                   alt="badge"><img
+                            src="https://mironmahmud.com/ghurnek/assets/images/badge/02.png" alt="badge"></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-4">
+                <div class="footer-group">
+                    <div class="footer-widget"><h3>importants</h3>
+                        <ul class="footer-list">
+                            <li><a href="#">sell vehicless</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">about company</a></li>
+                            <li><a href="#">contact us</a></li>
+                            <li><a href="#">career</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget"><h3>categories</h3>
+                        <ul class="footer-list">
+                            <li><a href="#">new vehicles</a></li>
+                            <li><a href="#">used vehicles</a></li>
+                            <li><a href="#">top searching</a></li>
+                            <li><a href="#">top makes</a></li>
+                            <li><a href="#">top types</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4 col-xl-4">
+                <div class="footer-widget"><h3>our newsletter</h3>
+                    <p>Be the first to know about our offers and discounts by subscribing to the newsletter</p>
+                    <form class="footer-form"><input type="email" placeholder="enter your email">
+                        <button type="submit" class="material-icons">forward_to_inbox</button>
+                    </form>
+                    <ul class="footer-social">
+                        <li><a href="#" class="icofont-facebook"></a></li>
+                        <li><a href="#" class="icofont-twitter"></a></li>
+                        <li><a href="#" class="icofont-linkedin"></a></li>
+                        <li><a href="#" class="icofont-whatsapp"></a></li>
+                        <li><a href="#" class="icofont-youtube-play"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="footer-bottom">
+    <div class="container"><p class="footer-text">&copy; 2022 all rights reserved by &hearts; <a href="#">mironcoder</a>
+        </p><a href="#" class="footer-backtop"><i class="material-icons">arrow_upward</i></a>
+        <div class="footer-payment"><img src="https://mironmahmud.com/ghurnek/assets/images/payment/01.jpg"
+                                         alt="payment"><img
+                src="https://mironmahmud.com/ghurnek/assets/images/payment/02.jpg" alt="payment"><img
+                src="https://mironmahmud.com/ghurnek/assets/images/payment/03.jpg" alt="payment"><img
+                src="https://mironmahmud.com/ghurnek/assets/images/payment/04.jpg" alt="payment"><img
+                src="https://mironmahmud.com/ghurnek/assets/images/payment/05.jpg" alt="payment"><img
+                src="https://mironmahmud.com/ghurnek/assets/images/payment/06.jpg" alt="payment"></div>
+    </div>
 </div>
-
-<!-- Vendor: Javascripts -->
-<script src="{{asset('asset/js/jquery-2.1.3.js')}}"></script>
-<script src="{{url('asset/js/bootstrap.min.js')}}"></script>
-<!-- Our Website Javascripts -->
-<script src="{{asset('asset/js/app.js')}}"></script>
-<script src="{{asset('asset/js/common.js')}}"></script>
+<script src="https://mironmahmud.com/ghurnek/assets/vendor/jquery-3.5.0.min.js"></script>
+<script src="https://mironmahmud.com/ghurnek/assets/vendor/bootstrap/popper.min.js"></script>
+<script src="https://mironmahmud.com/ghurnek/assets/vendor/bootstrap/bootstrap.min.js"></script>
+<script src="https://mironmahmud.com/ghurnek/assets/vendor/slickslider/slick.min.js"></script>
+<script src="https://mironmahmud.com/ghurnek/assets/vendor/slickslider/ltr-slick-custom.js"></script>
+<script src="https://mironmahmud.com/ghurnek/assets/vendor/venobox/venobox.min.js"></script>
+<script src="https://mironmahmud.com/ghurnek/assets/vendor/venobox/venobox-custom.js"></script>
+<script src="https://mironmahmud.com/ghurnek/assets/js/dropdown-menu.js"></script>
+<script src="https://mironmahmud.com/ghurnek/assets/js/select-option.js"></script>
+<script src="https://mironmahmud.com/ghurnek/assets/js/float-menu.js"></script>
+<script src="https://mironmahmud.com/ghurnek/assets/js/custom.js"></script>
 </body>
-
-<!-- Mirrored from wpkixx.com/html/Admo/admo/blog2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 25 May 2022 06:18:32 GMT -->
+<!-- Mirrored from mironmahmud.com/ghurnek/assets/ltr/blog-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Jun 2022 08:28:18 GMT -->
 </html>
