@@ -96,159 +96,71 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <img src="{{asset('uploads/product/'.$four->image)}}" alt="">
-                        <h4 class="pt-20"><a href="{{url('detail',$three->id)}}"><b>{{\Illuminate\Support\Str::of($four->title)->words(7)}}</b></a></h4>
+                        <h4 class="pt-20"><a href="{{url('detail',$four->id)}}"><b>{{\Illuminate\Support\Str::of($four->title)->words(7)}}</b></a></h4>
                         <ul class="list-li-mr-20 pt-10 pb-20">
                             <li class="color-lite-black"><a href="{{url('detail',$four->id)}}" class="color-black"><b>{{$four->category}}</b></a></li>
                             <li><i class="color-primary mr-5 font-12 ion-ios-time"></i><b>{{$four->created_at->diffForHumans()}}</b></li>
                         </ul>
                     </div>
                     <div class="col-sm-6">
-                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
-                            <div class="wh-100x abs-tlr"><img src="images/xpolular-1-100x100.jpg.pagespeed.ic.lNjsAQQi0O.jpg" alt=""></div>
+                        @foreach($fives as $five)
+                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="{{url('detail',$five->id)}}">
+                            <div class="wh-100x abs-tlr"><img src="{{asset('uploads/product/'.$five->image)}}" alt=""></div>
                             <div class="ml-120 min-h-100x">
-                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
-                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
+                                <h5><b>{{\Illuminate\Support\Str::of($five->title)->words(7)}}</b></h5>
+                                <h6 class="color-lite-black pt-10">{{$five->created_at->diffForHumans()}}</h6>
                             </div>
                         </a>
-                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
-                            <div class="wh-100x abs-tlr"><img src="images/xpolular-2-100x100.jpg.pagespeed.ic.-ZckvMQR3r.jpg" alt=""></div>
-                            <div class="ml-120 min-h-100x">
-                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
-                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
-                            </div>
-                        </a>
-                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
-                            <div class="wh-100x abs-tlr"><img src="images/xpolular-3-100x100.jpg.pagespeed.ic.xNsfWebQd-.jpg" alt=""></div>
-                            <div class="ml-120 min-h-100x">
-                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
-                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
-                            </div>
-                        </a>
+                        @endforeach
                     </div>
                 </div>
+                <a class="dplay-block btn-brdr-primary mt-20 mb-md-50" href="#"><b>VIEW MORE</b></a>
+
                 <h4 class="p-title mt-30"><b>RECOMMENDED FOR YOU</b></h4>
                 <div class="row">
+                    @foreach($sixs as $six)
                     <div class="col-sm-6">
-                        <img src="images/crypto-news-6-600x450.jpg" alt="">
-                        <h4 class="pt-20"><a href="#"><b>2017 Market Performance: <br />Crypto vs.Stock</b></a></h4>
-                        <ul class="list-li-mr-20 pt-10 mb-30">
-                            <li class="color-lite-black">by <a href="#" class="color-black"><b>Olivia Capzallo,</b></a>
-                                Jan 25, 2018</li>
-                            <li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i>30,190</li>
-                            <li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i>47</li>
+                        <img src="{{asset('uploads/product/'.$six->image)}}" alt="">
+                        <h4 class="pt-20"><a href="{{url('detail',$four->id)}}"><b>{{\Illuminate\Support\Str::of($six->title)->words(7)}}</b></a></h4>
+                        <ul class="list-li-mr-20 pt-10 pb-20">
+                            <li class="color-lite-black"><a href="{{url('detail',$six->id)}}" class="color-black"><b>{{$six->category}}</b></a></li>
+                            <li><i class="color-primary mr-5 font-12 ion-ios-time"></i><b>{{$six->created_at->diffForHumans()}}</b></li>
                         </ul>
                     </div>
-                    <div class="col-sm-6">
-                        <img src="images/crypto-news-5-600x450.jpg" alt="">
-                        <h4 class="pt-20"><a href="#"><b>2017 Market Performance: <br />Crypto vs.Stock</b></a></h4>
-                        <ul class="list-li-mr-20 pt-10 mb-30">
-                            <li class="color-lite-black">by <a href="#" class="color-black"><b>Olivia Capzallo,</b></a>
-                                Jan 25, 2018</li>
-                            <li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i>30,190</li>
-                            <li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i>47</li>
-                        </ul>
-                    </div>
+                    @endforeach
+
                 </div>
+                <a class="dplay-block btn-brdr-primary mt-20 mb-md-50" href="#"><b>VIEW MORE</b></a>
+
                 <h4 class="p-title mt-30"><b>SPORTS</b></h4>
                 <div class="row">
-                    <div class="col-sm-6">
-                        <img src="images/crypto-news-6-600x450.jpg" alt="">
-                        <h4 class="pt-20"><a href="#"><b>2017 Market Performance: <br />Crypto vs.Stock</b></a></h4>
-                        <ul class="list-li-mr-20 pt-10 mb-30">
-                            <li class="color-lite-black">by <a href="#" class="color-black"><b>Olivia Capzallo,</b></a>
-                                Jan 25, 2018</li>
-                            <li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i>30,190</li>
-                            <li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i>47</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6">
-                        <img src="images/crypto-news-5-600x450.jpg" alt="">
-                        <h4 class="pt-20"><a href="#"><b>2017 Market Performance: <br />Crypto vs.Stock</b></a></h4>
-                        <ul class="list-li-mr-20 pt-10 mb-30">
-                            <li class="color-lite-black">by <a href="#" class="color-black"><b>Olivia Capzallo,</b></a>
-                                Jan 25, 2018</li>
-                            <li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i>30,190</li>
-                            <li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i>47</li>
-                        </ul>
-                    </div>
+                    @foreach($sevens as $seven)
+                        <div class="col-sm-6">
+                            <img src="{{asset('uploads/product/'.$seven->image)}}" alt="">
+                            <h4 class="pt-20"><a href="{{url('detail',$seven->id)}}"><b>{{\Illuminate\Support\Str::of($seven->title)->words(7)}}</b></a></h4>
+                            <ul class="list-li-mr-20 pt-10 pb-20">
+                                <li class="color-lite-black"><a href="{{url('detail',$seven->id)}}" class="color-black"><b>{{$seven->category}}</b></a></li>
+                                <li><i class="color-primary mr-5 font-12 ion-ios-time"></i><b>{{$seven->created_at->diffForHumans()}}</b></li>
+                            </ul>
+                        </div>
+                    @endforeach
                 </div>
-                <a class="dplay-block btn-brdr-primary mt-20 mb-md-50" href="#"><b>VIEW MORE CRYPTO MINING EVENTS</b></a>
+                <a class="dplay-block btn-brdr-primary mt-20 mb-md-50" href="#"><b>VIEW MORE</b></a>
             </div>
             <div class="d-none d-md-block d-lg-none col-md-3"></div>
             <div class="col-md-6 col-lg-4">
                 <div class="pl-20 pl-md-0">
                     <div class="mtb-50">
                         <h4 class="p-title"><b>TRENDING</b></h4>
-                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
-                            <div class="wh-100x abs-tlr"><img src="images/xpolular-1-100x100.jpg.pagespeed.ic.lNjsAQQi0O.jpg" alt=""></div>
-                            <div class="ml-120 min-h-100x">
-                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
-                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
-                            </div>
-                        </a>
-                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
-                            <div class="wh-100x abs-tlr"><img src="images/xpolular-2-100x100.jpg.pagespeed.ic.-ZckvMQR3r.jpg" alt=""></div>
-                            <div class="ml-120 min-h-100x">
-                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
-                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
-                            </div>
-                        </a>
-                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
-                            <div class="wh-100x abs-tlr"><img src="images/xpolular-3-100x100.jpg.pagespeed.ic.xNsfWebQd-.jpg" alt=""></div>
-                            <div class="ml-120 min-h-100x">
-                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
-                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
-                            </div>
-                        </a>
-                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
-                            <div class="wh-100x abs-tlr"><img src="images/xpolular-4-100x100.jpg.pagespeed.ic.Wineaa5dTG.jpg" alt=""></div>
-                            <div class="ml-120 min-h-100x">
-                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
-                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
-                            </div>
-                        </a>
-                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
-                            <div class="wh-100x abs-tlr"><img src="images/xpolular-4-100x100.jpg.pagespeed.ic.Wineaa5dTG.jpg" alt=""></div>
-                            <div class="ml-120 min-h-100x">
-                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
-                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
-                            </div>
-                        </a>
-                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
-                            <div class="wh-100x abs-tlr"><img src="images/xpolular-4-100x100.jpg.pagespeed.ic.Wineaa5dTG.jpg" alt=""></div>
-                            <div class="ml-120 min-h-100x">
-                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
-                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
-                            </div>
-                        </a>
-                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
-                            <div class="wh-100x abs-tlr"><img src="images/xpolular-4-100x100.jpg.pagespeed.ic.Wineaa5dTG.jpg" alt=""></div>
-                            <div class="ml-120 min-h-100x">
-                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
-                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
-                            </div>
-                        </a>
-                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
-                            <div class="wh-100x abs-tlr"><img src="images/xpolular-4-100x100.jpg.pagespeed.ic.Wineaa5dTG.jpg" alt=""></div>
-                            <div class="ml-120 min-h-100x">
-                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
-                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
-                            </div>
-                        </a>
-                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
-                            <div class="wh-100x abs-tlr"><img src="images/xpolular-4-100x100.jpg.pagespeed.ic.Wineaa5dTG.jpg" alt=""></div>
-                            <div class="ml-120 min-h-100x">
-                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
-                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
-                            </div>
-                        </a>
-                        <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
-                            <div class="wh-100x abs-tlr"><img src="images/xpolular-4-100x100.jpg.pagespeed.ic.Wineaa5dTG.jpg" alt=""></div>
-                            <div class="ml-120 min-h-100x">
-                                <h5><b>Bitcoin Billionares Hidding in Plain Sight</b></h5>
-                                <h6 class="color-lite-black pt-10">by <span class="color-black"><b>Danile Palmer,</b></span> Jan 25, 2018</h6>
-                            </div>
-                        </a>
+                        @foreach($eights as $eight)
+                            <a class="oflow-hidden pos-relative mb-20 dplay-block" href="{{url('detail',$eight->id)}}">
+                                <div class="wh-100x abs-tlr"><img src="{{asset('uploads/product/'.$eight->image)}}" alt=""></div>
+                                <div class="ml-120 min-h-100x">
+                                    <h5><b>{{\Illuminate\Support\Str::of($eight->title)->words(7)}}</b></h5>
+                                    <h6 class="color-lite-black pt-10">{{$eight->created_at->diffForHumans()}}</h6>
+                                </div>
+                            </a>
+                        @endforeach
                     </div>
                     <div class="mtb-50 pos-relative">
                     </div>

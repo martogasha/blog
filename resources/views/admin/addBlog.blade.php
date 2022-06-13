@@ -310,6 +310,7 @@
                                 <option value="five">Five</option>
                                 <option value="six">Six</option>
                                 <option value="seven">Seven</option>
+                                <option value="eight">Seven</option>
                             </select>
                         </div>
                         <div class="form-group">
