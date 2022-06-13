@@ -304,7 +304,7 @@
                             @foreach($blogs as $blog)
                             <div class="col-lg-4 col-md-4 col-sm-6">
                                 <div class="blog-post">
-                                    <div class="blog-post-thumb"> <img src="{{asset('uploads/product/'.$blog->image)}}" alt="" style="height: 300px;width: 300px" /> <a href="#" title=""><i class="fa fa-paperclip"></i></a> </div>
+                                    <div class="blog-post-thumb"> <img src="{{asset('uploads/product/'.$blog->image)}}" alt="" style="height: 300px;width: 400px" /> <a href="#" title=""><i class="fa fa-paperclip"></i></a> </div>
                                     <div class="blog-post-info">
                                         <h3><a href="#" title="">{{$blog->title}}</a></h3>
                                         <a href="#" class="date-post"><i class="fa fa-calendar-o"></i>{{\Carbon\Carbon::parse($blog->created_at)->diffForHumans()}}</a>
