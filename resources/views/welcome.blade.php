@@ -96,11 +96,11 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <img src="{{asset('uploads/product/'.$four->image)}}" alt="">
+                        <h4 class="pt-20"><a href="{{url('detail',$three->id)}}"><b>{{\Illuminate\Support\Str::of($four->title)->words(7)}}</b></a></h4>
                         <ul class="list-li-mr-20 pt-10 pb-20">
                             <li class="color-lite-black"><a href="{{url('detail',$four->id)}}" class="color-black"><b>{{$four->category}}</b></a></li>
                             <li><i class="color-primary mr-5 font-12 ion-ios-time"></i><b>{{$four->created_at->diffForHumans()}}</b></li>
                         </ul>
-                        <p>{{\Illuminate\Support\Str::of($four->detailOne)->words(20)}}</p>
                     </div>
                     <div class="col-sm-6">
                         <a class="oflow-hidden pos-relative mb-20 dplay-block" href="#">
