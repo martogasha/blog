@@ -23,7 +23,7 @@
         <div class="src-form">
             <form>
                 <input type="text" placeholder="Search here">
-                <button type="submit"><i class="ion-search"></i></a></button>
+                <button type="submit"><i class="ion-search"></i></button>
             </form>
         </div>
         <a class="menu-nav-icon" data-menu="#main-menu" href="#"><i class="ion-navicon"></i></a>

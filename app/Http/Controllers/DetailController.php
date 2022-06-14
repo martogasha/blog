@@ -9,10 +9,10 @@ class DetailController extends Controller
 {
     public function detail($id){
         $detail = Blog::find($id);
-        $fours = Blog::where('placement','four')->where('id','!=',$id)->latest('id')->paginate(8);
+        $eights = Blog::where('placement','eight')->where('id','!=',$id)->latest('id')->paginate(8);
         return view('detail',[
             'detail'=>$detail,
-            'fours'=>$fours
+            'eights'=>$eights
 
         ]);
     }
