@@ -21,7 +21,7 @@ class AdminController extends Controller
     }
     public function editB(Request $request){
         $edit = Blog::find($request->id);
-        $edit->placement=$request->input('placement');
+        $edit->placement = $request->input('placement');
         $edit->category=$request->input('category');
         $edit->title=$request->input('title');
         $edit->detailOne=$request->input('detailOne');
