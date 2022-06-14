@@ -63,9 +63,10 @@
                 <p class="mtb-15">{{$detail->detailTwo}}</p>
                 <div class="float-left-right text-center mt-40 mt-sm-20">
                     <ul class="mb-30 list-li-mt-10 list-li-mr-5 list-a-plr-15 list-a-ptb-7 list-a-bg-grey list-a-br-2 list-a-hvr-primary ">
-                        <li><a href="#">MULTIPURPOSE</a></li>
-                        <li><a href="#">FASHION</a></li>
-                        <li class="mr-0"><a href="#">BLOGS</a></li>
+                        <li><a href="{{url('news')}}">NEWS</a></li>
+                        <li><a href="{{url('lifestyle')}}">LIFESTYLE</a></li>
+                        <li><a href="{{url('entertainment')}}">ENTERTAINMENT</a></li>
+                        <li class="mr-0"><a href="{{url('tech')}}">TECH</a></li>
                     </ul>
                     <ul class="mb-30 list-a-bg-grey list-a-hw-radial-35 list-a-hvr-primary list-li-ml-5">
                         <li class="mr-10 ml-0">Share</li>
@@ -78,26 +79,16 @@
                 <div class="brdr-ash-1 opacty-5"></div>
                 <h4 class="p-title mt-50"><b>YOU MAY ALSO LIKE</b></h4>
                 <div class="row">
-                    <div class="col-sm-6">
-                        <img src="{{asset('images/xcrypto-news-2-600x450.jpg.pagespeed.ic.q1-X1JFeJ3.jpg')}}" alt="">
-                        <h4 class="pt-20"><a href="#"><b>2017 Market Performance: <br />Crypto vs.Stock</b></a></h4>
-                        <ul class="list-li-mr-20 pt-10 mb-30">
-                            <li class="color-lite-black">by <a href="#" class="color-black"><b>Olivia Capzallo,</b></a>
-                                Jan 25, 2018</li>
-                            <li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i>30,190</li>
-                            <li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i>47</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6">
-                        <img src="{{asset('images/xcrypto-news-1-600x450.jpg.pagespeed.ic.qWKdAjrTgE.jpg')}}" alt="">
-                        <h4 class="pt-20"><a href="#"><b>2017 Market Performance: Crypto vs.Stock</b></a></h4>
-                        <ul class="list-li-mr-20 pt-10 mb-30">
-                            <li class="color-lite-black">by <a href="#" class="color-black"><b>Olivia Capzallo,</b></a>
-                                Jan 25, 2018</li>
-                            <li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i>30,190</li>
-                            <li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i>47</li>
-                        </ul>
-                    </div>
+                    @foreach($sixs as $six)
+                        <div class="col-sm-6">
+                            <img src="{{asset('uploads/product/'.$six->image)}}" alt="">
+                            <h4 class="pt-20"><a href="{{url('detail',$four->id)}}"><b>{{\Illuminate\Support\Str::of($six->title)->words(7)}}</b></a></h4>
+                            <ul class="list-li-mr-20 pt-10 pb-20">
+                                <li class="color-lite-black"><a href="{{url('detail',$six->id)}}" class="color-black"><b>{{$six->category}}</b></a></li>
+                                <li><i class="color-primary mr-5 font-12 ion-ios-time"></i><b>{{$six->created_at->diffForHumans()}}</b></li>
+                            </ul>
+                        </div>
+                    @endforeach
                 </div>
             </div>
             <div class="d-none d-md-block d-lg-none col-md-3"></div>
