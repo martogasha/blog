@@ -81,7 +81,7 @@
                 <div class="row">
                     @foreach($sixs as $six)
                         <div class="col-sm-6">
-                            <img src="{{asset('uploads/product/'.$six->image)}}" alt="">
+                            <img src="{{asset('uploads/product/'.$six->imageOne)}}" alt="">
                             <h4 class="pt-20"><a href="{{url('detail',$six->id)}}"><b>{{\Illuminate\Support\Str::of($six->title)->words(7)}}</b></a></h4>
                             <ul class="list-li-mr-20 pt-10 pb-20">
                                 <li class="color-lite-black"><a href="{{url('detail',$six->id)}}" class="color-black"><b>{{$six->category}}</b></a></li>
