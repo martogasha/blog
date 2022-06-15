@@ -49,7 +49,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-lg-8">
-                <img src="{{asset('uploads/product/'.$detail->imageOne}}" alt="">
+                <img src="{{asset('uploads/product/'.$detail->imageOne)}}" alt="">
                 <h3 class="mt-30"><b>{{$detail->title}}</b></h3>
                 <ul class="list-li-mr-20">
                     <li><span class="color-primary"><b>{{$detail->category}}</b></span> </li>
