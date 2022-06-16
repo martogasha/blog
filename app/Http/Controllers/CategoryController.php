@@ -64,9 +64,9 @@ class CategoryController extends Controller
         $threes = Blog::where('placement','three')->latest('id')->paginate(6);
         $four = Blog::where('placement','four')->latest('id')->first();
         $fives = Blog::where('placement','five')->latest('id')->paginate(3);
-        $sixs = Blog::where('placement','six')->latest('id')->paginate(3);
-        $sevens = Blog::where('placement','seven')->latest('id')->paginate(3);
-        $eights = Blog::where('placement','eight')->latest('id')->paginate(3);
+        $sixs = Blog::where('placement','six')->latest('id')->paginate(2);
+        $sevens = Blog::where('placement','seven')->latest('id')->paginate(2);
+        $eights = Blog::where('placement','eight')->latest('id')->paginate(10);
         return view('welcome',[
             'one'=>$one,
             'twos'=>$twos,
