@@ -3,7 +3,7 @@
 
 <!-- Mirrored from preview.colorlib.com/theme/newsbit/02_archive-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jun 2022 05:57:58 GMT -->
 <head>
-    <title>Newsbit</title>
+    <title>{{$search}} - Trending News Updates</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
