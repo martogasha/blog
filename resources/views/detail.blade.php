@@ -15,7 +15,7 @@
 <body>
 <header>
     <div class="container">
-        <a class="logo" href="index-2.html"><img src="{{asset('images/logo-black.png')}}" alt="Logo"></a>
+        <a class="logo" href="{{url('/')}}"><img src="{{asset('images/logo-black.png')}}" alt="Logo"></a>
         <a class="right-area src-btn" href="#">
             <i class="active src-icn ion-search"></i>
             <i class="close-icn ion-close"></i>
@@ -47,6 +47,11 @@
 </section>
 <section>
     <div class="container">
+        @foreach($backlinks as $backlink)
+        <a href="#" style="color:red;">{{$backlink->title}}</a>
+            <br>
+        @endforeach
+    <br>
         <div class="row">
             <div class="col-md-12 col-lg-8">
                 <img src="{{asset('uploads/product/'.$detail->imageOne)}}" alt="">
@@ -55,12 +60,25 @@
                     <li><span class="color-primary"><b>{{$detail->category}}</b></span> </li>
                     <li><i class="color-primary mr-5 font-12 ion-ios-time"></i>{{$detail->created_at->diffForHumans()}}</li>
                 </ul>
-                <p class="mtb-15">{{$detail->detailOne}}</p>
+                <p class="mtb-15">{{$detail->detailOne}} <a href="#" style="color:red;">sdnlksnlsdkls</a></p>
                 <div class="quote-primary mtb-20">
-                    <h5>"{{$detail->detailOne}}"</h5>
+                    <h5>"{{$detail->quote}}"</h5>
                     <h5 class="mt-15"><b>Oliver Dale</b></h5>
                 </div>
-                <p class="mtb-15">{{$detail->detailTwo}}</p>
+                <p class="mtb-15">{{$detail->detailTwo}} <a href="#" style="color:red;">sdnlksnlsdkls</a> </p>
+                <div class="hs-responsive-embed-youtube"><iframe src="https://www.youtube.com/channel/UCqlIrEGpClovUxEURs0hUzw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe></div>
+                <style>
+                    .hs-responsive-embed-youtube {
+                        position: relative;
+                        padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+                        padding-top: 25px;
+                    }
+                    .hs-responsive-embed-youtube iframe {
+                        position: absolute;
+                        width: 100%!important;
+                        height: 100%!important;
+                    }
+                </style>
                 <div class="float-left-right text-center mt-40 mt-sm-20">
                     <ul class="mb-30 list-li-mt-10 list-li-mr-5 list-a-plr-15 list-a-ptb-7 list-a-bg-grey list-a-br-2 list-a-hvr-primary ">
                         <li><a href="{{url('news')}}">NEWS</a></li>
