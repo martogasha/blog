@@ -25,17 +25,12 @@ class AddDetailOneToBlogsTable extends Migration
             $table->string('urlE')->nullable();
             $table->string('urlF')->nullable();
             $table->string('whoSaid')->nullable();
-            $table->string('backlink')->nullable();
-            $table->string('backlinkOne')->nullable();
-            $table->string('backlinkTwo')->nullable();
-            $table->string('backlinkThree')->nullable();
-            $table->string('backlinkFour')->nullable();
-            $table->string('backlinkFive')->nullable();
-            $table->string('backlinkSix')->nullable();
-            $table->string('backlinkSeven')->nullable();
-            $table->string('backlinkEight')->nullable();
-            $table->string('backlinkNine')->nullable();
-            $table->string('backlinkTen')->nullable();
+            $table->string('urlAName')->nullable();
+            $table->string('urlBName')->nullable();
+            $table->string('urlCName')->nullable();
+            $table->string('urlDName')->nullable();
+            $table->string('youtube')->nullable();
+
 
         });
     }

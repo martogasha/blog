@@ -55,14 +55,18 @@
                     <li><span class="color-primary"><b>{{$detail->category}}</b></span> </li>
                     <li><i class="color-primary mr-5 font-12 ion-ios-time"></i>{{$detail->created_at->diffForHumans()}}</li>
                 </ul>
-                <p class="mtb-15">{{$detail->detailOne}} <a href="#" style="color:red;">sdnlksnlsdkls</a></p>
+                <p class="mtb-15">{{$detail->detailOne}} <a href="{{$detail->urlA}}" style="color:red;">{{$detail->urlAName}}</a> {{$detail->detailA}} <a href="{{$detail->urlB}}" style="color:red;">{{$detail->urlBName}}</a> {{$detail->detailB}}</p>
+                @if($detail->quote)
                 <div class="quote-primary mtb-20">
                     <h5>"{{$detail->quote}}"</h5>
-                    <h5 class="mt-15"><b>Oliver Dale</b></h5>
+                    <h5 class="mt-15"><b>Said By:{{$detail->whoSaid}}</b></h5>
                 </div>
-                <p class="mtb-15">{{$detail->detailTwo}} <a href="#" style="color:red;">sdnlksnlsdkls</a> </p>
-                <iframe width="500" height="300" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                @endif
+                <p class="mtb-15">{{$detail->detailTwo}} <a href="{{$detail->urlC}}" style="color:red;">{{$detail->urlCName}}</a> {{$detail->detailC}} <a href="{{$detail->urlD}}" style="color:red;">{{$detail->urlDName}}</a> {{$detail->detailD}}</p>
+                @if($detail->youtube)
+                <iframe width="500" height="300" src="{{$detail->youtube}}">
                 </iframe>
+                @endif
                 <div class="float-left-right text-center mt-40 mt-sm-20">
                     <ul class="mb-30 list-li-mt-10 list-li-mr-5 list-a-plr-15 list-a-ptb-7 list-a-bg-grey list-a-br-2 list-a-hvr-primary ">
                         <li><a href="{{url('news')}}">NEWS</a></li>

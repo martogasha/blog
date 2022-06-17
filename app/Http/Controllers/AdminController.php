@@ -27,6 +27,20 @@ class AdminController extends Controller
         $edit->detailOne=$request->input('detailOne');
         $edit->quote=$request->input('quote');
         $edit->detailTwo=$request->input('detailTwo');
+        $edit->urlA = $request->input('urlA');
+        $edit->detailA = $request->input('detailA');
+        $edit->urlB = $request->input('urlB');
+        $edit->detailB = $request->input('detailB');
+        $edit->whoSaid = $request->input('quoteAuthor');
+        $edit->urlC = $request->input('urlC');
+        $edit->detailC = $request->input('detailC');
+        $edit->urlD = $request->input('urlD');
+        $edit->detailD = $request->input('detailD');
+        $edit->urlAName = $request->input('urlAName');
+        $edit->urlBName = $request->input('urlBName');
+        $edit->urlCName = $request->input('urlCName');
+        $edit->urlDName = $request->input('urlDName');
+        $edit->youtube = $request->input('youtube');
 
         if ($request->image) {
             $file = $request->file('image');
@@ -73,6 +87,20 @@ class AdminController extends Controller
         $pictures->detailOne = $request->input('detailOne');
         $pictures->quote = $request->input('quote');
         $pictures->detailTwo = $request->input('detailTwo');
+        $pictures->urlA = $request->input('urlA');
+        $pictures->detailA = $request->input('detailA');
+        $pictures->urlB = $request->input('urlB');
+        $pictures->detailB = $request->input('detailB');
+        $pictures->whoSaid = $request->input('quoteAuthor');
+        $pictures->urlC = $request->input('urlC');
+        $pictures->detailC = $request->input('detailC');
+        $pictures->urlD = $request->input('urlD');
+        $pictures->detailD = $request->input('detailD');
+        $pictures->urlAName = $request->input('urlAName');
+        $pictures->urlBName = $request->input('urlBName');
+        $pictures->urlCName = $request->input('urlCName');
+        $pictures->urlDName = $request->input('urlDName');
+        $pictures->youtube = $request->input('youtube');
 
         if ($request->image) {
             $file = $request->file('image');

@@ -337,13 +337,68 @@
                             <input class="form-control" value="{{$edit->detailOne}}" name="detailOne" id="exampleFormControlTextarea1"></input>
                         </div>
                         <div class="form-group">
+                            <label for="exampleFormControlTextarea1">urlAName</label>
+                            <input class="form-control" name="urlAName" value="{{$edit->urlAName}}" id="exampleFormControlTextarea1" rows="3"></input>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">urlA</label>
+                            <input class="form-control" name="urlA" value="{{$edit->urlA}}" id="exampleFormControlTextarea1" rows="3"></input>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">DetailA</label>
+                            <input class="form-control" name="detailA" value="{{$edit->detailA}}" id="exampleFormControlTextarea1" rows="3"></input>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">urlBName</label>
+                            <input class="form-control" name="urlBName" value="{{$edit->urlBName}}" id="exampleFormControlTextarea1" rows="3"></input>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">urlB</label>
+                            <input class="form-control" name="urlB" value="{{$edit->urlB}}" id="exampleFormControlTextarea1" rows="3"></input>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">DetailB</label>
+                            <input class="form-control" name="detailB" value="{{$edit->detailB}}" id="exampleFormControlTextarea1" rows="3"></input>
+                        </div>
+                        <div class="form-group">
                             <label for="exampleFormControlInput1">Quote</label>
                             <input type="text" class="form-control" value="{{$edit->quote}}" name="quote" id="exampleFormControlInput1">
                         </div>
-
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Quote Author</label>
+                            <input type="text" class="form-control" name="quoteAuthor" value="{{$edit->whoSaid}}" id="exampleFormControlInput1">
+                        </div>
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1">Detail 2</label>
                             <input class="form-control" value="{{$edit->detailTwo}}" name="detailTwo" id="exampleFormControlTextarea1" rows="3"></input>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">urlCName</label>
+                            <input class="form-control" name="urlCName" value="{{$edit->urlCName}}" id="exampleFormControlTextarea1" rows="3"></input>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">urlC</label>
+                            <input class="form-control" name="urlC" value="{{$edit->urlC}}" id="exampleFormControlTextarea1" rows="3"></input>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">DetailC</label>
+                            <input class="form-control" name="detailC" value="{{$edit->detailC}}" id="exampleFormControlTextarea1" rows="3"></input>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">urlDName</label>
+                            <input class="form-control" name="urlDName" value="{{$edit->urlDName}}" id="exampleFormControlTextarea1" rows="3"></input>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">urlD</label>
+                            <input class="form-control" name="urlD" value="{{$edit->urlD}}" id="exampleFormControlTextarea1" rows="3"></input>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">DetailD</label>
+                            <input class="form-control" name="detailD" value="{{$edit->detailD}}" id="exampleFormControlTextarea1" rows="3"></input>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Youtube Url</label>
+                            <textarea class="form-control" name="youtube" value="{{$edit->youtube}}" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlFile1">Upload Image 1</label>

@@ -18,5 +18,22 @@ class Blog extends Model
         'image',
         'imageOne',
         'imageTwo',
+        'detailA',
+        'urlA',
+        'detailB',
+        'urlB',
+        'detailC',
+        'urlC',
+        'detailD',
+        'urlD',
+        'urlE',
+        'urlF',
+        'whoSaid',
+        'urlAName',
+        'urlBName',
+        'urlCName',
+        'urlDName',
+        'youtube',
+
     ];
 }

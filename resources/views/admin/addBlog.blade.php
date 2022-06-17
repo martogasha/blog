@@ -333,16 +333,24 @@
                             <textarea class="form-control" name="detailOne" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <div class="form-group">
+                            <label for="exampleFormControlTextarea1">urlAName</label>
+                            <input class="form-control" name="urlAName" id="exampleFormControlTextarea1" rows="3"></input>
+                        </div>
+                        <div class="form-group">
                             <label for="exampleFormControlTextarea1">urlA</label>
-                            <textarea class="form-control" name="urlA" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <input class="form-control" name="urlA" id="exampleFormControlTextarea1" rows="3"></input>
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1">DetailA</label>
                             <textarea class="form-control" name="detailA" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <div class="form-group">
+                            <label for="exampleFormControlTextarea1">urlBName</label>
+                            <input class="form-control" name="urlBName" id="exampleFormControlTextarea1" rows="3"></input>
+                        </div>
+                        <div class="form-group">
                             <label for="exampleFormControlTextarea1">urlB</label>
-                            <textarea class="form-control" name="urlB" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <input class="form-control" name="urlB" id="exampleFormControlTextarea1" rows="3"></input>
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1">DetailB</label>
@@ -362,6 +370,10 @@
                             <textarea class="form-control" name="detailTwo" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <div class="form-group">
+                            <label for="exampleFormControlTextarea1">urlCName</label>
+                            <input class="form-control" name="urlCName" id="exampleFormControlTextarea1" rows="3"></input>
+                        </div>
+                        <div class="form-group">
                             <label for="exampleFormControlTextarea1">urlC</label>
                             <textarea class="form-control" name="urlC" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
@@ -370,12 +382,20 @@
                             <textarea class="form-control" name="detailC" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <div class="form-group">
+                            <label for="exampleFormControlTextarea1">urlDName</label>
+                            <input class="form-control" name="urlDName" id="exampleFormControlTextarea1" rows="3"></input>
+                        </div>
+                        <div class="form-group">
                             <label for="exampleFormControlTextarea1">urlD</label>
                             <textarea class="form-control" name="urlD" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1">DetailD</label>
                             <textarea class="form-control" name="detailD" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Youtube Url</label>
+                            <textarea class="form-control" name="youtube" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlFile1">Upload Image 1</label>
