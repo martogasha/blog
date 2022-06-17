@@ -15,7 +15,7 @@
 <body>
 <header>
     <div class="container">
-        <a class="logo" href="{{url('/')}}"><img src="images/logo-black.png" alt="Logo"></a>
+        <a class="logo" href="{{url('/')}}"><img src="images/blogo.png" alt="Logo"></a>
         <a class="right-area src-btn" href="#">
             <i class="active src-icn ion-search"></i>
             <i class="close-icn ion-close"></i>
