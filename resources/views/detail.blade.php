@@ -105,7 +105,7 @@
                         @foreach($eights as $eight)
                             <a class="oflow-hidden pos-relative mb-20 dplay-block" href="{{url('detail',$eight->id)}}">
                                 <div class="wh-100x abs-tlr"><img src="{{asset('uploads/product/'.$eight->image)}}" alt=""></div>
-                                <div clas   s="ml-120 min-h-100x">
+                                <div class="ml-120 min-h-100x">
                                     <h5><b>{{\Illuminate\Support\Str::of($eight->title)->words(7)}}</b></h5>
                                     <h6 class="color-lite-black pt-10">{{$eight->created_at->diffForHumans()}}</h6>
                                 </div>
