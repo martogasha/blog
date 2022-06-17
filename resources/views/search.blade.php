@@ -53,7 +53,7 @@
                 <div class="row">
                     @foreach($searchBlogs as $searchBlog)
                     <div class="col-sm-6">
-                        <img src="{{asset('uploads/product/'.$searchBlog->image)}}" alt="">
+                        <img src="{{asset('uploads/product/'.$searchBlog->imageOne)}}" alt="">
                         <h4 class="pt-20"><a href="{{url('detail',$searchBlog->id)}}"><b>{{\Illuminate\Support\Str::of($searchBlog->title)->words(7)}}</b></a></h4>
                         <ul class="list-li-mr-20 pt-10 pb-20">
                             <li class="color-lite-black"><a href="{{url('detail',$searchBlog->id)}}" class="color-black"><b>{{$searchBlog->category}}</b></a></li>
