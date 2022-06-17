@@ -20,4 +20,21 @@ class DetailController extends Controller
 
         ]);
     }
+    public function search(){
+        $eights = Blog::where('placement','eight')->latest('id')->paginate(8);
+        return view('search',[
+            'eights'=>$eights,
+        ]);
+    }
+    public function sear(Request $request){
+        $eights = Blog::where('placement','eight')->latest('id')->paginate(8);
+        $search = $request->input('searchBlog');
+        $searchBlogs = Blog::where('title','like',"%$search%")->get();
+        return view('search',[
+            'searchBlogs'=>$searchBlogs,
+            'search'=>$search,
+            'eights'=>$eights,
+
+        ]);
+    }
 }

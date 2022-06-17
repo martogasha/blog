@@ -15,14 +15,15 @@
 <body>
 <header>
     <div class="container">
-        <a class="logo" href="index-2.html"><img src="images/logo-black.png" alt="Logo"></a>
+        <a class="logo" href="{{url('/')}}"><img src="images/logo-black.png" alt="Logo"></a>
         <a class="right-area src-btn" href="#">
             <i class="active src-icn ion-search"></i>
             <i class="close-icn ion-close"></i>
         </a>
         <div class="src-form">
-            <form>
-                <input type="text" placeholder="Search here">
+            <form action="{{url('sear')}}" method="post">
+                @csrf
+                <input type="text" name="searchBlog" placeholder="Search here">
                 <button type="submit"><i class="ion-search"></i></button>
             </form>
         </div>

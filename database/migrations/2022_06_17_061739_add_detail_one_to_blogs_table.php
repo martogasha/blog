@@ -15,9 +15,15 @@ class AddDetailOneToBlogsTable extends Migration
     {
         Schema::table('blogs', function (Blueprint $table) {
             $table->string('detailA')->nullable();
+            $table->string('urlA')->nullable();
             $table->string('detailB')->nullable();
+            $table->string('urlB')->nullable();
             $table->string('detailC')->nullable();
+            $table->string('urlC')->nullable();
             $table->string('detailD')->nullable();
+            $table->string('urlD')->nullable();
+            $table->string('urlE')->nullable();
+            $table->string('urlF')->nullable();
             $table->string('whoSaid')->nullable();
             $table->string('backlink')->nullable();
             $table->string('backlinkOne')->nullable();

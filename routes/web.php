@@ -27,6 +27,8 @@ Route::get('sports', [CategoryController::class, 'sports']);
 Route::get('tech', [CategoryController::class, 'tech']);
 Route::get('lifestyle', [CategoryController::class, 'lifestyle']);
 Route::get('business', [CategoryController::class, 'business']);
+Route::get('search', [DetailController::class, 'search']);
+Route::post('sear', [DetailController::class, 'sear']);
 Route::get('detail/{id}', [DetailController::class, 'detail']);
 //admin
 Route::get('admin', [AdminController::class, 'index']);

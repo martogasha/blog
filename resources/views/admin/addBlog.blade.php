@@ -333,13 +333,49 @@
                             <textarea class="form-control" name="detailOne" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <div class="form-group">
+                            <label for="exampleFormControlTextarea1">urlA</label>
+                            <textarea class="form-control" name="urlA" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">DetailA</label>
+                            <textarea class="form-control" name="detailA" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">urlB</label>
+                            <textarea class="form-control" name="urlB" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">DetailB</label>
+                            <textarea class="form-control" name="detailB" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
                             <label for="exampleFormControlInput1">Quote</label>
                             <input type="text" class="form-control" name="quote" id="exampleFormControlInput1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Quote Author</label>
+                            <input type="text" class="form-control" name="quoteAuthor" id="exampleFormControlInput1">
                         </div>
 
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1">Detail 2</label>
                             <textarea class="form-control" name="detailTwo" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">urlC</label>
+                            <textarea class="form-control" name="urlC" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">DetailC</label>
+                            <textarea class="form-control" name="detailC" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">urlD</label>
+                            <textarea class="form-control" name="urlD" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">DetailD</label>
+                            <textarea class="form-control" name="detailD" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlFile1">Upload Image 1</label>

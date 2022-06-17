@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 
-<!-- Mirrored from preview.colorlib.com/theme/newsbit/03_single-post.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jun 2022 05:58:02 GMT -->
+<!-- Mirrored from preview.colorlib.com/theme/newsbit/02_archive-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jun 2022 05:57:58 GMT -->
 <head>
     <title>Newsbit</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +10,12 @@
 
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:400,600,700" rel="stylesheet">
 
-    <link href="{{asset('A.plugin-frameworks%2c%2c_bootstrap.css%2bfonts%2c%2c_ionicons.css%2bcommon%2c%2c_styles.css%2cMcc.2MZeWeb18u.css.pagespeed.cf.TWQ6SgV67V.css')}}" rel="stylesheet" />
-    <script nonce="4c73eb24-8eeb-427b-8814-548b94b7c19f">(function(w,d){!function(a,e,t,r){a.zarazData=a.zarazData||{},a.zarazData.executed=[],a.zaraz={deferred:[]},a.zaraz.q=[],a.zaraz._f=function(e){return function(){var t=Array.prototype.slice.call(arguments);a.zaraz.q.push({m:e,a:t})}};for(const e of["track","set","ecommerce","debug"])a.zaraz[e]=a.zaraz._f(e);a.addEventListener("DOMContentLoaded",(()=>{var t=e.getElementsByTagName(r)[0],z=e.createElement(r),n=e.getElementsByTagName("title")[0];for(n&&(a.zarazData.t=e.getElementsByTagName("title")[0].text),a.zarazData.x=Math.random(),a.zarazData.w=a.screen.width,a.zarazData.h=a.screen.height,a.zarazData.j=a.innerHeight,a.zarazData.e=a.innerWidth,a.zarazData.l=a.location.href,a.zarazData.r=e.referrer,a.zarazData.k=a.screen.colorDepth,a.zarazData.n=e.characterSet,a.zarazData.o=(new Date).getTimezoneOffset(),a.zarazData.q=[];a.zaraz.q.length;){const e=a.zaraz.q.shift();a.zarazData.q.push(e)}z.defer=!0;for(const e of[localStorage,sessionStorage])Object.keys(e).filter((a=>a.startsWith("_zaraz_"))).forEach((t=>{try{a.zarazData["z_"+t.slice(7)]=JSON.parse(e.getItem(t))}catch{a.zarazData["z_"+t.slice(7)]=e.getItem(t)}}));z.referrerPolicy="origin",z.src="https://preview.colorlib.com/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(a.zarazData))),t.parentNode.insertBefore(z,t)}))}(w,d,0,"script");})(window,document);</script></head>
+    <link href="A.plugin-frameworks%2c%2c_bootstrap.css%2bfonts%2c%2c_ionicons.css%2bcommon%2c%2c_styles.css%2cMcc.2MZeWeb18u.css.pagespeed.cf.TWQ6SgV67V.css" rel="stylesheet" />
+    <script nonce="b46679d1-cda7-4478-862a-1564cba484db">(function(w,d){!function(a,e,t,r){a.zarazData=a.zarazData||{},a.zarazData.executed=[],a.zaraz={deferred:[]},a.zaraz.q=[],a.zaraz._f=function(e){return function(){var t=Array.prototype.slice.call(arguments);a.zaraz.q.push({m:e,a:t})}};for(const e of["track","set","ecommerce","debug"])a.zaraz[e]=a.zaraz._f(e);a.addEventListener("DOMContentLoaded",(()=>{var t=e.getElementsByTagName(r)[0],z=e.createElement(r),n=e.getElementsByTagName("title")[0];for(n&&(a.zarazData.t=e.getElementsByTagName("title")[0].text),a.zarazData.x=Math.random(),a.zarazData.w=a.screen.width,a.zarazData.h=a.screen.height,a.zarazData.j=a.innerHeight,a.zarazData.e=a.innerWidth,a.zarazData.l=a.location.href,a.zarazData.r=e.referrer,a.zarazData.k=a.screen.colorDepth,a.zarazData.n=e.characterSet,a.zarazData.o=(new Date).getTimezoneOffset(),a.zarazData.q=[];a.zaraz.q.length;){const e=a.zaraz.q.shift();a.zarazData.q.push(e)}z.defer=!0;for(const e of[localStorage,sessionStorage])Object.keys(e).filter((a=>a.startsWith("_zaraz_"))).forEach((t=>{try{a.zarazData["z_"+t.slice(7)]=JSON.parse(e.getItem(t))}catch{a.zarazData["z_"+t.slice(7)]=e.getItem(t)}}));z.referrerPolicy="origin",z.src="https://preview.colorlib.com/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(a.zarazData))),t.parentNode.insertBefore(z,t)}))}(w,d,0,"script");})(window,document);</script></head>
 <body>
 <header>
     <div class="container">
-        <a class="logo" href="{{url('/')}}"><img src="{{asset('images/logo-black.png')}}" alt="Logo"></a>
+        <a class="logo" href="{{url('/')}}"><img src="images/logo-black.png" alt="Logo"></a>
         <a class="right-area src-btn" href="#">
             <i class="active src-icn ion-search"></i>
             <i class="close-icn ion-close"></i>
@@ -42,54 +42,24 @@
     <div class="mb-30 brdr-ash-1 opacty-5"></div>
     <div class="container">
         <a class="mt-10" href="{{url('/')}}"><i class="mr-5 ion-ios-home"></i>Home<i class="mlr-10 ion-chevron-right"></i></a>
-        <a class="mt-10 color-ash" href="single-page.html">{{\Illuminate\Support\Str::of($detail->title)->words(7)}}</a>
+        <a class="mt-10 color-ash" href="archive-page.html">{{$search}}</a>
     </div>
 </section>
 <section>
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-lg-8">
-                <img src="{{asset('uploads/product/'.$detail->imageOne)}}" alt="">
-                <h3 class="mt-30"><b>{{$detail->title}}</b></h3>
-                <ul class="list-li-mr-20">
-                    <li><span class="color-primary"><b>{{$detail->category}}</b></span> </li>
-                    <li><i class="color-primary mr-5 font-12 ion-ios-time"></i>{{$detail->created_at->diffForHumans()}}</li>
-                </ul>
-                <p class="mtb-15">{{$detail->detailOne}} <a href="#" style="color:red;">sdnlksnlsdkls</a></p>
-                <div class="quote-primary mtb-20">
-                    <h5>"{{$detail->quote}}"</h5>
-                    <h5 class="mt-15"><b>Oliver Dale</b></h5>
-                </div>
-                <p class="mtb-15">{{$detail->detailTwo}} <a href="#" style="color:red;">sdnlksnlsdkls</a> </p>
-                <iframe width="500" height="300" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                </iframe>
-                <div class="float-left-right text-center mt-40 mt-sm-20">
-                    <ul class="mb-30 list-li-mt-10 list-li-mr-5 list-a-plr-15 list-a-ptb-7 list-a-bg-grey list-a-br-2 list-a-hvr-primary ">
-                        <li><a href="{{url('news')}}">NEWS</a></li>
-                        <li><a href="{{url('lifestyle')}}">LIFESTYLE</a></li>
-                        <li><a href="{{url('entertainment')}}">ENTERTAINMENT</a></li>
-                        <li class="mr-0"><a href="{{url('tech')}}">TECH</a></li>
-                    </ul>
-                    <ul class="mb-30 list-a-bg-grey list-a-hw-radial-35 list-a-hvr-primary list-li-ml-5">
-                        <li class="mr-10 ml-0">Share</li>
-                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                        <li><a href="#"><i class="ion-social-google"></i></a></li>
-                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-                    </ul>
-                </div>
-                <div class="brdr-ash-1 opacty-5"></div>
-                <h4 class="p-title mt-50"><b>YOU MAY ALSO LIKE</b></h4>
+                <h4 class="p-title"><b>Search Results</b></h4>
                 <div class="row">
-                    @foreach($sixs as $six)
-                        <div class="col-sm-6">
-                            <img src="{{asset('uploads/product/'.$six->imageOne)}}" alt="">
-                            <h4 class="pt-20"><a href="{{url('detail',$six->id)}}"><b>{{\Illuminate\Support\Str::of($six->title)->words(7)}}</b></a></h4>
-                            <ul class="list-li-mr-20 pt-10 pb-20">
-                                <li class="color-lite-black"><a href="{{url('detail',$six->id)}}" class="color-black"><b>{{$six->category}}</b></a></li>
-                                <li><i class="color-primary mr-5 font-12 ion-ios-time"></i><b>{{$six->created_at->diffForHumans()}}</b></li>
-                            </ul>
-                        </div>
+                    @foreach($searchBlogs as $searchBlog)
+                    <div class="col-sm-6">
+                        <img src="{{asset('uploads/product/'.$searchBlog->image)}}" alt="">
+                        <h4 class="pt-20"><a href="{{url('detail',$searchBlog->id)}}"><b>{{\Illuminate\Support\Str::of($searchBlog->title)->words(7)}}</b></a></h4>
+                        <ul class="list-li-mr-20 pt-10 pb-20">
+                            <li class="color-lite-black"><a href="{{url('detail',$searchBlog->id)}}" class="color-black"><b>{{$searchBlog->category}}</b></a></li>
+                            <li><i class="color-primary mr-5 font-12 ion-ios-time"></i><b>{{$searchBlog->created_at->diffForHumans()}}</b></li>
+                        </ul>
+                    </div>
                     @endforeach
                 </div>
             </div>
@@ -107,8 +77,6 @@
                                 </div>
                             </a>
                         @endforeach
-                    </div>
-                    <div class="mtb-50 pos-relative">
                     </div>
                     <div class="mtb-50 mb-md-0">
                         <h4 class="p-title"><b>NEWSLETTER</b></h4>
@@ -128,12 +96,12 @@
     <div class="container">
         <div class="pt-50 pb-20 pos-relative">
             <div class="abs-tblr pt-50 z--1 text-center">
-                <div class="h-80 pos-relative"><img class="opacty-1 h-100 w-auto" src="{{asset('images/xmap.png.pagespeed.ic.8AQTgoDPa3.png')}}" alt=""></div>
+                <div class="h-80 pos-relative"><img class="opacty-1 h-100 w-auto" src="images/xmap.png.pagespeed.ic.8AQTgoDPa3.png" alt=""></div>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="mb-30">
-                        <a href="#"><img src="{{asset('images/xlogo-white.png.pagespeed.ic.a8_jJl1T18.png')}}"></a>
+                        <a href="#"><img src="images/xlogo-white.png.pagespeed.ic.a8_jJl1T18.png"></a>
                         <p class="mtb-20 color-ccc">Bit coin is an open-source, peer-to-peer, digital decentralized cryptocurrency.
                             Powered by blockchain technology, its defining characteristic is</p>
                         <p class="color-ash">
@@ -191,10 +159,10 @@
     </div>
 </footer>
 
-<script src="{{asset('plugin-frameworks/jquery-3.2.1.min.js')}}"></script>
-<script src="{{asset('plugin-frameworks/tether.min.js')}}"></script>
-<script src="{{asset('plugin-frameworks/bootstrap.js')}}"></script>
-<script src="{{asset('common/scripts.js')}}"></script>
+<script src="plugin-frameworks/jquery-3.2.1.min.js"></script>
+<script src="plugin-frameworks/tether.min.js"></script>
+<script src="plugin-frameworks/bootstrap.js"></script>
+<script src="common/scripts.js"></script>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
 <script>
@@ -203,46 +171,9 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-23581568-13');
-    var $ticker = $('[data-ticker="list"]'),
-        tickerItem = '[data-ticker="item"]'
-    itemCount = $(tickerItem).length,
-        viewportWidth = 0;
-
-    function setupViewport(){
-        $ticker.find(tickerItem).clone().prependTo('[data-ticker="list"]');
-
-        for (i = 0; i < itemCount; i ++){
-            var itemWidth = $(tickerItem).eq(i).outerWidth();
-            viewportWidth = viewportWidth + itemWidth;
-        }
-
-        $ticker.css('width', viewportWidth);
-    }
-
-    function animateTicker(){
-        $ticker.animate({
-            marginLeft: -viewportWidth
-        }, 30000, "linear", function() {
-            $ticker.css('margin-left', '0');
-            animateTicker();
-        });
-    }
-
-    function initializeTicker(){
-        setupViewport();
-        animateTicker();
-
-        $ticker.on('mouseenter', function(){
-            $(this).stop(true);
-        }).on('mouseout', function(){
-            animateTicker();
-        });
-    }
-
-    initializeTicker();
 </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"715630b9cf36acb9","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"715630b3fe75acb3","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
 </body>
 
-<!-- Mirrored from preview.colorlib.com/theme/newsbit/03_single-post.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jun 2022 05:58:06 GMT -->
+<!-- Mirrored from preview.colorlib.com/theme/newsbit/02_archive-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jun 2022 05:58:02 GMT -->
 </html>
