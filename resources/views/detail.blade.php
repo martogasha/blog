@@ -142,7 +142,7 @@
                     <div class="mb-30">
                         <a href="#"><img src="{{asset('images/blogo.png')}}"></a>
                         <p class="color-ash">
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | made with <i class="ion-heart" aria-hidden="true"></i> by <a href="https://iconztech.com/" target="_blank">Icons Tech</a>
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |<i class="ion-heart" aria-hidden="true"></i> by <a href="https://iconztech.com/" target="_blank">Icons Tech</a>
 
                         </p>
                     </div>
@@ -151,12 +151,12 @@
                     <div class="mb-30">
                         <h5 class="color-primary mb-20"><b>MOST POPULAR</b></h5>
                         <div class="mb-20">
-                            <a class="color-white" href="#"><b>{{\Illuminate\Support\Str::of($on->title)->words(7)}}</b></a>
+                            <a class="color-white" href="{{url('detail',$on->id)}}"><b>{{\Illuminate\Support\Str::of($on->title)->words(7)}}</b></a>
                             <h6 class="mt-10">{{$on->created_at->diffForHumans()}}</h6>
                         </div>
                         <div class="brdr-ash-1 opacty-2 mr-30"></div>
                         <div class="mt-20">
-                            <a class="color-white" href="#"><b>{{\Illuminate\Support\Str::of($son->title)->words(7)}}</b></a>
+                            <a class="color-white" href="{{url('detail',$son->id)}}"><b>{{\Illuminate\Support\Str::of($son->title)->words(7)}}</b></a>
                             <h6 class="mt-10">{{$son->created_at->diffForHumans()}}</h6>
                         </div>
                     </div>
@@ -165,12 +165,12 @@
                     <div class="mb-30">
                         <h5 class="color-primary mb-20"><b>TRENDING</b></h5>
                         <div class="mb-20">
-                            <a class="color-white" href="#"><b>{{\Illuminate\Support\Str::of($trend->title)->words(7)}}</b></a>
+                            <a class="color-white" href="{{url('detail',$trend->id)}}"><b>{{\Illuminate\Support\Str::of($trend->title)->words(7)}}</b></a>
                             <h6 class="mt-10">{{$on->created_at->diffForHumans()}}</h6>
                         </div>
                         <div class="brdr-ash-1 opacty-2 mr-30"></div>
                         <div class="mt-20">
-                            <a class="color-white" href="#"><b>{{\Illuminate\Support\Str::of($tren->title)->words(7)}}</b></a>
+                            <a class="color-white" href="{{url('$tren',$eight->id)}}"><b>{{\Illuminate\Support\Str::of($tren->title)->words(7)}}</b></a>
                             <h6 class="mt-10">{{$son->created_at->diffForHumans()}}</h6>
                         </div>
                     </div>
