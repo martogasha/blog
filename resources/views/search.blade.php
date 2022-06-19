@@ -103,7 +103,7 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="mb-30">
-                        <a href="#"><img src="images/xlogo-white.png.pagespeed.ic.a8_jJl1T18.png"></a>
+                        <a href="#"><img src="{{asset('images/blogo.png')}}"></a>
                         <p class="mtb-20 color-ccc">Bit coin is an open-source, peer-to-peer, digital decentralized cryptocurrency.
                             Powered by blockchain technology, its defining characteristic is</p>
                         <p class="color-ash">
