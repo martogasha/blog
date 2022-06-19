@@ -190,10 +190,8 @@
                 <div class="col-sm-4">
                     <div class="mb-30">
                         <a href="#"><img src="{{asset('images/blogo.png')}}"></a>
-                        <p class="mtb-20 color-ccc">Bit coin is an open-source, peer-to-peer, digital decentralized cryptocurrency.
-                            Powered by blockchain technology, its defining characteristic is</p>
                         <p class="color-ash">
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ion-heart" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | made with <i class="ion-heart" aria-hidden="true"></i> by <a href="https://iconztech.com/" target="_blank">Icons Tech</a>
 
                         </p>
                     </div>
@@ -214,15 +212,15 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="mb-30">
-                        <h5 class="color-primary mb-20"><b>MOST POPULAR</b></h5>
+                        <h5 class="color-primary mb-20"><b>TRENDING</b></h5>
                         <div class="mb-20">
-                            <a class="color-white" href="#"><b>Its Make or Break Time for Bitcoin</b></a>
-                            <h6 class="mt-10">Jan 25, 2018</h6>
+                            <a class="color-white" href="#"><b>{{\Illuminate\Support\Str::of($trend->title)->words(7)}}</b></a>
+                            <h6 class="mt-10">{{$on->created_at->diffForHumans()}}</h6>
                         </div>
                         <div class="brdr-ash-1 opacty-2 mr-30"></div>
                         <div class="mt-20">
-                            <a class="color-white" href="#"><b>Bitcoin's roller coster ride is not over</b></a>
-                            <h6 class="mt-10">Jan 25, 2018</h6>
+                            <a class="color-white" href="#"><b>{{\Illuminate\Support\Str::of($tren->title)->words(7)}}</b></a>
+                            <h6 class="mt-10">{{$son->created_at->diffForHumans()}}</h6>
                         </div>
                     </div>
                 </div>

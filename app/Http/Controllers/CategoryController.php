@@ -59,6 +59,8 @@ class CategoryController extends Controller
         ]);
     }
     public function index(){
+        $trend = Blog::where('placement','eight')->latest('id')->first();
+        $tren = Blog::where('placement','four')->latest('id')->first();
         $one = Blog::where('placement','one')->latest('id')->first();
         $on = Blog::where('placement','one')->latest('id')->first();
         $son = Blog::where('placement','seven')->latest('id')->first();
@@ -80,6 +82,8 @@ class CategoryController extends Controller
             'sixs'=>$sixs,
             'sevens'=>$sevens,
             'eights'=>$eights,
+            'trend'=>$trend,
+            'tren'=>$tren,
         ]);
     }
 }
