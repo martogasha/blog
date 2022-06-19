@@ -123,7 +123,7 @@
                     @foreach($sixs as $six)
                     <div class="col-sm-6">
                         <img src="{{asset('uploads/product/'.$six->image)}}" alt="">
-                        <h4 class="pt-20"><a href="{{url('detail',$four->id)}}"><b>{{\Illuminate\Support\Str::of($six->title)->words(7)}}</b></a></h4>
+                        <h4 class="pt-20"><a href="{{url('detail',$six->id)}}"><b>{{\Illuminate\Support\Str::of($six->title)->words(7)}}</b></a></h4>
                         <ul class="list-li-mr-20 pt-10 pb-20">
                             <li class="color-lite-black"><a href="{{url('detail',$six->id)}}" class="color-black"><b>{{$six->category}}</b></a></li>
                             <li><i class="color-primary mr-5 font-12 ion-ios-time"></i><b>{{$six->created_at->diffForHumans()}}</b></li>
