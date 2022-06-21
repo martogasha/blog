@@ -12,7 +12,7 @@ class DetailController extends Controller
         $on = Blog::where('placement','one')->latest('id')->first();
         $son = Blog::where('placement','seven')->latest('id')->first();
         $trend = Blog::where('placement','eight')->latest('id')->first();
-        $tre = Blog::where('placement','four')->latest('id')->first();
+        $tren = Blog::where('placement','four')->latest('id')->first();
         $eights = Blog::where('placement','eight')->where('id','!=',$id)->latest('id')->paginate(8);
         $sixs = Blog::where('category',$detail->category)->where('id','!=',$id)->latest('id')->paginate(2);
         $backlinks = Blog::where('placement','three')->where('id','!=',$id)->latest('id')->paginate(3);
@@ -20,7 +20,7 @@ class DetailController extends Controller
             'on'=>$on,
             'son'=>$son,
             'trend'=>$trend,
-            'tre'=>$tre,
+            'tren'=>$tren,
             'detail'=>$detail,
             'eights'=>$eights,
             'sixs'=>$sixs,
