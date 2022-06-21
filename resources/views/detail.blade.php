@@ -64,7 +64,7 @@
                 @if($detail->quote)
                 <div class="quote-primary mtb-20">
                     <h5>"{{$detail->quote}}"</h5>
-                    <h5 class="mt-15"><b>Said By:{{$detail->whoSaid}}</b></h5>
+                    <h5 class="mt-15"><b>{{$detail->whoSaid}}</b></h5>
                 </div>
                 @endif
                 <p class="mtb-15">{{$detail->detailTwo}} <a href="{{$detail->urlC}}" style="color:red;">{{$detail->urlCName}}</a> {{$detail->detailC}} <a href="{{$detail->urlD}}" style="color:red;">{{$detail->urlDName}}</a> {{$detail->detailD}}</p>
