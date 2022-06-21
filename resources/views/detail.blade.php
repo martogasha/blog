@@ -168,12 +168,12 @@
                         <h5 class="color-primary mb-20"><b>TRENDING</b></h5>
                         <div class="mb-20">
                             <a class="color-white" href="{{url('detail',$trend->id)}}"><b>{{\Illuminate\Support\Str::of($trend->title)->words(7)}}</b></a>
-                            <h6 class="mt-10">{{$on->created_at->diffForHumans()}}</h6>
+                            <h6 class="mt-10">{{$trend->created_at->diffForHumans()}}</h6>
                         </div>
                         <div class="brdr-ash-1 opacty-2 mr-30"></div>
                         <div class="mt-20">
-                            <a class="color-white" href="{{url('$tren',$eight->id)}}"><b>{{\Illuminate\Support\Str::of($tren->title)->words(7)}}</b></a>
-                            <h6 class="mt-10">{{$son->created_at->diffForHumans()}}</h6>
+                            <a class="color-white" href="{{url('detail',$tren->id)}}"><b>{{\Illuminate\Support\Str::of($tren->title)->words(7)}}</b></a>
+                            <h6 class="mt-10">{{$tren->created_at->diffForHumans()}}</h6>
                         </div>
                     </div>
                 </div>
