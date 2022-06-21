@@ -398,7 +398,7 @@
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1">Youtube Url</label>
-                            <textarea class="form-control" name="youtube" value="{{$edit->youtube}}" id="exampleFormControlTextarea1"></textarea>
+                            <input class="form-control" name="youtube" value="{{$edit->youtube}}" id="exampleFormControlTextarea1" rows="3"></input>
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlFile1">Upload Image 1</label>
