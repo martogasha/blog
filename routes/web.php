@@ -3,6 +3,10 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\DetailController;
+use App\Http\Controllers\SitemapController;
+use App\Models\Blog;
+use Illuminate\Support\Facades\URL;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -30,7 +34,6 @@ Route::get('business', [CategoryController::class, 'business']);
 Route::get('search', [DetailController::class, 'search']);
 Route::post('sear', [DetailController::class, 'sear']);
 Route::get('detail/{id}', [DetailController::class, 'detail']);
-//admin
 Route::get('admin', [AdminController::class, 'index']);
 Route::get('blog', [AdminController::class, 'blog']);
 Route::get('addBlog', [AdminController::class, 'addBlog']);
@@ -38,3 +41,4 @@ Route::post('storeBlog', [AdminController::class, 'storeBlog']);
 Route::post('editB', [AdminController::class, 'editB']);
 Route::get('editBlog/{id}', [AdminController::class, 'editBlog']);
 Route::post('dBlog/{id}', [AdminController::class, 'dBlog']);
+Route::get('generate-sitemap', [SitemapController::class, 'sitemap']);
