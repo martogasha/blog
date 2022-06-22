@@ -8,8 +8,6 @@ use Illuminate\Http\Request;
 class DetailController extends Controller
 {
     public function detail($name){
-        dd($name);
-        $detail = Blog::find($id);
         $on = Blog::where('placement','one')->latest('id')->first();
         $son = Blog::where('placement','seven')->latest('id')->first();
         $trend = Blog::where('placement','eight')->latest('id')->first();
