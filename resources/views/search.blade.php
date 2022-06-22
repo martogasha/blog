@@ -58,7 +58,7 @@
                     @foreach($searchBlogs as $searchBlog)
                     <div class="col-sm-6">
                         <img src="{{asset('uploads/product/'.$searchBlog->imageOne)}}" alt="">
-                        <h4 class="pt-20"><a href="{{url('detail',$searchBlog->id)}}"><b>{{\Illuminate\Support\Str::of($searchBlog->title)->words(7)}}</b></a></h4>
+                        <h4 class="pt-20"><a href="{{url('blog',['id'=>$searchBlog->id,'name'=>$searchBlog->category,'category'=>$searchBlog->title])}}"><b>{{\Illuminate\Support\Str::of($searchBlog->title)->words(7)}}</b></a></h4>
                         <ul class="list-li-mr-20 pt-10 pb-20">
                             <li class="color-lite-black"><a href="{{url('detail',$searchBlog->id)}}" class="color-black"><b>{{$searchBlog->category}}</b></a></li>
                             <li><i class="color-primary mr-5 font-12 ion-ios-time"></i><b>{{$searchBlog->created_at->diffForHumans()}}</b></li>
@@ -116,12 +116,12 @@
                     <div class="mb-30">
                         <h5 class="color-primary mb-20"><b>MOST POPULAR</b></h5>
                         <div class="mb-20">
-                            <a class="color-white" href="{{url('detail',$on->id)}}"><b>{{\Illuminate\Support\Str::of($on->title)->words(7)}}</b></a>
+                            <a class="color-white" href="{{url('blog',['id'=>$on->id,'name'=>$on->category,'category'=>$on->title])}}"><b>{{\Illuminate\Support\Str::of($on->title)->words(7)}}</b></a>
                             <h6 class="mt-10">{{$on->created_at->diffForHumans()}}</h6>
                         </div>
                         <div class="brdr-ash-1 opacty-2 mr-30"></div>
                         <div class="mt-20">
-                            <a class="color-white" href="{{url('detail',$son->id)}}"><b>{{\Illuminate\Support\Str::of($son->title)->words(7)}}</b></a>
+                            <a class="color-white" href="{{url('blog',['id'=>$son->id,'name'=>$son->category,'category'=>$son->title])}}"><b>{{\Illuminate\Support\Str::of($son->title)->words(7)}}</b></a>
                             <h6 class="mt-10">{{$son->created_at->diffForHumans()}}</h6>
                         </div>
                     </div>
@@ -130,13 +130,13 @@
                     <div class="mb-30">
                         <h5 class="color-primary mb-20"><b>TRENDING</b></h5>
                         <div class="mb-20">
-                            <a class="color-white" href="{{url('detail',$trend->id)}}"><b>{{\Illuminate\Support\Str::of($trend->title)->words(7)}}</b></a>
-                            <h6 class="mt-10">{{$on->created_at->diffForHumans()}}</h6>
+                            <a class="color-white" href="{{url('blog',['id'=>$trend->id,'name'=>$trend->category,'category'=>$trend->title])}}"><b>{{\Illuminate\Support\Str::of($trend->title)->words(7)}}</b></a>
+                            <h6 class="mt-10">{{$trend->created_at->diffForHumans()}}</h6>
                         </div>
                         <div class="brdr-ash-1 opacty-2 mr-30"></div>
                         <div class="mt-20">
-                            <a class="color-white" href="{{url('$tren',$eight->id)}}"><b>{{\Illuminate\Support\Str::of($tren->title)->words(7)}}</b></a>
-                            <h6 class="mt-10">{{$son->created_at->diffForHumans()}}</h6>
+                            <a class="color-white" href="{{url('blog',['id'=>$tren->id,'name'=>$tren->category,'category'=>$tren->title])}}"><b>{{\Illuminate\Support\Str::of($tren->title)->words(7)}}</b></a>
+                            <h6 class="mt-10">{{$tren->created_at->diffForHumans()}}</h6>
                         </div>
                     </div>
                 </div>
