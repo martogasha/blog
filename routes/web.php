@@ -33,7 +33,7 @@ Route::get('lifestyle', [CategoryController::class, 'lifestyle']);
 Route::get('business', [CategoryController::class, 'business']);
 Route::get('search', [DetailController::class, 'search']);
 Route::post('sear', [DetailController::class, 'sear']);
-Route::get('blog/{name}/{category}', [DetailController::class, 'detail']);
+Route::get('blog/{id}/{name}/{category}', [DetailController::class, 'detail']);
 Route::get('admin', [AdminController::class, 'index']);
 Route::get('blog', [AdminController::class, 'blog']);
 Route::get('addBlog', [AdminController::class, 'addBlog']);
