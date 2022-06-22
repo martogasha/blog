@@ -7,8 +7,8 @@ use Illuminate\Http\Request;
 
 class DetailController extends Controller
 {
-    public function detail($id){
-        $detail = Blog::find($id);
+    public function detail($id,$name){
+        $detail = Blog::where('id',$id)->orWhere('title',$name)->first();
         $on = Blog::where('placement','one')->latest('id')->first();
         $son = Blog::where('placement','seven')->latest('id')->first();
         $trend = Blog::where('placement','eight')->latest('id')->first();

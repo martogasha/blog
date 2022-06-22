@@ -46,7 +46,7 @@
     <div class="h-600x h-sm-auto">
         <div class="h-2-3 h-sm-auto oflow-hidden">
             <div class="pb-5 pr-5 pr-sm-0 float-left float-sm-none w-2-3 w-sm-100 h-100 h-sm-300x">
-                <a class="pos-relative h-100 dplay-block" href="{{url('detail',$one->id)}}">
+                <a class="pos-relative h-100 dplay-block" href="{{url('detail',$one->id,$one->title)}}">
                     <div class="img-bg bg-1 bg-grad-layer-6" style="background:url({{asset('uploads/product/'.$one->image)}}) no-repeat center;background-size:cover"></div>
                     <div class="abs-blr color-white p-20 bg-sm-color-7">
                         <h3 class="mb-15 mb-sm-5 font-sm-13"><b>{{\Illuminate\Support\Str::of($one->title)->words(7)}}</b></h3>
