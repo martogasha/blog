@@ -102,7 +102,7 @@
                         <img src="{{asset('uploads/product/'.$four->image)}}" alt="">
                         <h4 class="pt-20"><a href="{{url('blog',['id'=>$four->id,'name'=>$four->category,'category'=>str_slug($four->title)])}}"><b>{{\Illuminate\Support\Str::of($four->title)->words(7)}}</b></a></h4>
                         <ul class="list-li-mr-20 pt-10 pb-20">
-                            <li class="color-lite-black"><a href="{{url('blog',['id'=>$four->id,'name'=>$four->category,'category'=>str_slug($five->title)])}}" class="color-black"><b>{{$four->category}}</b></a></li>
+                            <li class="color-lite-black"><a href="{{url('blog',['id'=>$four->id,'name'=>$four->category,'category'=>str_slug($four->title)])}}" class="color-black"><b>{{$four->category}}</b></a></li>
                             <li><i class="color-primary mr-5 font-12 ion-ios-time"></i><b>{{$four->created_at->diffForHumans()}}</b></li>
                         </ul>
                     </div>
