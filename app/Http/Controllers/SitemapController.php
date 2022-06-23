@@ -13,7 +13,8 @@ class SitemapController extends Controller
     public function sitemap()
     {
         $path = '/var/www/html/blog/public';
-        SitemapGenerator::create('https://trendingnewsupdates.co.ke/')->writeToFile('sitemap.xml');
+        $sitemap = SitemapGenerator::create('https://trendingnewsupdates.co.ke/')->writeToFile('sitemap.xml');
+        return $sitemap;
     }
 
 
