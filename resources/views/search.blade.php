@@ -116,12 +116,12 @@
                     <div class="mb-30">
                         <h5 class="color-primary mb-20"><b>MOST POPULAR</b></h5>
                         <div class="mb-20">
-                            <a class="color-white" href="{{url('blog',['id'=>$on->id,'name'=>$on->category,'category'=>$on->title])}}"><b>{{\Illuminate\Support\Str::of($on->title)->words(7)}}</b></a>
+                            <a class="color-white" href="{{url('blog',['id'=>$on->id,'name'=>$on->category,'category'=>str_slug($on->title)])}}"><b>{{\Illuminate\Support\Str::of($on->title)->words(7)}}</b></a>
                             <h6 class="mt-10">{{$on->created_at->diffForHumans()}}</h6>
                         </div>
                         <div class="brdr-ash-1 opacty-2 mr-30"></div>
                         <div class="mt-20">
-                            <a class="color-white" href="{{url('blog',['id'=>$son->id,'name'=>$son->category,'category'=>$son->title])}}"><b>{{\Illuminate\Support\Str::of($son->title)->words(7)}}</b></a>
+                            <a class="color-white" href="{{url('blog',['id'=>$son->id,'name'=>$son->category,'category'=>str_slug($son->title)])}}"><b>{{\Illuminate\Support\Str::of($son->title)->words(7)}}</b></a>
                             <h6 class="mt-10">{{$son->created_at->diffForHumans()}}</h6>
                         </div>
                     </div>
@@ -130,12 +130,12 @@
                     <div class="mb-30">
                         <h5 class="color-primary mb-20"><b>TRENDING</b></h5>
                         <div class="mb-20">
-                            <a class="color-white" href="{{url('blog',['id'=>$trend->id,'name'=>$trend->category,'category'=>$trend->title])}}"><b>{{\Illuminate\Support\Str::of($trend->title)->words(7)}}</b></a>
+                            <a class="color-white" href="{{url('blog',['id'=>$trend->id,'name'=>$trend->category,'category'=>str_slug($trend->title)])}}"><b>{{\Illuminate\Support\Str::of($trend->title)->words(7)}}</b></a>
                             <h6 class="mt-10">{{$trend->created_at->diffForHumans()}}</h6>
                         </div>
                         <div class="brdr-ash-1 opacty-2 mr-30"></div>
                         <div class="mt-20">
-                            <a class="color-white" href="{{url('blog',['id'=>$tren->id,'name'=>$tren->category,'category'=>$tren->title])}}"><b>{{\Illuminate\Support\Str::of($tren->title)->words(7)}}</b></a>
+                            <a class="color-white" href="{{url('blog',['id'=>$tren->id,'name'=>$tren->category,'category'=>str_slug($tren->title)])}}"><b>{{\Illuminate\Support\Str::of($tren->title)->words(7)}}</b></a>
                             <h6 class="mt-10">{{$tren->created_at->diffForHumans()}}</h6>
                         </div>
                     </div>
