@@ -60,7 +60,7 @@
                         <img src="{{asset('uploads/product/'.$searchBlog->imageOne)}}" alt="">
                         <h4 class="pt-20"><a href="{{url('blog',['id'=>$searchBlog->id,'name'=>$searchBlog->category,'category'=>$searchBlog->title])}}"><b>{{\Illuminate\Support\Str::of($searchBlog->title)->words(7)}}</b></a></h4>
                         <ul class="list-li-mr-20 pt-10 pb-20">
-                            <li class="color-lite-black"><a href="{{url('detail',$searchBlog->id)}}" class="color-black"><b>{{$searchBlog->category}}</b></a></li>
+                            <li class="color-lite-black"><a href="{{url('blog',['id'=>$searchBlog->id,'name'=>$searchBlog->category,'category'=>$searchBlog->title])}}" class="color-black"><b>{{$searchBlog->category}}</b></a></li>
                             <li><i class="color-primary mr-5 font-12 ion-ios-time"></i><b>{{$searchBlog->created_at->diffForHumans()}}</b></li>
                         </ul>
                     </div>
@@ -73,7 +73,7 @@
                     <div class="mtb-50">
                         <h4 class="p-title"><b>TRENDING POSTS</b></h4>
                         @foreach($eights as $eight)
-                            <a class="oflow-hidden pos-relative mb-20 dplay-block" href="{{url('detail',$eight->id)}}">
+                            <a class="oflow-hidden pos-relative mb-20 dplay-block" href="{{url('blog',['id'=>$eight->id,'name'=>$eight->category,'category'=>$eight->title])}}">
                                 <div class="wh-100x abs-tlr"><img src="{{asset('uploads/product/'.$eight->image)}}" alt=""></div>
                                 <div class="ml-120 min-h-100x">
                                     <h5><b>{{\Illuminate\Support\Str::of($eight->title)->words(7)}}</b></h5>
