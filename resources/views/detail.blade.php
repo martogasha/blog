@@ -202,7 +202,6 @@
 <script src="{{asset('plugin-frameworks/tether.min.js')}}"></script>
 <script src="{{asset('plugin-frameworks/bootstrap.js')}}"></script>
 <script src="{{asset('common/scripts.js')}}"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
 <script src="{{ asset('js/share.js') }}"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
 <script>
