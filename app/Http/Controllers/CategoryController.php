@@ -88,6 +88,6 @@ class CategoryController extends Controller
         ]);
     }
     public function facebook(){
-            Share::currentPage()->facebook();
+            (new \Jorenvh\Share\Share)->currentPage()->facebook();
     }
 }
