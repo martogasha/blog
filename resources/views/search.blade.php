@@ -73,7 +73,7 @@
                     <div class="mtb-50">
                         <h4 class="p-title"><b>TRENDING POSTS</b></h4>
                         @foreach($eights as $eight)
-                            <a class="oflow-hidden pos-relative mb-20 dplay-block" href="{{url('blog',['id'=>$eight->id,'name'=>$eight->category,'category'=>str_slug($eight->title)]}}">
+                            <a class="oflow-hidden pos-relative mb-20 dplay-block" href="{{url('blog',['id'=>$eight->id,'name'=>$eight->category,'category'=>str_slug($eight->title)])}}">
                                 <div class="wh-100x abs-tlr"><img src="{{asset('uploads/product/'.$eight->image)}}" alt=""></div>
                                 <div class="ml-120 min-h-100x">
                                     <h5><b>{{\Illuminate\Support\Str::of($eight->title)->words(7)}}</b></h5>
