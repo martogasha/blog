@@ -9,7 +9,7 @@ class DetailController extends Controller
 {
     public function detail($id,$name,$cat){
         $shareComponent = \Share::page(
-            'https://www.positronx.io/create-autocomplete-search-in-laravel-with-typeahead-js/',
+            'https://trendingnewsupdates.co.ke/blog/'.$name.'/',
             'Your share text comes here',
         )
             ->facebook()
