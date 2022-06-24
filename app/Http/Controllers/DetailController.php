@@ -10,8 +10,8 @@ class DetailController extends Controller
     public function detail($id,$name,$cat){
         $detail = Blog::find($id);
         $shareComponent = \Share::page(
-            'https://trendingnewsupdates.co.ke',
-            ''.$detail->title.'',
+            'https://trendingnewsupdates.co.ke/blog/'.$name.'/'.$cat.'/',
+            'Your share text comes here',
         )
             ->facebook()
             ->twitter()
