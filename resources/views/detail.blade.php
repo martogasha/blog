@@ -81,7 +81,7 @@
                     </ul>
                     <ul class="mb-30 list-a-bg-grey list-a-hw-radial-35 list-a-hvr-primary list-li-ml-5">
                         <li class="mr-10 ml-0">Share</li>
-                        <li><a href="{{\Jorenvh\Share\Share::currentPage()->facebook()}}"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="\Jorenvh\Share\Share::currentPage()->facebook();"><i class="ion-social-facebook"></i></a></li>
                         <li><a href="#"><i class="ion-social-twitter"></i></a></li>
                         <li><a href="#"><i class="ion-social-google"></i></a></li>
                         <li><a href="#"><i class="ion-social-instagram"></i></a></li>
@@ -202,7 +202,7 @@
 <script src="{{asset('plugin-frameworks/tether.min.js')}}"></script>
 <script src="{{asset('plugin-frameworks/bootstrap.js')}}"></script>
 <script src="{{asset('common/scripts.js')}}"></script>
-<script src="{{ asset('js/share.js') }}"></script>
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
