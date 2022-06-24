@@ -81,7 +81,7 @@
                     </ul>
                     <ul class="mb-30 list-a-bg-grey list-a-hw-radial-35 list-a-hvr-primary list-li-ml-5">
                         <li class="mr-10 ml-0">Share</li>
-                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="{{\Jorenvh\Share\Share::currentPage()->facebook()}}"><i class="ion-social-facebook"></i></a></li>
                         <li><a href="#"><i class="ion-social-twitter"></i></a></li>
                         <li><a href="#"><i class="ion-social-google"></i></a></li>
                         <li><a href="#"><i class="ion-social-instagram"></i></a></li>
@@ -249,6 +249,8 @@
     initializeTicker();
 </script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"715630b9cf36acb9","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+<script src="{{ asset('js/share.js') }}"></script>
 </body>
 
 <!-- Mirrored from preview.colorlib.com/theme/newsbit/03_single-post.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jun 2022 05:58:06 GMT -->
