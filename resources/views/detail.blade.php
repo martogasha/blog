@@ -81,7 +81,7 @@
                     </ul>
                     <ul class="mb-30 list-a-bg-grey list-a-hw-radial-35 list-a-hvr-primary list-li-ml-5">
                         <li class="mr-10 ml-0">Share</li>
-                        {{$shareComponent}}
+                        {!! $shareComponent !!}
                     </ul>
                 </div>
                 <div class="brdr-ash-1 opacty-5"></div>
