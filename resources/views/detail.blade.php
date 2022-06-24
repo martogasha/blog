@@ -96,8 +96,8 @@
                             border: 1px solid #ccc;
                             margin: 1px;
                             font-size: 30px;
-                            color: #222;
-                            background-color:black;
+                            color:black;
+                            background-color: #ccc;
                         }
                     </style>
                 </div>
