@@ -88,6 +88,6 @@ class CategoryController extends Controller
         ]);
     }
     public function facebook(){
-            (new \Jorenvh\Share\Share)->currentPage()->facebook();
+            Share::page('https://trendingnewsupdates.co.ke/')->facebook();
     }
 }
