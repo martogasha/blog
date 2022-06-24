@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Blog;
 use Illuminate\Http\Request;
+use Jorenvh\Share\Share;
 
 class CategoryController extends Controller
 {
@@ -85,5 +86,8 @@ class CategoryController extends Controller
             'trend'=>$trend,
             'tren'=>$tren,
         ]);
+    }
+    public function facebook(){
+            Share::currentPage()->facebook();
     }
 }
