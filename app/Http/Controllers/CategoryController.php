@@ -87,7 +87,4 @@ class CategoryController extends Controller
             'tren'=>$tren,
         ]);
     }
-    public function facebook(){
-            Share::page('https://trendingnewsupdates.co.ke/')->facebook();
-    }
 }

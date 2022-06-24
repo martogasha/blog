@@ -8,6 +8,16 @@ use Illuminate\Http\Request;
 class DetailController extends Controller
 {
     public function detail($id,$name,$cat){
+        $shareComponent = \Share::page(
+            'https://www.positronx.io/create-autocomplete-search-in-laravel-with-typeahead-js/',
+            'Your share text comes here',
+        )
+            ->facebook()
+            ->twitter()
+            ->linkedin()
+            ->telegram()
+            ->whatsapp()
+            ->reddit();
         $detail = Blog::find($id);
         $on = Blog::where('placement','one')->latest('id')->first();
         $son = Blog::where('placement','seven')->latest('id')->first();
@@ -25,7 +35,8 @@ class DetailController extends Controller
             'eights'=>$eights,
             'sixs'=>$sixs,
             'backlinks'=>$backlinks,
-            'name'=>$name
+            'name'=>$name,
+            'shareComponent'=>$shareComponent
 
         ]);
     }
