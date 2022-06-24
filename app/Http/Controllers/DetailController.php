@@ -8,8 +8,9 @@ use Illuminate\Http\Request;
 class DetailController extends Controller
 {
     public function detail($id,$name,$cat){
+        $detail = Blog::find($id);
         $shareComponent = \Share::page(
-            'https://trendingnewsupdates.co.ke/blog/'.$name.'/',
+            'https://trendingnewsupdates.co.ke/blog/'.$detail->title.'/',
             'Your share text comes here',
         )
             ->facebook()
@@ -18,7 +19,6 @@ class DetailController extends Controller
             ->telegram()
             ->whatsapp()
             ->reddit();
-        $detail = Blog::find($id);
         $on = Blog::where('placement','one')->latest('id')->first();
         $son = Blog::where('placement','seven')->latest('id')->first();
         $trend = Blog::where('placement','eight')->latest('id')->first();
