@@ -83,6 +83,23 @@
                         <li class="mr-10 ml-0">Share</li>
                         {!! $shareComponent !!}
                     </ul>
+                    <style>
+                        div#social-links {
+                            margin: 0 auto;
+                            max-width: 500px;
+                        }
+                        div#social-links ul li {
+                            display: inline-block;
+                        }
+                        div#social-links ul li a {
+                            padding: 20px;
+                            border: 1px solid #ccc;
+                            margin: 1px;
+                            font-size: 30px;
+                            color: #222;
+                            background-color: #ccc;
+                        }
+                    </style>
                 </div>
                 <div class="brdr-ash-1 opacty-5"></div>
                 <h4 class="p-title mt-50"><b>YOU MAY ALSO LIKE</b></h4>
