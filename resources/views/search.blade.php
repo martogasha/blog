@@ -42,6 +42,7 @@
         <div class="clearfix"></div>
     </div>
 </header>
+@include('flash-message')
 <section class="ptb-0">
     <div class="mb-30 brdr-ash-1 opacty-5"></div>
     <div class="container">
@@ -84,10 +85,12 @@
                     </div>
                     <div class="mtb-50 mb-md-0">
                         <h4 class="p-title"><b>NEWSLETTER</b></h4>
+                        @include('flash-message')
                         <p class="mb-20">Subscribe to our newsletter to get notification about new updates,
                             information, discount, etc..</p>
-                        <form class="nwsltr-primary-1">
-                            <input type="text" placeholder="Your email" />
+                        <form class="nwsltr-primary-1" action="{{url('getEmails')}}" method="post">
+                            @csrf
+                            <input type="email" name="email" placeholder="Your email" required/>
                             <button type="submit"><i class="ion-ios-paperplane"></i></button>
                         </form>
                     </div>

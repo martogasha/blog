@@ -39,6 +39,7 @@ Route::get('admin', [AdminController::class, 'index']);
 Route::get('blog', [AdminController::class, 'blog']);
 Route::get('addBlog', [AdminController::class, 'addBlog']);
 Route::post('storeBlog', [AdminController::class, 'storeBlog']);
+Route::post('getEmails', [AdminController::class, 'getEmails']);
 Route::post('editB', [AdminController::class, 'editB']);
 Route::get('editBlog/{id}', [AdminController::class, 'editBlog']);
 Route::post('dBlog/{id}', [AdminController::class, 'dBlog']);

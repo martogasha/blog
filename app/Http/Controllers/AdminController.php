@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Blog;
+use App\Models\Contact;
 use Illuminate\Http\Request;
 
 class AdminController extends Controller
@@ -126,5 +127,11 @@ class AdminController extends Controller
 
         $pictures->save();
         return redirect(url('blog'))->with('success','Blog Posted Success');
+    }
+    public function getEmails(Request $request){
+        $getEmail = Contact::create([
+           'email'=>$request->input('email')
+        ]);
+        return redirect()->back()->with('success','THANK YOU');
     }
 }

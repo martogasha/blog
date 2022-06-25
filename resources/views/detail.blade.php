@@ -43,6 +43,8 @@
         <div class="clearfix"></div>
     </div>
 </header>
+@include('flash-message')
+
 <section class="ptb-0">
     <div class="mb-30 brdr-ash-1 opacty-5"></div>
     <div class="container">
@@ -81,23 +83,17 @@
                     </ul>
                     <ul class="mb-30 list-a-bg-grey list-a-hw-radial-35 list-a-hvr-primary list-li-ml-5">
                         <li class="mr-10 ml-0">Share</li>
-                        {!! $shareComponent !!}
+                        <li>{!! $shareComponent !!}</li>
                     </ul>
                     <style>
-                        div#social-links {
-                            margin: 0 auto;
-                            max-width: 500px;
-                        }
-                        div#social-links ul li {
-                            display: inline-block;
-                        }
+
+
                         div#social-links ul li a {
-                            padding: 20px;
+                            padding: 10px;
                             border: 1px solid #ccc;
                             margin: 1px;
-                            font-size: 30px;
+                            font-size: 10px;
                             color:black;
-                            background-color: #ccc;
                         }
                     </style>
                 </div>
@@ -135,10 +131,12 @@
                     </div>
                     <div class="mtb-50 mb-md-0">
                         <h4 class="p-title"><b>NEWSLETTER</b></h4>
+                        @include('flash-message')
                         <p class="mb-20">Subscribe to our newsletter to get notification about new updates,
                             information, discount, etc..</p>
-                        <form class="nwsltr-primary-1">
-                            <input type="text" placeholder="Your email" />
+                        <form class="nwsltr-primary-1" action="{{url('getEmails')}}" method="post">
+                            @csrf
+                            <input type="email" name="email" placeholder="Your email" required/>
                             <button type="submit"><i class="ion-ios-paperplane"></i></button>
                         </form>
                     </div>
@@ -262,6 +260,9 @@
     }
 
     initializeTicker();
+    $('#buttonEmail').click(function () {
+       alert($('#email').val())
+    });
 </script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"715630b9cf36acb9","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
