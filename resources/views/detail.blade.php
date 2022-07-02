@@ -216,13 +216,14 @@
 <script src="{{asset('common/scripts.js')}}"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
 <script src="{{ asset('js/share.js') }}"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-418YLF7J76"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'UA-23581568-13');
+    gtag('config', 'G-418YLF7J76');
+
     var $ticker = $('[data-ticker="list"]'),
         tickerItem = '[data-ticker="item"]'
     itemCount = $(tickerItem).length,
