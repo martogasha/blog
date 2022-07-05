@@ -21,42 +21,82 @@ class CategoryController extends Controller
     }
     public function entertainment(){
         $news = Blog::where('category','entertainment')->latest('id')->paginate(8);
-        $fours = Blog::where('placement','four')->latest('id')->paginate(8);
+        $on = Blog::where('placement','one')->latest('id')->first();
+        $son = Blog::where('placement','seven')->latest('id')->first();
+        $trend = Blog::where('placement','eight')->latest('id')->first();
+        $tren = Blog::where('placement','four')->latest('id')->first();
+        $eights = Blog::where('placement','eight')->latest('id')->paginate(8);
         return view('entertainment',[
             'news'=>$news,
-            'fours'=>$fours
+            'eights'=>$eights,
+            'on'=>$on,
+            'son'=>$son,
+            'trend'=>$trend,
+            'tren'=>$tren,
         ]);
     }
     public function sports(){
         $news = Blog::where('category','sports')->latest('id')->paginate(8);
-        $fours = Blog::where('placement','four')->latest('id')->paginate(8);
+        $on = Blog::where('placement','one')->latest('id')->first();
+        $son = Blog::where('placement','seven')->latest('id')->first();
+        $trend = Blog::where('placement','eight')->latest('id')->first();
+        $tren = Blog::where('placement','four')->latest('id')->first();
+        $eights = Blog::where('placement','eight')->latest('id')->paginate(8);
         return view('sports',[
             'news'=>$news,
-            'fours'=>$fours
+            'eights'=>$eights,
+            'on'=>$on,
+            'son'=>$son,
+            'trend'=>$trend,
+            'tren'=>$tren,
         ]);
     }
     public function tech(){
         $news = Blog::where('category','tech')->latest('id')->paginate(8);
-        $fours = Blog::where('placement','four')->latest('id')->paginate(8);
+        $on = Blog::where('placement','one')->latest('id')->first();
+        $son = Blog::where('placement','seven')->latest('id')->first();
+        $trend = Blog::where('placement','eight')->latest('id')->first();
+        $tren = Blog::where('placement','four')->latest('id')->first();
+        $eights = Blog::where('placement','eight')->latest('id')->paginate(8);
         return view('tech',[
             'news'=>$news,
-            'fours'=>$fours
-        ]);
+            'eights'=>$eights,
+            'on'=>$on,
+            'son'=>$son,
+            'trend'=>$trend,
+            'tren'=>$tren,
+            ]);
     }
     public function lifestyle(){
         $news = Blog::where('category','lifestyle')->latest('id')->paginate(8);
-        $fours = Blog::where('placement','four')->latest('id')->paginate(8);
+        $on = Blog::where('placement','one')->latest('id')->first();
+        $son = Blog::where('placement','seven')->latest('id')->first();
+        $trend = Blog::where('placement','eight')->latest('id')->first();
+        $tren = Blog::where('placement','four')->latest('id')->first();
+        $eights = Blog::where('placement','eight')->latest('id')->paginate(8);
         return view('lifestyle',[
             'news'=>$news,
-            'fours'=>$fours
+            'eights'=>$eights,
+            'on'=>$on,
+            'son'=>$son,
+            'trend'=>$trend,
+            'tren'=>$tren,
         ]);
     }
     public function business(){
         $news = Blog::where('category','business')->latest('id')->paginate(8);
-        $fours = Blog::where('placement','four')->latest('id')->paginate(8);
+        $on = Blog::where('placement','one')->latest('id')->first();
+        $son = Blog::where('placement','seven')->latest('id')->first();
+        $trend = Blog::where('placement','eight')->latest('id')->first();
+        $tren = Blog::where('placement','four')->latest('id')->first();
+        $eights = Blog::where('placement','eight')->latest('id')->paginate(8);
         return view('business',[
             'news'=>$news,
-            'fours'=>$fours
+            'eights'=>$eights,
+            'on'=>$on,
+            'son'=>$son,
+            'trend'=>$trend,
+            'tren'=>$tren,
         ]);
     }
     public function index(){
