@@ -47,62 +47,13 @@
                     </div>
                     <!-- Message Drop List -->
                 </li>
-                <li class="message-list dropdown"> <span><i class="fa fa-bell-o"></i><strong class="skyblue-bg">7</strong></span>
-                    <div class="message drop-list"> <span>You have 4 New Messages</span>
-                        <ul>
-                            <li> <a href="#" title=""><span><img src="asset/images/resource/user1.jpg" alt="" /></span><i>Frank J</i>Hi! are you there?...
-                                    <h6>1 min ago..</h6>
-                                    <p class="status blue-bg">New</p>
-                                </a> </li>
-                            <li> <a href="#" title=""><span><img src="images/resource/user2.jpg" alt="" /></span><i>Sara Hony</i>Hello friend, where are you
-                                    <h6>2 min ago..</h6>
-                                    <p class="status red-bg">Unsent</p>
-                                </a> </li>
-                            <li> <a href="#" title=""><span><img src="images/resource/user3.jpg" alt="" /></span><i>Emma Watson</i>Hi! How are you?...
-                                    <h6>5 min ago..</h6>
-                                    <p class="status green-bg">Reply</p>
-                                </a> </li>
-                        </ul>
-                        <a href="inbox.html" title="">See All Messages</a> </div>
+                <li class="message-list dropdown"> <span><i class="fa fa-bell-o"></i><strong class="skyblue-bg">{{\App\Models\Contact::count()}}</strong></span>
                     <!-- Message Drop List -->
                 </li>
-                <li class="notification-list dropdown"> <span><i class="fa fa-envelope-o"></i><strong class="red-bg">12</strong></span>
-                    <div class="notification drop-list"> <span>You have 3 New Notifications</span>
-                        <ul>
-                            <li> <a href="#" title=""><span><i class="ti-pulse red-bg"></i></span>Server 3 is Over Loader Please Check...
-                                    <h6>2 min ago..</h6>
-                                </a> </li>
-                            <li> <a href="#" title=""><span><img src="images/resource/user4.jpg" alt="" /></span><i>MD Daisal</i>New User Registered
-                                    <h6>5 min ago..</h6>
-                                    <p class="status red-bg">Urgent</p>
-                                </a> </li>
-                            <li> <a href="#" title=""><span><i class="ti-crown green-bg"></i></span>Envato Has change the policies
-                                    <h6>7 min ago..</h6>
-                                </a> </li>
-                        </ul>
-                        <a href="#" title="">See All Notifications</a> </div>
+                <li class="notification-list dropdown"> <span><i class="fa fa-envelope-o"></i><strong class="red-bg"></strong></span>
                     <!-- Notification Drop list -->
                 </li>
-                <li class="activity-list dropdown"> <span><i class="fa fa-history"></i><strong class="blue-bg">12</strong></span>
-                    <div class="activity drop-list"> <span>Recent Activity</span>
-                        <ul>
-                            <li> <a href="#" title=""><span><img src="images/resource/user5.jpg" alt="" /></span><i>Emily</i>Uploading new files
-                                    <h6>2 min ago..</h6>
-                                    <p class="status green-bg">Online</p>
-                                </a>
-                                <div class="progress">
-                                    <div style="width: 60%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" role="progressbar" class="progress-bar blue-bg"> 60% </div>
-                                </div>
-                            </li>
-                            <li> <a href="#" title=""><span><img src="images/resource/chat2.jpg" alt="" /></span><i>Bela Nisaa</i>Downloading new Documents
-                                    <h6>2 min ago..</h6>
-                                </a>
-                                <div class="progress">
-                                    <div style="width: 34%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="34" role="progressbar" class="progress-bar red-bg"> 34% </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <a href="#" title="">See All Activity</a> </div>
+                <li class="activity-list dropdown"> <span><i class="fa fa-history"></i><strong class="blue-bg"></strong></span>
                     <!-- Activity Drop list -->
                 </li>
             </ul>
