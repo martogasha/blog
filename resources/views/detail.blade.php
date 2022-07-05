@@ -63,6 +63,16 @@
                     <li><i class="color-primary mr-5 font-12 ion-ios-time"></i>{{$detail->created_at->diffForHumans()}}</li>
                 </ul>
                 <p class="mtb-15">{{$detail->detailOne}} <a href="{{$detail->urlA}}" style="color:red;">{{$detail->urlAName}}</a> {{$detail->detailA}} <a href="{{$detail->urlB}}" style="color:red;">{{$detail->urlBName}}</a> {{$detail->detailB}}</p>
+                <h4 class="p-title"><b>TRENDING POSTS</b></h4>
+                @foreach($links as $link)
+                    <a class="oflow-hidden pos-relative mb-20 dplay-block" href="{{url('blog',['id'=>$link->id,'name'=>$link->category,'category'=>str_slug($link->title)])}}">
+                        <div class="wh-100x abs-tlr"><img src="{{asset('uploads/product/'.$link->image)}}" alt=""></div>
+                        <div class="ml-120 min-h-100x">
+                            <span class="color-primary"><b>{{$link->category}}</b></span>
+                            <h5><b>{{\Illuminate\Support\Str::of($link->title)->words(7)}}</b></h5>
+                        </div>
+                    </a>
+                @endforeach
                 @if($detail->quote)
                 <div class="quote-primary mtb-20">
                     <h5>"{{$detail->quote}}"</h5>

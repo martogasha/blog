@@ -23,6 +23,7 @@ class DetailController extends Controller
         $trend = Blog::where('placement','eight')->latest('id')->first();
         $tren = Blog::where('placement','four')->latest('id')->first();
         $eights = Blog::where('placement','eight')->where('id','!=',$id)->latest('id')->paginate(8);
+        $links = Blog::where('placement','eight')->where('id','!=',$id)->get()->random(3);
         $sixs = Blog::where('category',$detail->category)->where('id','!=',$id)->latest('id')->paginate(2);
         $backlinks = Blog::where('placement','three')->where('id','!=',$id)->latest('id')->paginate(3);
         return view('detail',[
@@ -32,6 +33,7 @@ class DetailController extends Controller
             'tren'=>$tren,
             'detail'=>$detail,
             'eights'=>$eights,
+            'links'=>$links,
             'sixs'=>$sixs,
             'backlinks'=>$backlinks,
             'name'=>$name,
