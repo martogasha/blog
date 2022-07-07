@@ -317,8 +317,10 @@
 <script>
 
     /***** CALCULATE THE TIME REMAINING *****/
-    function getTimeRemaining(endtime) {
-        var t = Date.parse(endtime) - Date.parse(new Date());
+    function getTimeRemaining() {
+        var end = new Date("2022-08-09");
+        var start = new Date();
+        var t = new Date(end - start);
 
         /***** CONVERT THE TIME TO A USEABLE FORMAT *****/
         var seconds = Math.floor( (t / 1000) % 60 );
