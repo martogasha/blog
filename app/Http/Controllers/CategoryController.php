@@ -12,7 +12,7 @@ class CategoryController extends Controller
         return view('category');
     }
     public function news(){
-        $news = Blog::where('category','news')->latest('id')->paginate(8);
+        $news = Blog::where('category','news')->latest('id')->get();
         $on = Blog::where('placement','one')->latest('id')->first();
         $son = Blog::where('placement','seven')->latest('id')->first();
         $trend = Blog::where('placement','eight')->latest('id')->first();
