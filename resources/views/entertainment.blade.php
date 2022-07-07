@@ -57,7 +57,7 @@
                 <div class="row">
                     @foreach($news as $new)
                         <div class="col-sm-6">
-                            <img src="{{asset('uploads/product/'.$new->imageOne)}}" alt="">
+                            <a href="{{url('blog',['id'=>$new->id,'name'=>$new->category,'category'=>str_slug($new->title)])}}"><img src="{{asset('uploads/product/'.$new->imageOne)}}" alt="{{$new->title}}"></a>
                             <h4 class="pt-20"><a href="{{url('blog',['id'=>$new->id,'name'=>$new->category,'category'=>str_slug($new->title)])}}"><b>{{\Illuminate\Support\Str::of($new->title)->words(7)}}</b></a></h4>
                             <ul class="list-li-mr-20 pt-10 pb-20">
                                 <li class="color-lite-black"><a href="{{url('blog',['id'=>$new->id,'name'=>$new->category,'category'=>str_slug($new->title)])}}" class="color-black"><b>{{$new->category}}</b></a></li>

@@ -112,7 +112,7 @@
                 <div class="row">
                     @foreach($sixs as $six)
                         <div class="col-sm-6">
-                            <img src="{{asset('uploads/product/'.$six->imageOne)}}" alt="">
+                            <a href="{{url('blog',['id'=>$six->id,'name'=>$six->category,'category'=>str_slug($six->title)])}}"><img src="{{asset('uploads/product/'.$six->imageOne)}}" alt=""></a>
                             <h4 class="pt-20"><a href="{{url('blog',['id'=>$six->id,'name'=>$six->category,'category'=>str_slug($six->title)])}}"><b>{{\Illuminate\Support\Str::of($six->title)->words(7)}}</b></a></h4>
                             <ul class="list-li-mr-20 pt-10 pb-20">
                                 <li class="color-lite-black"><a href="{{url('blog',['id'=>$six->id,'name'=>$six->category,'category'=>str_slug($six->title)])}}" class="color-black"><b>{{$six->category}}</b></a></li>

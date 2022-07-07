@@ -42,8 +42,66 @@
         <div class="clearfix"></div>
     </div>
 </header>
-@include('flash-message    ')
+@include('flash-message')
 <div class="container">
+    <h2 style="text-align: center"><b>ELECTION COUNTDOWN</b></h2>
+    <div class="clockBackground" style="text-align: center">
+        <div id="clockdiv">
+            <div>
+                <span class="days"></span>
+                <div class="smalltext">Days</div>
+            </div>
+            <div>
+                <span class="hours"></span>
+                <div class="smalltext">Hours</div>
+            </div>
+            <div>
+                <span class="minutes"></span>
+                <div class="smalltext">Minutes</div>
+            </div>
+            <div>
+                <span class="seconds"></span>
+                <div class="smalltext">Seconds</div>
+            </div>
+        </div>
+    </div>
+    <style>
+          #clockdiv {
+            font-family: sans-serif;
+            color: #bdb7f6;
+            display: inline-block;
+            font-weight: 100;
+            text-align: center;
+            font-size: 10px;
+        }
+
+        #clockdiv > div {
+            padding: 10px;
+            border-radius: 3px;
+            display: inline-block;
+        }
+
+        #clockdiv div > span {
+            padding;
+            2em;
+            margin: .25em;
+            border-radius: 3px;
+            display: inline-block;
+            font-size: 3em;
+            color: #333232;
+        }
+
+        .smalltext {
+            padding-top: .05em;
+            font-size: 1em;
+            background-color: #333232;
+            box-shadow: 4px 4px 3px #333232;
+        }
+
+        span {
+            color: #bdb7f6;
+        }
+    </style>
     <div class="h-600x h-sm-auto">
         <div class="h-2-3 h-sm-auto oflow-hidden">
             <div class="pb-5 pr-5 pr-sm-0 float-left float-sm-none w-2-3 w-sm-100 h-100 h-sm-300x">
@@ -100,7 +158,7 @@
                 <h4 class="p-title"><b>RECENT NEWS</b></h4>
                 <div class="row">
                     <div class="col-sm-6">
-                        <img src="{{asset('uploads/product/'.$four->image)}}" alt="">
+                        <a href="{{url('blog',['id'=>$four->id,'name'=>$four->category,'category'=>str_slug($four->title)])}}"><img src="{{asset('uploads/product/'.$four->image)}}" alt="{{$four->title}}"></a>
                         <h4 class="pt-20"><a href="{{url('blog',['id'=>$four->id,'name'=>$four->category,'category'=>str_slug($four->title)])}}"><b>{{\Illuminate\Support\Str::of($four->title)->words(7)}}</b></a></h4>
                         <ul class="list-li-mr-20 pt-10 pb-20">
                             <li class="color-lite-black"><a href="{{url('blog',['id'=>$four->id,'name'=>$four->category,'category'=>str_slug($four->title)])}}" class="color-black"><b>{{$four->category}}</b></a></li>
@@ -125,7 +183,7 @@
                 <div class="row">
                     @foreach($sixs as $six)
                     <div class="col-sm-6">
-                        <img src="{{asset('uploads/product/'.$six->image)}}" alt="">
+                        <a href="{{url('blog',['id'=>$six->id,'name'=>$six->category,'category'=>str_slug($six->title)])}}"><img src="{{asset('uploads/product/'.$six->image)}}" alt="{{$six->title}}"></a>
                         <h4 class="pt-20"><a href="{{url('blog',['id'=>$six->id,'name'=>$six->category,'category'=>str_slug($six->title)])}}"><b>{{\Illuminate\Support\Str::of($six->title)->words(7)}}</b></a></h4>
                         <ul class="list-li-mr-20 pt-10 pb-20">
                             <li class="color-lite-black"><a href="{{url('detail',$six->id)}}" class="color-black"><b>{{$six->category}}</b></a></li>
@@ -141,7 +199,7 @@
                 <div class="row">
                     @foreach($sevens as $seven)
                         <div class="col-sm-6">
-                            <img src="{{asset('uploads/product/'.$seven->image)}}" alt="">
+                            <a href="{{url('blog',['id'=>$seven->id,'name'=>$seven->category,'category'=>str_slug($seven->title)])}}"><img src="{{asset('uploads/product/'.$seven->image)}}" alt="{{$seven->title}}"></a>
                             <h4 class="pt-20"><a href="{{url('blog',['id'=>$seven->id,'name'=>$seven->category,'category'=>str_slug($seven->title)])}}"><b>{{\Illuminate\Support\Str::of($seven->title)->words(7)}}</b></a></h4>
                             <ul class="list-li-mr-20 pt-10 pb-20">
                                 <li class="color-lite-black"><a href="{{url('detail',$seven->id)}}" class="color-black"><b>{{$seven->category}}</b></a></li>
@@ -159,7 +217,7 @@
                         <h4 class="p-title"><b>TRENDING</b></h4>
                         @foreach($eights as $eight)
                             <a class="oflow-hidden pos-relative mb-20 dplay-block" href="{{url('blog',['id'=>$eight->id,'name'=>$eight->category,'category'=>str_slug($eight->title)])}}">
-                                <div class="wh-100x abs-tlr"><img src="{{asset('uploads/product/'.$eight->image)}}" alt=""></div>
+                                <div class="wh-100x abs-tlr"><img src="{{asset('uploads/product/'.$eight->image)}}" alt="{{$eight->title}}"></div>
                                 <div class="ml-120 min-h-100x">
                                     <h5><b>{{\Illuminate\Support\Str::of($eight->title)->words(7)}}</b></h5>
                                     <h6 class="color-lite-black pt-10">{{$eight->created_at->diffForHumans()}}</h6>
@@ -257,6 +315,55 @@
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-418YLF7J76"></script>
 <script>
+
+    /***** CALCULATE THE TIME REMAINING *****/
+    function getTimeRemaining(endtime) {
+        var t = Date.parse(endtime) - Date.parse(new Date());
+
+        /***** CONVERT THE TIME TO A USEABLE FORMAT *****/
+        var seconds = Math.floor( (t / 1000) % 60 );
+        var minutes = Math.floor( (t / 1000 / 60) % 60 );
+        var hours = Math.floor( (t / (1000 * 60 * 60)) %  24);
+        var days = Math.floor( t / (1000 * 60 * 60 * 24) );
+
+        /***** OUTPUT THE CLOCK DATA AS A REUSABLE OBJECT *****/
+        return {
+            'total': t,
+            'days': days,
+            'hours': hours,
+            'minutes': minutes,
+            'seconds': seconds
+        };
+    }
+
+    /***** DISPLAY THE CLOCK AND STOP IT WHEN IT REACHES ZERO *****/
+    function initializeClock(id, endtime) {
+        var clock = document.getElementById(id);
+        var daysSpan = clock.querySelector('.days');
+        var hoursSpan = clock.querySelector('.hours');
+        var minutesSpan = clock.querySelector('.minutes');
+        var secondsSpan = clock.querySelector('.seconds');
+
+        function updateClock() {
+            var t = getTimeRemaining(endtime);
+
+            daysSpan.innerHTML = t.days;
+            hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+            minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+            secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+            if (t.total <= 0) {
+                clearInterval(timeinterval);
+            }
+        }
+
+        updateClock(); // run function once at first to avoid delay
+        var timeinterval = setInterval(updateClock,1000);
+    }
+
+    /***** SET A VALID END DATE *****/
+    var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+    initializeClock('clockdiv', deadline);
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
