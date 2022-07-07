@@ -12,7 +12,7 @@ class CategoryController extends Controller
         return view('category');
     }
     public function news(){
-        $news = Blog::where('category','news')->latest('id')->get();
+        $news = Blog::where('category','news')->latest('id')->paginate(8);
         $on = Blog::where('placement','one')->latest('id')->first();
         $son = Blog::where('placement','seven')->latest('id')->first();
         $trend = Blog::where('placement','eight')->latest('id')->first();
@@ -28,7 +28,7 @@ class CategoryController extends Controller
         ]);
     }
     public function entertainment(){
-        $news = Blog::where('category','entertainment')->latest('id')->get();
+        $news = Blog::where('category','entertainment')->latest('id')->paginate(8);
         $on = Blog::where('placement','one')->latest('id')->first();
         $son = Blog::where('placement','seven')->latest('id')->first();
         $trend = Blog::where('placement','eight')->latest('id')->first();
@@ -44,7 +44,7 @@ class CategoryController extends Controller
         ]);
     }
     public function sports(){
-        $news = Blog::where('category','sports')->latest('id')->get();
+        $news = Blog::where('category','sports')->latest('id')->paginate(8);
         $on = Blog::where('placement','one')->latest('id')->first();
         $son = Blog::where('placement','seven')->latest('id')->first();
         $trend = Blog::where('placement','eight')->latest('id')->first();
@@ -60,7 +60,7 @@ class CategoryController extends Controller
         ]);
     }
     public function tech(){
-        $news = Blog::where('category','tech')->latest('id')->get();
+        $news = Blog::where('category','tech')->latest('id')->paginate(8);
         $on = Blog::where('placement','one')->latest('id')->first();
         $son = Blog::where('placement','seven')->latest('id')->first();
         $trend = Blog::where('placement','eight')->latest('id')->first();
@@ -76,7 +76,7 @@ class CategoryController extends Controller
             ]);
     }
     public function lifestyle(){
-        $news = Blog::where('category','lifestyle')->latest('id')->get();
+        $news = Blog::where('category','lifestyle')->latest('id')->paginate(8);
         $on = Blog::where('placement','one')->latest('id')->first();
         $son = Blog::where('placement','seven')->latest('id')->first();
         $trend = Blog::where('placement','eight')->latest('id')->first();
@@ -92,7 +92,7 @@ class CategoryController extends Controller
         ]);
     }
     public function business(){
-        $news = Blog::where('category','business')->latest('id')->get();
+        $news = Blog::where('category','business')->latest('id')->paginate(8);
         $on = Blog::where('placement','one')->latest('id')->first();
         $son = Blog::where('placement','seven')->latest('id')->first();
         $trend = Blog::where('placement','eight')->latest('id')->first();

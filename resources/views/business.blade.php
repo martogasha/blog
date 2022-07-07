@@ -66,6 +66,7 @@
                         </div>
                     @endforeach
                 </div>
+                {{$news->links()}}
             </div>
             <div class="d-none d-md-block d-lg-none col-md-3"></div>
             <div class="col-md-6 col-lg-4">
